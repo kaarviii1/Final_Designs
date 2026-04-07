@@ -1,0 +1,1214 @@
+[04/07 15:12:21      0s] 
+[04/07 15:12:21      0s] Cadence Innovus(TM) Implementation System.
+[04/07 15:12:21      0s] Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+[04/07 15:12:21      0s] 
+[04/07 15:12:21      0s] Version:	v21.11-s130_1, built Thu Aug 19 16:59:56 PDT 2021
+[04/07 15:12:21      0s] Options:	-files ./scripts/pnr.tcl 
+[04/07 15:12:21      0s] Date:		Tue Apr  7 15:12:21 2026
+[04/07 15:12:21      0s] Host:		et4351.ewi.tudelft.nl (x86_64 w/Linux 4.18.0-553.111.1.el8_10.x86_64) (1core*64cpus*AMD EPYC 7702P 64-Core Processor 512KB)
+[04/07 15:12:21      0s] OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+[04/07 15:12:21      0s] 
+[04/07 15:12:21      0s] License:
+[04/07 15:12:21      0s] 		[15:12:21.316770] Configured Lic search path (20.02-p002): 27012@flexserv1.tudelft.nl:27017@flexserv1.tudelft.nl
+
+[04/07 15:12:21      0s] 		invs	Innovus Implementation System	21.1	checkout succeeded
+[04/07 15:12:21      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[04/07 15:13:00     14s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v21.11-s130_1 (64bit) 08/19/2021 16:59 (Linux 3.10.0-693.el7.x86_64)
+[04/07 15:13:06     18s] @(#)CDS: NanoRoute 21.11-s130_1 NR210811-1832/21_11-UB (database version 18.20.554) {superthreading v2.14}
+[04/07 15:13:06     18s] @(#)CDS: AAE 21.11-s059 (64bit) 08/19/2021 (Linux 3.10.0-693.el7.x86_64)
+[04/07 15:13:06     18s] @(#)CDS: CTE 21.11-s010_1 () Aug 12 2021 04:17:41 ( )
+[04/07 15:13:06     18s] @(#)CDS: SYNTECH 21.11-s003_1 () Aug  4 2021 01:23:26 ( )
+[04/07 15:13:06     18s] @(#)CDS: CPE v21.11-s010
+[04/07 15:13:06     18s] @(#)CDS: IQuantus/TQuantus 20.1.2-s578 (64bit) Fri Jul 9 11:48:16 PDT 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/07 15:13:06     18s] @(#)CDS: OA 22.60-p059 Mon Jun 28 12:16:29 2021
+[04/07 15:13:06     18s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[04/07 15:13:06     18s] @(#)CDS: RCDB 11.15.0
+[04/07 15:13:06     18s] @(#)CDS: STYLUS 21.11-s001_1 (06/02/2021 03:53 PDT)
+[04/07 15:13:06     18s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_271924_et4351.ewi.tudelft.nl_vrameshselvam_GuXDka.
+
+[04/07 15:13:06     18s] Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+[04/07 15:13:10     21s] 
+[04/07 15:13:10     21s] **INFO:  MMMC transition support version v31-84 
+[04/07 15:13:10     21s] 
+[04/07 15:13:10     21s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[04/07 15:13:10     21s] <CMD> suppressMessage ENCEXT-2799
+[04/07 15:13:10     21s] Sourcing file "./scripts/pnr.tcl" ...
+[04/07 15:13:10     21s] <CMD> setMessageLimit 1 ENCLF 45
+[04/07 15:13:10     21s] <CMD> setMessageLimit 1 ENCLF 119
+[04/07 15:13:10     21s] <CMD> setMessageLimit 1 ENCLF 200
+[04/07 15:13:10     21s] <CMD> setMessageLimit 1 ENCLF 201
+[04/07 15:13:10     21s] <CMD> setMessageLimit 10 IMPDB 2078
+[04/07 15:13:10     21s] <CMD> setMessageLimit 10 IMPDC 348
+[04/07 15:13:10     21s] <CMD> setMultiCpuUsage -localCpu 4 -cpuPerRemoteHost 4 -remoteHost 1 -keepLicense true
+[04/07 15:13:10     21s] Setting releaseMultiCpuLicenseMode to false.
+[04/07 15:13:10     21s] 
+[04/07 15:13:10     21s] 
+[04/07 15:13:10     21s] 
+[04/07 15:13:10     21s]  ##############################################################    
+[04/07 15:13:10     21s]  ##                                                                
+[04/07 15:13:10     21s]  ##                         LOAD DESIGN                            
+[04/07 15:13:10     21s]  ##                                                                
+[04/07 15:13:10     21s]  ##############################################################    
+[04/07 15:13:10     21s] 
+[04/07 15:13:10     21s] 
+[04/07 15:13:10     21s] 
+[04/07 15:13:10     21s] <CMD> set init_pwr_net VDD
+[04/07 15:13:10     21s] <CMD> set init_gnd_net VSS
+[04/07 15:13:10     21s] <CMD> set init_design_settop 1
+[04/07 15:13:10     21s] <CMD> set init_verilog ../synth/outputs/et4351.struct.v
+[04/07 15:13:10     21s] <CMD> set init_top_cell et4351
+[04/07 15:13:10     21s] <CMD> set init_lef_file {  /data/Cadence/gpdk045_v60/gsclib045_svt_v4.7/gsclib045_tech/lef/gsclib045_tech.lef  /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/lef/gsclib045_lvt_macro.lef  /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram.lef }
+[04/07 15:13:10     21s] <CMD> set init_mmmc_file ./scripts/2.1.set_library_n_sdc.tcl
+[04/07 15:13:10     21s] <CMD> setDesignMode -process 45
+[04/07 15:13:10     21s] ##  Process: 45            (User Set)               
+[04/07 15:13:10     21s] ##     Node: (not set)                           
+[04/07 15:13:10     21s] 
+##  Check design process and node:  
+##  Design tech node is not set.
+
+[04/07 15:13:10     21s] Applying the recommended capacitance filtering threshold values for 45nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[04/07 15:13:10     21s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[04/07 15:13:10     21s] 	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+[04/07 15:13:10     21s] 	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+[04/07 15:13:10     21s] 	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+[04/07 15:13:10     21s] <CMD> setDelayCalMode -SIAware true
+[04/07 15:13:10     21s] AAE_INFO: switching -siAware from false to true ...
+[04/07 15:13:10     21s] AAE_INFO: The setting is changed from false to true in setDelayCalMode -SIAware
+[04/07 15:13:10     21s] <CMD> setAnalysisMode -analysisType onChipVariation -cppr both
+[04/07 15:13:10     21s] <CMD> init_design
+[04/07 15:13:10     21s] #% Begin Load MMMC data ... (date=04/07 15:13:10, mem=826.5M)
+[04/07 15:13:10     21s] #% End Load MMMC data ... (date=04/07 15:13:10, total cpu=0:00:00.1, real=0:00:00.0, peak res=827.3M, current mem=827.3M)
+[04/07 15:13:10     21s] 
+[04/07 15:13:10     21s] Loading LEF file /data/Cadence/gpdk045_v60/gsclib045_svt_v4.7/gsclib045_tech/lef/gsclib045_tech.lef ...
+[04/07 15:13:10     21s] 
+[04/07 15:13:10     21s] Loading LEF file /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/lef/gsclib045_lvt_macro.lef ...
+[04/07 15:13:10     21s] Set DBUPerIGU to M2 pitch 400.
+[04/07 15:13:11     21s] 
+[04/07 15:13:11     21s] Loading LEF file /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram.lef ...
+[04/07 15:13:11     22s] **WARN: (IMPLF-200):	Pin 'CSB1' in macro 'SRAM2RW128x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/07 15:13:11     22s] Type 'man IMPLF-200' for more detail.
+[04/07 15:13:11     22s] **WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 1.
+[04/07 15:13:11     22s] To increase the message display limit, refer to the product command reference manual.
+[04/07 15:13:11     22s] 
+[04/07 15:13:11     22s] viaInitial starts at Tue Apr  7 15:13:11 2026
+viaInitial ends at Tue Apr  7 15:13:11 2026
+
+##  Check design process and node:  
+##  Design tech node is not set.
+
+[04/07 15:13:11     22s] Loading view definition file from ./scripts/2.1.set_library_n_sdc.tcl
+[04/07 15:13:11     22s] Starting library reading in 'Multi-threaded flow' (with '4' threads)
+[04/07 15:13:12     24s] Reading library_max timing library /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/slow_vdd1v0_basicCells_lvt.lib.
+[04/07 15:13:12     24s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNALVT'. The cell will only be used for analysis. (File /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/slow_vdd1v0_basicCells_lvt.lib)
+[04/07 15:13:12     24s] Read 480 cells in library slow_vdd1v0.
+[04/07 15:13:12     24s] Reading library_max timing library /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib.
+[04/07 15:13:12     24s] **WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 24401 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib)
+[04/07 15:13:12     24s] **WARN: (TECHLIB-1161):	The library level attribute default_wire_load on line 24402 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib)
+[04/07 15:13:12     24s] **WARN: (TECHLIB-1161):	The library level attribute default_wire_load_selection on line 24403 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib)
+[04/07 15:13:12     24s] Read 35 cells in library saed32sram_ss0p95vn40c.
+[04/07 15:13:12     24s] Library reading multithread flow ended.
+[04/07 15:13:12     24s] Starting library reading in 'Multi-threaded flow' (with '4' threads)
+[04/07 15:13:12     26s] Reading library_min timing library /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/fast_vdd1v2_basicCells_lvt.lib.
+[04/07 15:13:12     26s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNALVT'. The cell will only be used for analysis. (File /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/fast_vdd1v2_basicCells_lvt.lib)
+[04/07 15:13:12     26s] Read 480 cells in library fast_vdd1v2.
+[04/07 15:13:12     26s] Reading library_min timing library /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib.
+[04/07 15:13:12     26s] **WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 24400 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib)
+[04/07 15:13:12     26s] **WARN: (TECHLIB-1161):	The library level attribute default_wire_load on line 24401 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib)
+[04/07 15:13:12     26s] **WARN: (TECHLIB-1161):	The library level attribute default_wire_load_selection on line 24402 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib)
+[04/07 15:13:12     26s] Read 35 cells in library saed32sram_ff1p16vn40c.
+[04/07 15:13:12     26s] Library reading multithread flow ended.
+[04/07 15:13:12     26s] Ending "PreSetAnalysisView" (total cpu=0:00:04.0, real=0:00:01.0, peak res=1010.1M, current mem=871.0M)
+[04/07 15:13:12     26s] *** End library_loading (cpu=0.07min, real=0.02min, mem=138.5M, fe_cpu=0.44min, fe_real=0.85min, fe_mem=941.3M) ***
+[04/07 15:13:12     26s] #% Begin Load netlist data ... (date=04/07 15:13:12, mem=871.0M)
+[04/07 15:13:12     26s] *** Begin netlist parsing (mem=941.3M) ***
+[04/07 15:13:12     26s] Created 515 new cells from 4 timing libraries.
+[04/07 15:13:12     26s] Reading netlist ...
+[04/07 15:13:12     26s] Backslashed names will retain backslash and a trailing blank character.
+[04/07 15:13:13     26s] Reading verilog netlist '../synth/outputs/et4351.struct.v'
+[04/07 15:13:13     26s] 
+[04/07 15:13:13     26s] *** Memory Usage v#1 (Current mem = 941.344M, initial mem = 326.535M) ***
+[04/07 15:13:13     26s] *** End netlist parsing (cpu=0:00:00.4, real=0:00:01.0, mem=941.3M) ***
+[04/07 15:13:13     26s] #% End Load netlist data ... (date=04/07 15:13:13, total cpu=0:00:00.4, real=0:00:01.0, peak res=896.9M, current mem=896.9M)
+[04/07 15:13:13     26s] Set top cell to et4351.
+[04/07 15:13:14     27s] Hooked 1030 DB cells to tlib cells.
+[04/07 15:13:14     27s] Ending "BindLib:" (total cpu=0:00:00.2, real=0:00:00.0, peak res=915.1M, current mem=915.1M)
+[04/07 15:13:14     27s] Starting recursive module instantiation check.
+[04/07 15:13:14     27s] No recursion found.
+[04/07 15:13:14     27s] Building hierarchical netlist for Cell et4351 ...
+[04/07 15:13:14     27s] *** Netlist is unique.
+[04/07 15:13:14     27s] Setting Std. cell height to 3420 DBU (smallest netlist inst).
+[04/07 15:13:14     27s] ** info: there are 1053 modules.
+[04/07 15:13:14     27s] ** info: there are 29582 stdCell insts.
+[04/07 15:13:14     27s] ** info: there are 4 macros.
+[04/07 15:13:14     27s] 
+[04/07 15:13:14     27s] *** Memory Usage v#1 (Current mem = 988.258M, initial mem = 326.535M) ***
+[04/07 15:13:14     27s] **WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+[04/07 15:13:14     27s] Type 'man IMPTS-17' for more detail.
+[04/07 15:13:14     27s] **WARN: (IMPFP-3961):	The techSite 'CoreSiteDouble' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[04/07 15:13:14     27s] Type 'man IMPFP-3961' for more detail.
+[04/07 15:13:14     27s] **WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[04/07 15:13:14     27s] Type 'man IMPFP-3961' for more detail.
+[04/07 15:13:14     27s] **WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[04/07 15:13:14     27s] Type 'man IMPFP-3961' for more detail.
+[04/07 15:13:14     27s] Start create_tracks
+[04/07 15:13:14     27s] Set Default Net Delay as 1000 ps.
+[04/07 15:13:14     27s] Set Default Net Load as 0.5 pF. 
+[04/07 15:13:14     27s] Set Default Input Pin Transition as 0.1 ps.
+[04/07 15:13:14     27s] **WARN: (EMS-27):	Message (IMPTS-17) has exceeded the current message display limit of 1.
+[04/07 15:13:14     27s] To increase the message display limit, refer to the product command reference manual.
+[04/07 15:13:14     27s] Extraction setup Started 
+[04/07 15:13:14     27s] 
+[04/07 15:13:14     27s] Trim Metal Layers:
+[04/07 15:13:14     27s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[04/07 15:13:14     27s] Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+[04/07 15:13:14     27s] __QRC_SADV_USE_LE__ is set 0
+[04/07 15:13:15     28s] Metal Layer Id 1 is Metal1 
+[04/07 15:13:15     28s] Metal Layer Id 2 is Metal2 
+[04/07 15:13:15     28s] Metal Layer Id 3 is Metal3 
+[04/07 15:13:15     28s] Metal Layer Id 4 is Metal4 
+[04/07 15:13:15     28s] Metal Layer Id 5 is Metal5 
+[04/07 15:13:15     28s] Metal Layer Id 6 is Metal6 
+[04/07 15:13:15     28s] Metal Layer Id 7 is Metal7 
+[04/07 15:13:15     28s] Metal Layer Id 8 is Metal8 
+[04/07 15:13:15     28s] Metal Layer Id 9 is Metal9 
+[04/07 15:13:15     28s] Metal Layer Id 10 is Metal10 
+[04/07 15:13:15     28s] Metal Layer Id 11 is Metal11 
+[04/07 15:13:15     28s] Via Layer Id 33 is Cont 
+[04/07 15:13:15     28s] Via Layer Id 34 is Via1 
+[04/07 15:13:15     28s] Via Layer Id 35 is Via2 
+[04/07 15:13:15     28s] Via Layer Id 36 is Via3 
+[04/07 15:13:15     28s] Via Layer Id 37 is Via4 
+[04/07 15:13:15     28s] Via Layer Id 38 is Via5 
+[04/07 15:13:15     28s] Via Layer Id 39 is Via6 
+[04/07 15:13:15     28s] Via Layer Id 40 is Via7 
+[04/07 15:13:15     28s] Via Layer Id 41 is Via8 
+[04/07 15:13:15     28s] Via Layer Id 42 is Via9 
+[04/07 15:13:15     28s] Via Layer Id 43 is Via10 
+[04/07 15:13:15     28s] Via Layer Id 44 is Bondpad 
+[04/07 15:13:15     28s] 
+[04/07 15:13:15     28s] Trim Metal Layers:
+[04/07 15:13:15     28s] Generating auto layer map file.
+[04/07 15:13:15     28s]  lef metal Layer Id 1 mapped to tech Id 5 of Layer metal_1 
+[04/07 15:13:15     28s]  lef via Layer Id 1 mapped to tech Id 6 of Layer via_1 
+[04/07 15:13:15     28s]  lef metal Layer Id 2 mapped to tech Id 7 of Layer metal_2 
+[04/07 15:13:15     28s]  lef via Layer Id 2 mapped to tech Id 8 of Layer via_2 
+[04/07 15:13:15     28s]  lef metal Layer Id 3 mapped to tech Id 9 of Layer metal_3 
+[04/07 15:13:15     28s]  lef via Layer Id 3 mapped to tech Id 10 of Layer via_3 
+[04/07 15:13:15     28s]  lef metal Layer Id 4 mapped to tech Id 11 of Layer metal_4 
+[04/07 15:13:15     28s]  lef via Layer Id 4 mapped to tech Id 12 of Layer via_4 
+[04/07 15:13:15     28s]  lef metal Layer Id 5 mapped to tech Id 13 of Layer metal_5 
+[04/07 15:13:15     28s]  lef via Layer Id 5 mapped to tech Id 14 of Layer via_5 
+[04/07 15:13:15     28s]  lef metal Layer Id 6 mapped to tech Id 15 of Layer metal_6 
+[04/07 15:13:15     28s]  lef via Layer Id 6 mapped to tech Id 16 of Layer via_6 
+[04/07 15:13:15     28s]  lef metal Layer Id 7 mapped to tech Id 17 of Layer metal_7 
+[04/07 15:13:15     28s]  lef via Layer Id 7 mapped to tech Id 18 of Layer via_7 
+[04/07 15:13:15     28s]  lef metal Layer Id 8 mapped to tech Id 19 of Layer metal_8 
+[04/07 15:13:15     28s]  lef via Layer Id 8 mapped to tech Id 20 of Layer via_8 
+[04/07 15:13:15     28s]  lef metal Layer Id 9 mapped to tech Id 21 of Layer metal_9 
+[04/07 15:13:15     28s]  lef via Layer Id 9 mapped to tech Id 22 of Layer via_9 
+[04/07 15:13:15     28s]  lef metal Layer Id 10 mapped to tech Id 23 of Layer metal_10 
+[04/07 15:13:15     28s]  lef via Layer Id 10 mapped to tech Id 24 of Layer via_10 
+[04/07 15:13:15     28s]  lef metal Layer Id 11 mapped to tech Id 25 of Layer metal_11 
+[04/07 15:13:15     28s] Metal Layer Id 1 mapped to 5 
+[04/07 15:13:15     28s] Via Layer Id 1 mapped to 6 
+[04/07 15:13:15     28s] Metal Layer Id 2 mapped to 7 
+[04/07 15:13:15     28s] Via Layer Id 2 mapped to 8 
+[04/07 15:13:15     28s] Metal Layer Id 3 mapped to 9 
+[04/07 15:13:15     28s] Via Layer Id 3 mapped to 10 
+[04/07 15:13:15     28s] Metal Layer Id 4 mapped to 11 
+[04/07 15:13:15     28s] Via Layer Id 4 mapped to 12 
+[04/07 15:13:15     28s] Metal Layer Id 5 mapped to 13 
+[04/07 15:13:15     28s] Via Layer Id 5 mapped to 14 
+[04/07 15:13:15     28s] Metal Layer Id 6 mapped to 15 
+[04/07 15:13:15     28s] Via Layer Id 6 mapped to 16 
+[04/07 15:13:15     28s] Metal Layer Id 7 mapped to 17 
+[04/07 15:13:15     28s] Via Layer Id 7 mapped to 18 
+[04/07 15:13:15     28s] Metal Layer Id 8 mapped to 19 
+[04/07 15:13:15     28s] Via Layer Id 8 mapped to 20 
+[04/07 15:13:15     28s] Metal Layer Id 9 mapped to 21 
+[04/07 15:13:15     28s] Via Layer Id 9 mapped to 22 
+[04/07 15:13:15     28s] Metal Layer Id 10 mapped to 23 
+[04/07 15:13:15     28s] Via Layer Id 10 mapped to 24 
+[04/07 15:13:15     28s] Metal Layer Id 11 mapped to 25 
+[04/07 15:13:15     28s] eee: pegPreRouteEnableSaveRestoreRCPatterns:1, retVal:1, doesAnyTechFileNeedExtraction1
+[04/07 15:13:15     28s] eee: Reading patterns meta data.
+[04/07 15:13:15     28s] eee: PatternAvail:0, PreRoutePatternReadFailed:1
+[04/07 15:13:15     28s] Restore PreRoute Pattern Extraction data failed.
+[04/07 15:13:15     28s] Importing multi-corner technology file(s) for preRoute extraction...
+[04/07 15:13:15     28s] /data/Cadence/gpdk045_v60/gsclib045_svt_v4.7/gsclib045_tech/qrc/qx/gpdk045.tch
+[04/07 15:13:17     29s] Metal Layer Id 1 is Metal1 
+[04/07 15:13:17     29s] Metal Layer Id 2 is Metal2 
+[04/07 15:13:17     29s] Metal Layer Id 3 is Metal3 
+[04/07 15:13:17     29s] Metal Layer Id 4 is Metal4 
+[04/07 15:13:17     29s] Metal Layer Id 5 is Metal5 
+[04/07 15:13:17     29s] Metal Layer Id 6 is Metal6 
+[04/07 15:13:17     29s] Metal Layer Id 7 is Metal7 
+[04/07 15:13:17     29s] Metal Layer Id 8 is Metal8 
+[04/07 15:13:17     29s] Metal Layer Id 9 is Metal9 
+[04/07 15:13:17     29s] Metal Layer Id 10 is Metal10 
+[04/07 15:13:17     29s] Metal Layer Id 11 is Metal11 
+[04/07 15:13:17     29s] Via Layer Id 33 is Cont 
+[04/07 15:13:17     29s] Via Layer Id 34 is Via1 
+[04/07 15:13:17     29s] Via Layer Id 35 is Via2 
+[04/07 15:13:17     29s] Via Layer Id 36 is Via3 
+[04/07 15:13:17     29s] Via Layer Id 37 is Via4 
+[04/07 15:13:17     29s] Via Layer Id 38 is Via5 
+[04/07 15:13:17     29s] Via Layer Id 39 is Via6 
+[04/07 15:13:17     29s] Via Layer Id 40 is Via7 
+[04/07 15:13:17     29s] Via Layer Id 41 is Via8 
+[04/07 15:13:17     29s] Via Layer Id 42 is Via9 
+[04/07 15:13:17     29s] Via Layer Id 43 is Via10 
+[04/07 15:13:17     29s] Via Layer Id 44 is Bondpad 
+[04/07 15:13:17     29s] 
+[04/07 15:13:17     29s] Trim Metal Layers:
+[04/07 15:13:17     29s] Generating auto layer map file.
+[04/07 15:13:17     29s]  lef metal Layer Id 1 mapped to tech Id 5 of Layer metal_1 
+[04/07 15:13:17     29s]  lef via Layer Id 1 mapped to tech Id 6 of Layer via_1 
+[04/07 15:13:17     29s]  lef metal Layer Id 2 mapped to tech Id 7 of Layer metal_2 
+[04/07 15:13:17     29s]  lef via Layer Id 2 mapped to tech Id 8 of Layer via_2 
+[04/07 15:13:17     29s]  lef metal Layer Id 3 mapped to tech Id 9 of Layer metal_3 
+[04/07 15:13:17     29s]  lef via Layer Id 3 mapped to tech Id 10 of Layer via_3 
+[04/07 15:13:17     29s]  lef metal Layer Id 4 mapped to tech Id 11 of Layer metal_4 
+[04/07 15:13:17     29s]  lef via Layer Id 4 mapped to tech Id 12 of Layer via_4 
+[04/07 15:13:17     29s]  lef metal Layer Id 5 mapped to tech Id 13 of Layer metal_5 
+[04/07 15:13:17     29s]  lef via Layer Id 5 mapped to tech Id 14 of Layer via_5 
+[04/07 15:13:17     29s]  lef metal Layer Id 6 mapped to tech Id 15 of Layer metal_6 
+[04/07 15:13:17     29s]  lef via Layer Id 6 mapped to tech Id 16 of Layer via_6 
+[04/07 15:13:17     29s]  lef metal Layer Id 7 mapped to tech Id 17 of Layer metal_7 
+[04/07 15:13:17     29s]  lef via Layer Id 7 mapped to tech Id 18 of Layer via_7 
+[04/07 15:13:17     29s]  lef metal Layer Id 8 mapped to tech Id 19 of Layer metal_8 
+[04/07 15:13:17     29s]  lef via Layer Id 8 mapped to tech Id 20 of Layer via_8 
+[04/07 15:13:17     29s]  lef metal Layer Id 9 mapped to tech Id 21 of Layer metal_9 
+[04/07 15:13:17     29s]  lef via Layer Id 9 mapped to tech Id 22 of Layer via_9 
+[04/07 15:13:17     29s]  lef metal Layer Id 10 mapped to tech Id 23 of Layer metal_10 
+[04/07 15:13:17     29s]  lef via Layer Id 10 mapped to tech Id 24 of Layer via_10 
+[04/07 15:13:17     29s]  lef metal Layer Id 11 mapped to tech Id 25 of Layer metal_11 
+[04/07 15:13:17     29s] Metal Layer Id 1 mapped to 5 
+[04/07 15:13:17     29s] Via Layer Id 1 mapped to 6 
+[04/07 15:13:17     29s] Metal Layer Id 2 mapped to 7 
+[04/07 15:13:17     29s] Via Layer Id 2 mapped to 8 
+[04/07 15:13:17     29s] Metal Layer Id 3 mapped to 9 
+[04/07 15:13:17     29s] Via Layer Id 3 mapped to 10 
+[04/07 15:13:17     29s] Metal Layer Id 4 mapped to 11 
+[04/07 15:13:17     29s] Via Layer Id 4 mapped to 12 
+[04/07 15:13:17     29s] Metal Layer Id 5 mapped to 13 
+[04/07 15:13:17     29s] Via Layer Id 5 mapped to 14 
+[04/07 15:13:17     29s] Metal Layer Id 6 mapped to 15 
+[04/07 15:13:17     29s] Via Layer Id 6 mapped to 16 
+[04/07 15:13:17     29s] Metal Layer Id 7 mapped to 17 
+[04/07 15:13:17     29s] Via Layer Id 7 mapped to 18 
+[04/07 15:13:17     29s] Metal Layer Id 8 mapped to 19 
+[04/07 15:13:17     29s] Via Layer Id 8 mapped to 20 
+[04/07 15:13:17     29s] Metal Layer Id 9 mapped to 21 
+[04/07 15:13:17     29s] Via Layer Id 9 mapped to 22 
+[04/07 15:13:17     29s] Metal Layer Id 10 mapped to 23 
+[04/07 15:13:17     29s] Via Layer Id 10 mapped to 24 
+[04/07 15:13:17     29s] Metal Layer Id 11 mapped to 25 
+[04/07 15:13:19     32s] Completed (cpu: 0:00:04.7 real: 0:00:05.0)
+[04/07 15:13:19     32s] Set Shrink Factor to 1.00000
+[04/07 15:13:19     32s] Summary of Active RC-Corners : 
+[04/07 15:13:19     32s]  
+[04/07 15:13:19     32s]  Analysis View: analysis_view_setup
+[04/07 15:13:19     32s]     RC-Corner Name        : rc
+[04/07 15:13:19     32s]     RC-Corner Index       : 0
+[04/07 15:13:19     32s]     RC-Corner Temperature : 25 Celsius
+[04/07 15:13:19     32s]     RC-Corner Cap Table   : ''
+[04/07 15:13:19     32s]     RC-Corner PreRoute Res Factor         : 1
+[04/07 15:13:19     32s]     RC-Corner PreRoute Cap Factor         : 1
+[04/07 15:13:19     32s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[04/07 15:13:19     32s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[04/07 15:13:19     32s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[04/07 15:13:19     32s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/07 15:13:19     32s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/07 15:13:19     32s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[04/07 15:13:19     32s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[04/07 15:13:19     32s]     RC-Corner Technology file: '/data/Cadence/gpdk045_v60/gsclib045_svt_v4.7/gsclib045_tech/qrc/qx/gpdk045.tch'
+[04/07 15:13:19     32s]  
+[04/07 15:13:19     32s]  Analysis View: analysis_view_power
+[04/07 15:13:19     32s]     RC-Corner Name        : rc
+[04/07 15:13:19     32s]     RC-Corner Index       : 0
+[04/07 15:13:19     32s]     RC-Corner Temperature : 25 Celsius
+[04/07 15:13:19     32s]     RC-Corner Cap Table   : ''
+[04/07 15:13:19     32s]     RC-Corner PreRoute Res Factor         : 1
+[04/07 15:13:19     32s]     RC-Corner PreRoute Cap Factor         : 1
+[04/07 15:13:19     32s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[04/07 15:13:19     32s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[04/07 15:13:19     32s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[04/07 15:13:19     32s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/07 15:13:19     32s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/07 15:13:19     32s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[04/07 15:13:19     32s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[04/07 15:13:19     32s]     RC-Corner Technology file: '/data/Cadence/gpdk045_v60/gsclib045_svt_v4.7/gsclib045_tech/qrc/qx/gpdk045.tch'
+[04/07 15:13:19     32s]  
+[04/07 15:13:19     32s]  Analysis View: analysis_view_hold
+[04/07 15:13:19     32s]     RC-Corner Name        : rc
+[04/07 15:13:19     32s]     RC-Corner Index       : 0
+[04/07 15:13:19     32s]     RC-Corner Temperature : 25 Celsius
+[04/07 15:13:19     32s]     RC-Corner Cap Table   : ''
+[04/07 15:13:19     32s]     RC-Corner PreRoute Res Factor         : 1
+[04/07 15:13:19     32s]     RC-Corner PreRoute Cap Factor         : 1
+[04/07 15:13:19     32s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[04/07 15:13:19     32s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[04/07 15:13:19     32s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[04/07 15:13:19     32s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/07 15:13:19     32s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/07 15:13:19     32s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[04/07 15:13:19     32s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[04/07 15:13:19     32s]     RC-Corner Technology file: '/data/Cadence/gpdk045_v60/gsclib045_svt_v4.7/gsclib045_tech/qrc/qx/gpdk045.tch'
+[04/07 15:13:19     32s] 
+[04/07 15:13:19     32s] Trim Metal Layers:
+[04/07 15:13:19     32s] LayerId::1 widthSet size::1
+[04/07 15:13:19     32s] LayerId::2 widthSet size::1
+[04/07 15:13:19     32s] LayerId::3 widthSet size::1
+[04/07 15:13:19     32s] LayerId::4 widthSet size::1
+[04/07 15:13:19     32s] LayerId::5 widthSet size::1
+[04/07 15:13:19     32s] LayerId::6 widthSet size::1
+[04/07 15:13:19     32s] LayerId::7 widthSet size::1
+[04/07 15:13:19     32s] LayerId::8 widthSet size::1
+[04/07 15:13:19     32s] LayerId::9 widthSet size::1
+[04/07 15:13:19     32s] LayerId::10 widthSet size::1
+[04/07 15:13:19     32s] LayerId::11 widthSet size::1
+[04/07 15:13:19     32s] Updating RC grid for preRoute extraction ...
+[04/07 15:13:19     32s] eee: pegSigSF::1.070000
+[04/07 15:13:19     32s] Initializing multi-corner resistance tables ...
+[04/07 15:13:19     32s] eee: l::1 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:13:19     32s] eee: l::2 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:13:19     32s] eee: l::3 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:13:19     32s] eee: l::4 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:13:19     32s] eee: l::5 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:13:19     32s] eee: l::6 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:13:19     32s] eee: l::7 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:13:19     32s] eee: l::8 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:13:19     32s] eee: l::9 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:13:19     32s] eee: l::10 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:13:19     32s] eee: l::11 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/07 15:13:19     32s] {RT rc 0 11 11 {8 0} {10 0} 2}
+[04/07 15:13:19     32s] Preroute length aware model : n: 40 ; LLS: 2-3 ; HLS: 3-5 ; rDens: 0.000000 ; uaWl: 0.000000 ; uaWlH: 0.000000 ; aWlH: 0.000000 ; Pmax: 0.850000 ; wcR: 0.000000 ; newSi: 0.000000 ; pMod: 82 ;
+[04/07 15:13:19     32s] Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+[04/07 15:13:19     32s] *Info: initialize multi-corner CTS.
+[04/07 15:13:19     32s] Starting library reading in 'Multi-threaded flow' (with '4' threads)
+[04/07 15:13:20     33s] Reading library_typ timing library /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib.
+[04/07 15:13:20     33s] **WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 24402 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib)
+[04/07 15:13:20     33s] **WARN: (TECHLIB-1161):	The library level attribute default_wire_load on line 24403 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib)
+[04/07 15:13:20     33s] **WARN: (TECHLIB-1161):	The library level attribute default_wire_load_selection on line 24404 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib)
+[04/07 15:13:20     33s] Read 35 cells in library saed32sram_tt1p05v125c.
+[04/07 15:13:20     33s] Library reading multithread flow ended.
+[04/07 15:13:20     33s] Ending "SetAnalysisView" (total cpu=0:00:01.1, real=0:00:01.0, peak res=1197.6M, current mem=1002.2M)
+[04/07 15:13:20     33s] Reading timing constraints file '../synth/outputs/et4351.struct.sdc' ...
+[04/07 15:13:20     33s] Current (total cpu=0:00:33.7, real=0:00:59.0, peak res=1281.1M, current mem=1281.1M)
+[04/07 15:13:20     33s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File ../synth/outputs/et4351.struct.sdc, Line 9).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File ../synth/outputs/et4351.struct.sdc, Line 10).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFHQX1LVT' (File ../synth/outputs/et4351.struct.sdc, Line 63).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **ERROR: (TCLCMD-917):	Cannot find 'library cells' that match 'slow_vdd1v2/SDFFHQX1LVT' (File ../synth/outputs/et4351.struct.sdc, Line 63).
+
+**ERROR: (TCLCMD-917):	Cannot find 'modules, or cells' that match '' (File ../synth/outputs/et4351.struct.sdc, Line 63).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFHQX2LVT' (File ../synth/outputs/et4351.struct.sdc, Line 64).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **ERROR: (TCLCMD-917):	Cannot find 'library cells' that match 'slow_vdd1v2/SDFFHQX2LVT' (File ../synth/outputs/et4351.struct.sdc, Line 64).
+
+**ERROR: (TCLCMD-917):	Cannot find 'modules, or cells' that match '' (File ../synth/outputs/et4351.struct.sdc, Line 64).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFHQX4LVT' (File ../synth/outputs/et4351.struct.sdc, Line 65).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **ERROR: (TCLCMD-917):	Cannot find 'library cells' that match 'slow_vdd1v2/SDFFHQX4LVT' (File ../synth/outputs/et4351.struct.sdc, Line 65).
+
+**ERROR: (TCLCMD-917):	Cannot find 'modules, or cells' that match '' (File ../synth/outputs/et4351.struct.sdc, Line 65).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFHQX8LVT' (File ../synth/outputs/et4351.struct.sdc, Line 66).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **ERROR: (TCLCMD-917):	Cannot find 'library cells' that match 'slow_vdd1v2/SDFFHQX8LVT' (File ../synth/outputs/et4351.struct.sdc, Line 66).
+
+**ERROR: (TCLCMD-917):	Cannot find 'modules, or cells' that match '' (File ../synth/outputs/et4351.struct.sdc, Line 66).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFNSRX1LVT' (File ../synth/outputs/et4351.struct.sdc, Line 67).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **ERROR: (TCLCMD-917):	Cannot find 'library cells' that match 'slow_vdd1v2/SDFFNSRX1LVT' (File ../synth/outputs/et4351.struct.sdc, Line 67).
+
+**ERROR: (TCLCMD-917):	Cannot find 'modules, or cells' that match '' (File ../synth/outputs/et4351.struct.sdc, Line 67).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFNSRX2LVT' (File ../synth/outputs/et4351.struct.sdc, Line 68).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **ERROR: (TCLCMD-917):	Cannot find 'library cells' that match 'slow_vdd1v2/SDFFNSRX2LVT' (File ../synth/outputs/et4351.struct.sdc, Line 68).
+
+**ERROR: (TCLCMD-917):	Cannot find 'modules, or cells' that match '' (File ../synth/outputs/et4351.struct.sdc, Line 68).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFNSRX4LVT' (File ../synth/outputs/et4351.struct.sdc, Line 69).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **ERROR: (TCLCMD-917):	Cannot find 'library cells' that match 'slow_vdd1v2/SDFFNSRX4LVT' (File ../synth/outputs/et4351.struct.sdc, Line 69).
+
+**ERROR: (TCLCMD-917):	Cannot find 'modules, or cells' that match '' (File ../synth/outputs/et4351.struct.sdc, Line 69).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFNSRXLLVT' (File ../synth/outputs/et4351.struct.sdc, Line 70).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **ERROR: (TCLCMD-917):	Cannot find 'library cells' that match 'slow_vdd1v2/SDFFNSRXLLVT' (File ../synth/outputs/et4351.struct.sdc, Line 70).
+
+**ERROR: (TCLCMD-917):	Cannot find 'modules, or cells' that match '' (File ../synth/outputs/et4351.struct.sdc, Line 70).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFQX1LVT' (File ../synth/outputs/et4351.struct.sdc, Line 71).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **ERROR: (TCLCMD-917):	Cannot find 'library cells' that match 'slow_vdd1v2/SDFFQX1LVT' (File ../synth/outputs/et4351.struct.sdc, Line 71).
+
+**ERROR: (TCLCMD-917):	Cannot find 'modules, or cells' that match '' (File ../synth/outputs/et4351.struct.sdc, Line 71).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFQX2LVT' (File ../synth/outputs/et4351.struct.sdc, Line 72).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **ERROR: (TCLCMD-917):	Cannot find 'library cells' that match 'slow_vdd1v2/SDFFQX2LVT' (File ../synth/outputs/et4351.struct.sdc, Line 72).
+
+**ERROR: (TCLCMD-917):	Cannot find 'modules, or cells' that match '' (File ../synth/outputs/et4351.struct.sdc, Line 72).
+
+**WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFQX4LVT' (File ../synth/outputs/et4351.struct.sdc, Line 73).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] Message <TCLCMD-917> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit. (File ../synth/outputs/et4351.struct.sdc, Line 73).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFQXLLVT' (File ../synth/outputs/et4351.struct.sdc, Line 74).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFRHQX1LVT' (File ../synth/outputs/et4351.struct.sdc, Line 75).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFRHQX2LVT' (File ../synth/outputs/et4351.struct.sdc, Line 76).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFRHQX4LVT' (File ../synth/outputs/et4351.struct.sdc, Line 77).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFRHQX8LVT' (File ../synth/outputs/et4351.struct.sdc, Line 78).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFRX1LVT' (File ../synth/outputs/et4351.struct.sdc, Line 79).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFRX2LVT' (File ../synth/outputs/et4351.struct.sdc, Line 80).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFRX4LVT' (File ../synth/outputs/et4351.struct.sdc, Line 81).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] **WARN: (TCLCMD-513):	The software could not find a matching object of the specified type for the pattern 'slow_vdd1v2/SDFFRXLLVT' (File ../synth/outputs/et4351.struct.sdc, Line 82).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] Message <TCLCMD-513> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit. (File ../synth/outputs/et4351.struct.sdc, Line 83).
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] INFO (CTE): Reading of timing constraints file ../synth/outputs/et4351.struct.sdc completed, with 22 Warnings and 20 Errors.
+[04/07 15:13:20     33s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=1315.7M, current mem=1315.7M)
+[04/07 15:13:20     33s] Current (total cpu=0:00:33.8, real=0:00:59.0, peak res=1315.7M, current mem=1315.7M)
+[04/07 15:13:20     33s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) Begin ...
+[04/07 15:13:20     33s] Summary for sequential cells identification: 
+[04/07 15:13:20     33s]   Identified SBFF number: 104
+[04/07 15:13:20     33s]   Identified MBFF number: 0
+[04/07 15:13:20     33s]   Identified SB Latch number: 0
+[04/07 15:13:20     33s]   Identified MB Latch number: 0
+[04/07 15:13:20     33s]   Not identified SBFF number: 16
+[04/07 15:13:20     33s]   Not identified MBFF number: 0
+[04/07 15:13:20     33s]   Not identified SB Latch number: 0
+[04/07 15:13:20     33s]   Not identified MB Latch number: 0
+[04/07 15:13:20     33s]   Number of sequential cells which are not FFs: 32
+[04/07 15:13:20     33s] Total number of combinational cells: 318
+[04/07 15:13:20     33s] Total number of sequential cells: 152
+[04/07 15:13:20     33s] Total number of tristate cells: 10
+[04/07 15:13:20     33s] Total number of level shifter cells: 0
+[04/07 15:13:20     33s] Total number of power gating cells: 0
+[04/07 15:13:20     33s] Total number of isolation cells: 0
+[04/07 15:13:20     33s] Total number of power switch cells: 0
+[04/07 15:13:20     33s] Total number of pulse generator cells: 0
+[04/07 15:13:20     33s] Total number of always on buffers: 0
+[04/07 15:13:20     33s] Total number of retention cells: 0
+[04/07 15:13:20     33s] List of usable buffers: BUFX2LVT BUFX12LVT BUFX16LVT BUFX20LVT CLKBUFX2LVT BUFX3LVT BUFX4LVT BUFX6LVT BUFX8LVT CLKBUFX12LVT CLKBUFX16LVT CLKBUFX20LVT CLKBUFX3LVT CLKBUFX4LVT CLKBUFX6LVT CLKBUFX8LVT
+[04/07 15:13:20     33s] Total number of usable buffers: 16
+[04/07 15:13:20     33s] List of unusable buffers:
+[04/07 15:13:20     33s] Total number of unusable buffers: 0
+[04/07 15:13:20     33s] List of usable inverters: CLKINVX1LVT CLKINVX2LVT CLKINVX12LVT CLKINVX16LVT CLKINVX20LVT CLKINVX4LVT CLKINVX3LVT CLKINVX6LVT CLKINVX8LVT INVX1LVT INVX2LVT INVX12LVT INVX16LVT INVX20LVT INVXLLVT INVX3LVT INVX4LVT INVX6LVT INVX8LVT
+[04/07 15:13:20     33s] Total number of usable inverters: 19
+[04/07 15:13:20     33s] List of unusable inverters:
+[04/07 15:13:20     33s] Total number of unusable inverters: 0
+[04/07 15:13:20     33s] List of identified usable delay cells: DLY1X1LVT DLY1X4LVT DLY2X1LVT DLY2X4LVT DLY3X1LVT DLY3X4LVT DLY4X1LVT DLY4X4LVT
+[04/07 15:13:20     33s] Total number of identified usable delay cells: 8
+[04/07 15:13:20     33s] List of identified unusable delay cells:
+[04/07 15:13:20     33s] Total number of identified unusable delay cells: 0
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) End ...
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] TimeStamp Deleting Cell Server Begin ...
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] TimeStamp Deleting Cell Server End ...
+[04/07 15:13:20     33s] Ending "Cell type marking" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1317.0M, current mem=1317.0M)
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) Begin ...
+[04/07 15:13:20     33s] Summary for sequential cells identification: 
+[04/07 15:13:20     33s]   Identified SBFF number: 104
+[04/07 15:13:20     33s]   Identified MBFF number: 0
+[04/07 15:13:20     33s]   Identified SB Latch number: 0
+[04/07 15:13:20     33s]   Identified MB Latch number: 0
+[04/07 15:13:20     33s]   Not identified SBFF number: 16
+[04/07 15:13:20     33s]   Not identified MBFF number: 0
+[04/07 15:13:20     33s]   Not identified SB Latch number: 0
+[04/07 15:13:20     33s]   Not identified MB Latch number: 0
+[04/07 15:13:20     33s]   Number of sequential cells which are not FFs: 32
+[04/07 15:13:20     33s]  Visiting view : analysis_view_setup
+[04/07 15:13:20     33s]    : PowerDomain = none : Weighted F : unweighted  = 24.50 (1.000) with rcCorner = 0
+[04/07 15:13:20     33s]    : PowerDomain = none : Weighted F : unweighted  = 12.70 (1.000) with rcCorner = -1
+[04/07 15:13:20     33s]  Visiting view : analysis_view_power
+[04/07 15:13:20     33s]    : PowerDomain = none : Weighted F : unweighted  = 8.90 (1.000) with rcCorner = 0
+[04/07 15:13:20     33s]    : PowerDomain = none : Weighted F : unweighted  = 4.10 (1.000) with rcCorner = -1
+[04/07 15:13:20     33s]  Visiting view : analysis_view_hold
+[04/07 15:13:20     33s]    : PowerDomain = none : Weighted F : unweighted  = 8.90 (1.000) with rcCorner = 0
+[04/07 15:13:20     33s]    : PowerDomain = none : Weighted F : unweighted  = 4.10 (1.000) with rcCorner = -1
+[04/07 15:13:20     33s]  Visiting view : analysis_view_power
+[04/07 15:13:20     33s]    : PowerDomain = none : Weighted F : unweighted  = 8.90 (1.000) with rcCorner = 0
+[04/07 15:13:20     33s]    : PowerDomain = none : Weighted F : unweighted  = 4.10 (1.000) with rcCorner = -1
+[04/07 15:13:20     33s] TLC MultiMap info (StdDelay):
+[04/07 15:13:20     33s]   : delay_min + library_min + 1 + no RcCorner := 4.1ps
+[04/07 15:13:20     33s]   : delay_min + library_min + 1 + rc := 8.9ps
+[04/07 15:13:20     33s]   : delay_typ + library_typ + 1 + no RcCorner := 4.1ps
+[04/07 15:13:20     33s]   : delay_typ + library_typ + 1 + rc := 8.9ps
+[04/07 15:13:20     33s]   : delay_max + library_max + 1 + no RcCorner := 12.7ps
+[04/07 15:13:20     33s]   : delay_max + library_max + 1 + rc := 24.5ps
+[04/07 15:13:20     33s]  Setting StdDelay to: 24.5ps
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) End ...
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] *** Summary of all messages that are not suppressed in this session:
+[04/07 15:13:20     33s] Severity  ID               Count  Summary                                  
+[04/07 15:13:20     33s] WARNING   IMPLF-200            2  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[04/07 15:13:20     33s] WARNING   IMPFP-3961           3  The techSite '%s' has no related standar...
+[04/07 15:13:20     33s] WARNING   IMPTS-17             6  Inconsistency detected in the capacitanc...
+[04/07 15:13:20     33s] WARNING   TCLCMD-513          60  The software could not find a matching o...
+[04/07 15:13:20     33s] ERROR     TCLCMD-917         120  Cannot find '%s' that match '%s'         
+[04/07 15:13:20     33s] WARNING   TCLCMD-1461          2  Skipped unsupported command: %s          
+[04/07 15:13:20     33s] WARNING   TECHLIB-302          2  No function defined for cell '%s'. The c...
+[04/07 15:13:20     33s] WARNING   TECHLIB-1161         9  The library level attribute %s on line %...
+[04/07 15:13:20     33s] *** Message Summary: 84 warning(s), 120 error(s)
+[04/07 15:13:20     33s] 
+[04/07 15:13:20     33s] <CMD> report_design > initialReports/report_design.rpt
+[04/07 15:13:20     33s] <CMD> report_constraint > initialReports/report_constraint.rpt
+[04/07 15:13:20     33s] AAE_INFO: opIsDesignInPostRouteState() is 0
+[04/07 15:13:21     34s] AAE DB initialization (MEM=1382.59 CPU=0:00:00.1 REAL=0:00:00.0) 
+[04/07 15:13:21     34s] **WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+[04/07 15:13:21     34s] Type 'man IMPTS-17' for more detail.
+[04/07 15:13:21     34s] #################################################################################
+[04/07 15:13:21     34s] # Design Stage: PreRoute
+[04/07 15:13:21     34s] # Design Name: et4351
+[04/07 15:13:21     34s] # Design Mode: 45nm
+[04/07 15:13:21     34s] # Analysis Mode: MMMC OCV 
+[04/07 15:13:21     34s] # Parasitics Mode: No SPEF/RCDB 
+[04/07 15:13:21     34s] # Signoff Settings: SI On 
+[04/07 15:13:21     34s] #################################################################################
+[04/07 15:13:22     36s] Topological Sorting (REAL = 0:00:00.0, MEM = 1423.8M, InitMEM = 1423.8M)
+[04/07 15:13:23     36s] Multithreaded Timing Analysis is initialized with 4 threads
+[04/07 15:13:23     36s] 
+[04/07 15:13:23     36s] Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+[04/07 15:13:23     36s] Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_setup'
+[04/07 15:13:23     36s] Calculate early delays in OCV mode...
+[04/07 15:13:23     36s] Calculate late delays in OCV mode...
+[04/07 15:13:23     36s] Calculate early delays in OCV mode...
+[04/07 15:13:23     36s] Calculate late delays in OCV mode...
+[04/07 15:13:23     36s] Start delay calculation (fullDC) (4 T). (MEM=1439.77)
+[04/07 15:13:23     37s] Start AAE Lib Loading. (MEM=1459.78)
+[04/07 15:13:23     37s] End AAE Lib Loading. (MEM=1497.94 CPU=0:00:00.1 Real=0:00:00.0)
+[04/07 15:13:23     37s] End AAE Lib Interpolated Model. (MEM=1497.94 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[04/07 15:13:25     44s] Total number of fetched objects 32497
+[04/07 15:13:27     49s] Total number of fetched objects 32497
+[04/07 15:13:27     50s] End Timing Check Calculation. (CPU Time=0:00:00.5, Real Time=0:00:00.0)
+[04/07 15:13:27     50s] End Timing Check Calculation. (CPU Time=0:00:00.4, Real Time=0:00:00.0)
+[04/07 15:13:27     50s] End delay calculation. (MEM=1858.39 CPU=0:00:11.6 REAL=0:00:03.0)
+[04/07 15:13:28     50s] End delay calculation (fullDC). (MEM=1858.39 CPU=0:00:14.0 REAL=0:00:05.0)
+[04/07 15:13:28     50s] *** CDM Built up (cpu=0:00:16.0  real=0:00:07.0  mem= 1858.4M) ***
+[04/07 15:13:29     54s] <CMD> report_clocks > initialReports/report_clocks.rpt
+[04/07 15:13:29     54s] <CMD> report_ports > initialReports/report_ports.rpt
+[04/07 15:13:29     54s] <CMD> report_path_exceptions > initialReports/report_path_exceptions.rpt
+[04/07 15:13:30     57s] <CMD> report_annotated_check > initialReports/report_annotated_check.rpt
+[04/07 15:13:30     57s] 
+[04/07 15:13:30     57s] 
+[04/07 15:13:30     57s] 
+[04/07 15:13:30     57s]  ##############################################################    
+[04/07 15:13:30     57s]  ##                                                                
+[04/07 15:13:30     57s]  ##                        FLOORPLAN                               
+[04/07 15:13:30     57s]  ##                                                                
+[04/07 15:13:30     57s]  ##############################################################    
+[04/07 15:13:30     57s] 
+[04/07 15:13:30     57s] 
+[04/07 15:13:30     57s] 
+[04/07 15:13:30     57s] <CMD> setDrawView fplan
+[04/07 15:13:30     57s] <CMD> setFPlanRowSpacingAndType 0.0 1
+[04/07 15:13:30     57s] <CMD> floorPlan -site CoreSite -s 596.4 596.4 34.2 34.2 34.2 34.2 -noSnapToGrid
+[04/07 15:13:30     57s] **WARN: (IMPFP-3961):	The techSite 'CoreSiteDouble' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[04/07 15:13:30     57s] Type 'man IMPFP-3961' for more detail.
+[04/07 15:13:30     57s] **WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[04/07 15:13:30     57s] Type 'man IMPFP-3961' for more detail.
+[04/07 15:13:30     57s] **WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[04/07 15:13:30     57s] Type 'man IMPFP-3961' for more detail.
+[04/07 15:13:30     57s] Start create_tracks
+[04/07 15:13:30     57s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[04/07 15:13:30     57s] <CMD> loadIoFile ./scripts/3.1.ET4351_chip.io
+[04/07 15:13:30     57s] Reading IO assignment file "./scripts/3.1.ET4351_chip.io" ...
+[04/07 15:13:30     57s] **WARN: (IMPFP-669):	IO pin "accel_o_path_node_valid" not found.
+[04/07 15:13:30     57s] **WARN: (IMPFP-669):	IO pin "accel_o_path_node[0]" not found.
+[04/07 15:13:30     57s] **WARN: (IMPFP-669):	IO pin "accel_o_path_node[1]" not found.
+[04/07 15:13:30     57s] **WARN: (IMPFP-669):	IO pin "accel_o_path_node[2]" not found.
+[04/07 15:13:30     57s] **WARN: (IMPFP-669):	IO pin "accel_o_path_node[3]" not found.
+[04/07 15:13:30     57s] **WARN: (IMPFP-669):	IO pin "accel_o_path_node[4]" not found.
+[04/07 15:13:30     57s] **WARN: (IMPFP-669):	IO pin "accel_o_path_node[5]" not found.
+[04/07 15:13:30     57s] **WARN: (IMPFP-669):	IO pin "accel_o_path_node[6]" not found.
+[04/07 15:13:30     57s] **WARN: (IMPFP-669):	IO pin "accel_o_path_node[7]" not found.
+[04/07 15:13:30     57s] <CMD> placeInstance soc/memory/sram_3 34.2 396.21 R0
+[04/07 15:13:30     57s] <CMD> placeInstance soc/memory/sram_2 73.035 396.21 R0
+[04/07 15:13:30     57s] <CMD> placeInstance soc/memory/sram_1 111.87 396.21 R0
+[04/07 15:13:30     57s] <CMD> placeInstance soc/memory/sram_0 150.705 396.21 R0
+[04/07 15:13:30     57s] <CMD> addHaloToBlock 0 2.000 2.000 0 -fromInstBox soc/memory/sram_3
+[04/07 15:13:30     57s] <CMD> addHaloToBlock 0 2.000 2.000 0 -fromInstBox soc/memory/sram_2
+[04/07 15:13:30     57s] <CMD> addHaloToBlock 0 2.000 2.000 0 -fromInstBox soc/memory/sram_1
+[04/07 15:13:30     57s] <CMD> addHaloToBlock 0 2.000 22.000 0 -fromInstBox soc/memory/sram_0
+[04/07 15:13:30     57s] <CMD> checkFPlan -outFile verifyReports/checkFPlan.rpt
+[04/07 15:13:30     57s] Checking routing tracks.....
+[04/07 15:13:30     57s] Checking other grids.....
+[04/07 15:13:30     57s] Checking FINFET Grid is on Manufacture Grid.....
+[04/07 15:13:30     57s] Checking core/die box is on Grid.....
+[04/07 15:13:30     57s] **WARN: (IMPFP-7236):	DIE's corner: (664.8000000000 , 664.8000000000) is NOT on PlacementGrid,  Please use command getFPlanMode to check current Grid settings, use command setFPlanMode to change which grid to snap to. And use command get_snap_grid_info to get grids' offset and pitch. Command floorplan can be used to fix this issue.
+[04/07 15:13:30     57s] **WARN: (IMPFP-7238):	CORE's  corner:	(630.6000000000 , 630.6000000000)  is	NOT on PlacementGrid. You can use the getFPlanMode command to check the current grid settings and use the setFPlanMode command to  change the grid to snap to. You can also use the get_snap_grid_info command to get information on the offset and pitch of the current snap grid. To resolve this issue, use the floorPlan command.
+[04/07 15:13:30     57s] Checking snap rule ......
+[04/07 15:13:30     57s] Checking Row is on grid......
+[04/07 15:13:30     57s] Checking AreaIO row.....
+[04/07 15:13:30     57s] Checking row out of die ...
+[04/07 15:13:30     57s] Checking routing blockage.....
+[04/07 15:13:30     57s] Checking components.....
+[04/07 15:13:30     57s] **WARN: (IMPFP-10013):	Halo should be created around block soc/memory/sram_0 and snapping rules are not checked since it's width is not multiple of default tech site's width.
+[04/07 15:13:30     57s] **WARN: (IMPFP-10013):	Halo should be created around block soc/memory/sram_0 and snapping rules are not checked since it's height is not multiple of default tech site's height.
+[04/07 15:13:30     57s] Instance soc/memory/sram_0 not snapped to row-site.
+[04/07 15:13:30     57s] **WARN: (IMPFP-10013):	Halo should be created around block soc/memory/sram_1 and snapping rules are not checked since it's width is not multiple of default tech site's width.
+[04/07 15:13:30     57s] **WARN: (IMPFP-10013):	Halo should be created around block soc/memory/sram_1 and snapping rules are not checked since it's height is not multiple of default tech site's height.
+[04/07 15:13:30     57s] Instance soc/memory/sram_1 not snapped to row-site.
+[04/07 15:13:30     57s] **WARN: (IMPFP-10013):	Halo should be created around block soc/memory/sram_2 and snapping rules are not checked since it's width is not multiple of default tech site's width.
+[04/07 15:13:30     57s] **WARN: (IMPFP-10013):	Halo should be created around block soc/memory/sram_2 and snapping rules are not checked since it's height is not multiple of default tech site's height.
+[04/07 15:13:30     57s] Instance soc/memory/sram_2 not snapped to row-site.
+[04/07 15:13:30     57s] **WARN: (IMPFP-10013):	Halo should be created around block soc/memory/sram_3 and snapping rules are not checked since it's width is not multiple of default tech site's width.
+[04/07 15:13:30     57s] **WARN: (IMPFP-10013):	Halo should be created around block soc/memory/sram_3 and snapping rules are not checked since it's height is not multiple of default tech site's height.
+[04/07 15:13:30     57s] Instance soc/memory/sram_3 not snapped to row-site.
+[04/07 15:13:30     57s] Checking IO Pads out of die...
+[04/07 15:13:30     57s] Checking constraints (guide/region/fence).....
+[04/07 15:13:30     57s] 
+[04/07 15:13:30     57s] Checking Preroutes.....
+[04/07 15:13:30     57s] No. of regular pre-routes not on tracks : 0 
+[04/07 15:13:30     57s] 
+[04/07 15:13:30     57s] *** Summary of all messages that are not suppressed in this session:
+[04/07 15:13:30     57s] Severity  ID               Count  Summary                                  
+[04/07 15:13:30     57s] WARNING   IMPFP-7238           1  CORE's  corner:	%s  is	NOT on %s. You ca...
+[04/07 15:13:30     57s] WARNING   IMPFP-7236           1  DIE's corner: %s is NOT on %s,  Please u...
+[04/07 15:13:30     57s] WARNING   IMPFP-10013          8  Halo should be created around block %s a...
+[04/07 15:13:30     57s] *** Message Summary: 10 warning(s), 0 error(s)
+[04/07 15:13:30     57s] 
+[04/07 15:13:30     57s]  
+[04/07 15:13:30     57s] 
+[04/07 15:13:30     57s]  save Design 
+[04/07 15:13:30     57s] 
+[04/07 15:13:30     57s] 
+[04/07 15:13:30     57s] <CMD> saveDesign checkpoints/et4351_fplan.enc
+[04/07 15:13:30     57s] #% Begin save design ... (date=04/07 15:13:30, mem=1497.7M)
+[04/07 15:13:30     57s] % Begin Save ccopt configuration ... (date=04/07 15:13:30, mem=1497.7M)
+[04/07 15:13:30     57s] % End Save ccopt configuration ... (date=04/07 15:13:30, total cpu=0:00:00.0, real=0:00:00.0, peak res=1498.0M, current mem=1498.0M)
+[04/07 15:13:30     57s] % Begin Save netlist data ... (date=04/07 15:13:30, mem=1499.3M)
+[04/07 15:13:30     57s] Writing Binary DB to checkpoints/et4351_fplan.enc.dat/vbin/et4351.v.bin in multi-threaded mode...
+[04/07 15:13:30     58s] % End Save netlist data ... (date=04/07 15:13:30, total cpu=0:00:00.2, real=0:00:00.0, peak res=1500.4M, current mem=1500.4M)
+[04/07 15:13:30     58s] Saving symbol-table file in separate thread ...
+[04/07 15:13:30     58s] Saving congestion map file in separate thread ...
+[04/07 15:13:30     58s] Saving congestion map file checkpoints/et4351_fplan.enc.dat/et4351.route.congmap.gz ...
+[04/07 15:13:30     58s] % Begin Save AAE data ... (date=04/07 15:13:30, mem=1501.0M)
+[04/07 15:13:30     58s] Saving AAE Data ...
+[04/07 15:13:30     58s] % End Save AAE data ... (date=04/07 15:13:30, total cpu=0:00:00.0, real=0:00:00.0, peak res=1501.0M, current mem=1501.0M)
+[04/07 15:13:31     58s] Saving preference file checkpoints/et4351_fplan.enc.dat/gui.pref.tcl ...
+[04/07 15:13:31     58s] Saving mode setting ...
+[04/07 15:13:31     58s] Saving global file ...
+[04/07 15:13:32     58s] Saving Drc markers ...
+[04/07 15:13:32     58s] ... 2 markers are saved ...
+[04/07 15:13:32     58s] ... 0 geometry drc markers are saved ...
+[04/07 15:13:32     58s] ... 0 antenna drc markers are saved ...
+[04/07 15:13:32     58s] % Begin Save routing data ... (date=04/07 15:13:32, mem=1502.5M)
+[04/07 15:13:32     58s] Saving route file ...
+[04/07 15:13:33     58s] *** Completed saveRoute (cpu=0:00:00.1 real=0:00:01.0 mem=1709.0M) ***
+[04/07 15:13:33     58s] % End Save routing data ... (date=04/07 15:13:33, total cpu=0:00:00.1, real=0:00:01.0, peak res=1503.0M, current mem=1503.0M)
+[04/07 15:13:33     58s] Saving special route data file in separate thread ...
+[04/07 15:13:33     58s] Saving PG Conn data in separate thread ...
+[04/07 15:13:33     58s] Saving placement file in separate thread ...
+[04/07 15:13:33     58s] ** Saving stdCellPlacement_binary (version# 2) ...
+[04/07 15:13:33     58s] TAT_INFO: ::saveSpecialRoute REAL = 0 : CPU = 0 : MEM = 0.
+[04/07 15:13:33     58s] TAT_INFO: savePGConnFile REAL = 0 : CPU = 0 : MEM = 0.
+[04/07 15:13:33     58s] Save Adaptive View Pruning View Names to Binary file
+[04/07 15:13:33     58s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1724.0M) ***
+[04/07 15:13:33     58s] TAT_INFO: ::savePlace REAL = 0 : CPU = 0 : MEM = 0.
+[04/07 15:13:33     58s] Saving property file checkpoints/et4351_fplan.enc.dat/et4351.prop
+[04/07 15:13:33     58s] *** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1724.0M) ***
+[04/07 15:13:33     58s] Saving preRoute extracted patterns in file 'checkpoints/et4351_fplan.enc.dat/et4351.techData.gz' ...
+[04/07 15:13:33     58s] Saving preRoute extraction data in directory 'checkpoints/et4351_fplan.enc.dat/extraction/' ...
+[04/07 15:13:33     58s] Checksum of RCGrid density data::132
+[04/07 15:13:33     58s] TAT_INFO: ::db::saveSymbolTable REAL = 1 : CPU = 0 : MEM = 0.
+[04/07 15:13:33     58s] TAT_INFO: ::saveCongMap REAL = 1 : CPU = 0 : MEM = 0.
+[04/07 15:13:33     58s] % Begin Save power constraints data ... (date=04/07 15:13:33, mem=1505.3M)
+[04/07 15:13:33     58s] % End Save power constraints data ... (date=04/07 15:13:33, total cpu=0:00:00.0, real=0:00:00.0, peak res=1505.3M, current mem=1505.3M)
+[04/07 15:13:34     58s] Generated self-contained design et4351_fplan.enc.dat
+[04/07 15:13:34     58s] #% End save design ... (date=04/07 15:13:34, total cpu=0:00:01.1, real=0:00:04.0, peak res=1506.1M, current mem=1506.1M)
+[04/07 15:13:34     58s] *** Message Summary: 0 warning(s), 0 error(s)
+[04/07 15:13:34     58s] 
+[04/07 15:13:34     58s] <CMD> saveFPlan checkpoints/et4351.fp
+[04/07 15:13:34     58s] <CMD> fit
+[04/07 15:13:34     58s] 
+[04/07 15:13:34     58s] 
+[04/07 15:13:34     58s] 
+[04/07 15:13:34     58s]  ##############################################################    
+[04/07 15:13:34     58s]  ##                                                                
+[04/07 15:13:34     58s]  ##                        POWER PLAN                              
+[04/07 15:13:34     58s]  ##                                                                
+[04/07 15:13:34     58s]  ##############################################################    
+[04/07 15:13:34     58s] 
+[04/07 15:13:34     58s] 
+[04/07 15:13:34     58s] 
+[04/07 15:13:34     58s] <CMD> addRing -around default_power_domain -nets {VSS VDD} -layer {bottom M1 top M1 right M2 left M2} -width 12 -spacing 5 -offset 2
+[04/07 15:13:34     59s] #% Begin addRing (date=04/07 15:13:34, mem=1506.2M)
+[04/07 15:13:34     59s] 
+[04/07 15:13:34     59s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1744.3M)
+[04/07 15:13:34     59s] Ring generation is complete.
+[04/07 15:13:34     59s] vias are now being generated.
+[04/07 15:13:34     59s] addRing created 8 wires.
+[04/07 15:13:34     59s] ViaGen created 8 vias, deleted 0 via to avoid violation.
+[04/07 15:13:34     59s] +--------+----------------+----------------+
+[04/07 15:13:34     59s] |  Layer |     Created    |     Deleted    |
+[04/07 15:13:34     59s] +--------+----------------+----------------+
+[04/07 15:13:34     59s] | Metal1 |        4       |       NA       |
+[04/07 15:13:34     59s] |  Via1  |        8       |        0       |
+[04/07 15:13:34     59s] | Metal2 |        4       |       NA       |
+[04/07 15:13:34     59s] +--------+----------------+----------------+
+[04/07 15:13:34     59s] #% End addRing (date=04/07 15:13:34, total cpu=0:00:00.1, real=0:00:00.0, peak res=1509.5M, current mem=1509.5M)
+[04/07 15:13:34     59s] <CMD> addRing -around default_power_domain -nets {VSS VDD} -layer {bottom M3 top M3 right M4 left M4} -width 12 -spacing 5 -offset 2
+[04/07 15:13:34     59s] #% Begin addRing (date=04/07 15:13:34, mem=1509.5M)
+[04/07 15:13:34     59s] 
+[04/07 15:13:34     59s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1742.3M)
+[04/07 15:13:34     59s] Ring generation is complete.
+[04/07 15:13:34     59s] vias are now being generated.
+[04/07 15:13:34     59s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal4 & Metal2 at (20.20, 20.20) (32.20, 644.60).
+[04/07 15:13:34     59s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal4 & Metal2 at (632.60, 20.20) (644.60, 644.60).
+[04/07 15:13:34     59s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal3 & Metal1 at (20.20, 20.20) (644.60, 32.20).
+[04/07 15:13:34     59s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal3 & Metal1 at (20.20, 632.60) (644.60, 644.60).
+[04/07 15:13:34     59s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal4 & Metal2 at (3.20, 3.20) (15.20, 661.60).
+[04/07 15:13:34     59s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal4 & Metal2 at (649.60, 3.20) (661.60, 661.60).
+[04/07 15:13:34     59s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal3 & Metal1 at (3.20, 3.20) (661.60, 15.20).
+[04/07 15:13:34     59s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal3 & Metal1 at (3.20, 649.60) (661.60, 661.60).
+[04/07 15:13:34     59s] addRing created 8 wires.
+[04/07 15:13:34     59s] ViaGen created 16 vias, deleted 0 via to avoid violation.
+[04/07 15:13:34     59s] +--------+----------------+----------------+
+[04/07 15:13:34     59s] |  Layer |     Created    |     Deleted    |
+[04/07 15:13:34     59s] +--------+----------------+----------------+
+[04/07 15:13:34     59s] |  Via2  |        8       |        0       |
+[04/07 15:13:34     59s] | Metal3 |        4       |       NA       |
+[04/07 15:13:34     59s] |  Via3  |        8       |        0       |
+[04/07 15:13:34     59s] | Metal4 |        4       |       NA       |
+[04/07 15:13:34     59s] +--------+----------------+----------------+
+[04/07 15:13:34     59s] #% End addRing (date=04/07 15:13:34, total cpu=0:00:00.1, real=0:00:00.0, peak res=1510.6M, current mem=1510.6M)
+[04/07 15:13:34     59s] <CMD> addStripe -number_of_sets 1 -start_from left -start 190.54 -spacing 2.0 -direction vertical -layer 6 -width 8 -nets {VSS VDD}
+[04/07 15:13:34     59s] #% Begin addStripe (date=04/07 15:13:34, mem=1510.6M)
+[04/07 15:13:34     59s] 
+[04/07 15:13:34     59s] Initialize fgc environment(mem: 1742.3M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1742.3M)
+[04/07 15:13:34     59s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1742.3M)
+[04/07 15:13:34     59s] Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1742.3M)
+[04/07 15:13:34     59s] Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1742.3M)
+[04/07 15:13:34     59s] Starting stripe generation ...
+[04/07 15:13:34     59s] Non-Default Mode Option Settings :
+[04/07 15:13:34     59s]   NONE
+[04/07 15:13:34     59s] **WARN: (IMPPP-4055):	The run time of addStripe will degrade with multiple cpu setting according to the number of stripe sets, ignore the setting of setMultiCpuUsage in addStripe.
+[04/07 15:13:34     59s] Type 'man IMPPP-4055' for more detail.
+[04/07 15:13:34     59s] Stripe generation is complete.
+[04/07 15:13:34     59s] vias are now being generated.
+[04/07 15:13:34     59s] addStripe created 2 wires.
+[04/07 15:13:34     59s] ViaGen created 20 vias, deleted 0 via to avoid violation.
+[04/07 15:13:34     59s] +--------+----------------+----------------+
+[04/07 15:13:34     59s] |  Layer |     Created    |     Deleted    |
+[04/07 15:13:34     59s] +--------+----------------+----------------+
+[04/07 15:13:34     59s] |  Via1  |        4       |        0       |
+[04/07 15:13:34     59s] |  Via2  |        4       |        0       |
+[04/07 15:13:34     59s] |  Via3  |        4       |        0       |
+[04/07 15:13:34     59s] |  Via4  |        4       |        0       |
+[04/07 15:13:34     59s] |  Via5  |        4       |        0       |
+[04/07 15:13:34     59s] | Metal6 |        2       |       NA       |
+[04/07 15:13:34     59s] +--------+----------------+----------------+
+[04/07 15:13:34     59s] #% End addStripe (date=04/07 15:13:34, total cpu=0:00:00.1, real=0:00:00.0, peak res=1511.0M, current mem=1511.0M)
+[04/07 15:13:34     59s] <CMD> globalNetConnect VDD -type pgpin -pin VDD -inst *
+[04/07 15:13:34     59s] <CMD> globalNetConnect VSS -type pgpin -pin VSS -inst *
+[04/07 15:13:34     59s] <CMD> globalNetConnect VDD -type tiehi
+[04/07 15:13:34     59s] <CMD> globalNetConnect VSS -type tielo
+[04/07 15:13:34     59s] <CMD> sroute -nets { VDD VSS } -connect { blockPin }
+[04/07 15:13:35     59s] #% Begin sroute (date=04/07 15:13:34, mem=1511.0M)
+[04/07 15:13:35     59s] *** Begin SPECIAL ROUTE on Tue Apr  7 15:13:35 2026 ***
+[04/07 15:13:35     59s] SPECIAL ROUTE ran on directory: /home/nfs/vrameshselvam/final_iteration/pnr
+[04/07 15:13:35     59s] SPECIAL ROUTE ran on machine: et4351.ewi.tudelft.nl (Linux 4.18.0-553.111.1.el8_10.x86_64 x86_64 2.00Ghz)
+[04/07 15:13:35     59s] 
+[04/07 15:13:35     59s] Begin option processing ...
+[04/07 15:13:35     59s] srouteConnectPowerBump set to false
+[04/07 15:13:35     59s] routeSelectNet set to "VDD VSS"
+[04/07 15:13:35     59s] routeSpecial set to true
+[04/07 15:13:35     59s] srouteConnectConverterPin set to false
+[04/07 15:13:35     59s] srouteConnectCorePin set to false
+[04/07 15:13:35     59s] srouteConnectPadPin set to false
+[04/07 15:13:35     59s] srouteConnectStripe set to false
+[04/07 15:13:35     59s] srouteFollowCorePinEnd set to 3
+[04/07 15:13:35     59s] srouteFollowPadPin set to false
+[04/07 15:13:35     59s] srouteJogControl set to "preferWithChanges differentLayer"
+[04/07 15:13:35     59s] sroutePadPinAllPorts set to true
+[04/07 15:13:35     59s] sroutePreserveExistingRoutes set to true
+[04/07 15:13:35     59s] srouteRoutePowerBarPortOnBothDir set to true
+[04/07 15:13:35     59s] End option processing: cpu: 0:00:00, real: 0:00:00, peak: 2983.00 megs.
+[04/07 15:13:35     59s] 
+[04/07 15:13:35     59s] Reading DB technology information...
+[04/07 15:13:35     59s] Finished reading DB technology information.
+[04/07 15:13:35     59s] Reading floorplan and netlist information...
+[04/07 15:13:35     59s] Finished reading floorplan and netlist information.
+[04/07 15:13:35     59s] **WARN: (IMPSR-4302):	Cap-table/qrcTechFile is found in the design, so the same information from the technology file will be ignored.
+[04/07 15:13:35     59s] Read in 24 layers, 11 routing layers, 1 overlap layer
+[04/07 15:13:35     59s] Read in 2 nondefault rules, 0 used
+[04/07 15:13:35     59s] Read in 143 macros, 143 used
+[04/07 15:13:35     59s] Read in 146 components
+[04/07 15:13:35     59s]   142 core components: 142 unplaced, 0 placed, 0 fixed
+[04/07 15:13:35     59s]   4 block/ring components: 0 unplaced, 0 placed, 4 fixed
+[04/07 15:13:35     59s] Read in 10 physical pins
+[04/07 15:13:35     59s]   10 physical pins: 0 unplaced, 0 placed, 10 fixed
+[04/07 15:13:35     59s] Read in 5 blockages
+[04/07 15:13:35     59s] Read in 10 nets
+[04/07 15:13:35     59s] Read in 2 special nets, 2 routed
+[04/07 15:13:35     59s] Read in 302 terminals
+[04/07 15:13:35     59s] 2 nets selected.
+[04/07 15:13:35     59s] 
+[04/07 15:13:35     59s] Begin power routing ...
+[04/07 15:13:35     59s]   Number of Block ports routed: 164
+[04/07 15:13:35     59s]   Number of Power Bump ports routed: 0
+[04/07 15:13:35     59s] End power routing: cpu: 0:00:00, real: 0:00:00, peak: 2985.00 megs.
+[04/07 15:13:35     59s] 
+[04/07 15:13:35     59s] 
+[04/07 15:13:35     59s] 
+[04/07 15:13:35     59s]  Begin updating DB with routing results ...
+[04/07 15:13:35     59s]  Updating DB with 10 io pins ...
+[04/07 15:13:35     59s]  Updating DB with 0 via definition ...Extracting standard cell pins and blockage ...... 
+[04/07 15:13:35     59s] Pin and blockage extraction finished
+[04/07 15:13:35     59s] 
+[04/07 15:13:35     59s] sroute created 164 wires.
+[04/07 15:13:35     59s] ViaGen created 408 vias, deleted 0 via to avoid violation.
+[04/07 15:13:35     59s] +--------+----------------+----------------+
+[04/07 15:13:35     59s] |  Layer |     Created    |     Deleted    |
+[04/07 15:13:35     59s] +--------+----------------+----------------+
+[04/07 15:13:35     59s] |  Via1  |       164      |        0       |
+[04/07 15:13:35     59s] | Metal2 |       84       |       NA       |
+[04/07 15:13:35     59s] |  Via2  |       164      |        0       |
+[04/07 15:13:35     59s] |  Via3  |       80       |        0       |
+[04/07 15:13:35     59s] | Metal4 |       80       |       NA       |
+[04/07 15:13:35     59s] +--------+----------------+----------------+
+[04/07 15:13:35     59s] #% End sroute (date=04/07 15:13:35, total cpu=0:00:00.3, real=0:00:00.0, peak res=1520.0M, current mem=1520.0M)
+[04/07 15:13:35     59s] <CMD> addStripe -number_of_sets 8 -start_from bottom -start 70 -stop 596 -spacing 2.5 -direction horizontal -layer 7 -width 8 -nets {VSS VDD}
+[04/07 15:13:35     59s] #% Begin addStripe (date=04/07 15:13:35, mem=1520.0M)
+[04/07 15:13:35     59s] 
+[04/07 15:13:35     59s] Initialize fgc environment(mem: 1744.6M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1744.6M)
+[04/07 15:13:35     59s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1744.6M)
+[04/07 15:13:35     59s] Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1744.6M)
+[04/07 15:13:35     59s] Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1744.6M)
+[04/07 15:13:35     59s] Starting stripe generation ...
+[04/07 15:13:35     59s] Non-Default Mode Option Settings :
+[04/07 15:13:35     59s]   NONE
+[04/07 15:13:35     59s] **WARN: (IMPPP-4055):	The run time of addStripe will degrade with multiple cpu setting according to the number of stripe sets, ignore the setting of setMultiCpuUsage in addStripe.
+[04/07 15:13:35     59s] Type 'man IMPPP-4055' for more detail.
+[04/07 15:13:35     59s] Stripe generation is complete.
+[04/07 15:13:35     59s] vias are now being generated.
+[04/07 15:13:35     59s] addStripe created 16 wires.
+[04/07 15:13:35     59s] ViaGen created 176 vias, deleted 0 via to avoid violation.
+[04/07 15:13:35     59s] +--------+----------------+----------------+
+[04/07 15:13:35     59s] |  Layer |     Created    |     Deleted    |
+[04/07 15:13:35     59s] +--------+----------------+----------------+
+[04/07 15:13:35     59s] |  Via2  |       32       |        0       |
+[04/07 15:13:35     59s] |  Via3  |       32       |        0       |
+[04/07 15:13:35     59s] |  Via4  |       32       |        0       |
+[04/07 15:13:35     59s] |  Via5  |       32       |        0       |
+[04/07 15:13:35     59s] |  Via6  |       48       |        0       |
+[04/07 15:13:35     59s] | Metal7 |       16       |       NA       |
+[04/07 15:13:35     59s] +--------+----------------+----------------+
+[04/07 15:13:35     59s] #% End addStripe (date=04/07 15:13:35, total cpu=0:00:00.1, real=0:00:00.0, peak res=1521.4M, current mem=1521.4M)
+[04/07 15:13:35     59s] <CMD> addStripe -number_of_sets 2 -start_from left -start 70 -stop 155 -spacing 2.5 -direction vertical -layer 8 -width 8 -nets {VSS VDD}
+[04/07 15:13:35     59s] #% Begin addStripe (date=04/07 15:13:35, mem=1521.4M)
+[04/07 15:13:35     59s] 
+[04/07 15:13:35     59s] Initialize fgc environment(mem: 1744.6M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1744.6M)
+[04/07 15:13:35     59s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1744.6M)
+[04/07 15:13:35     59s] Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1744.6M)
+[04/07 15:13:35     59s] Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1744.6M)
+[04/07 15:13:35     59s] Starting stripe generation ...
+[04/07 15:13:35     59s] Non-Default Mode Option Settings :
+[04/07 15:13:35     59s]   NONE
+[04/07 15:13:35     59s] **WARN: (IMPPP-4055):	The run time of addStripe will degrade with multiple cpu setting according to the number of stripe sets, ignore the setting of setMultiCpuUsage in addStripe.
+[04/07 15:13:35     59s] Type 'man IMPPP-4055' for more detail.
+[04/07 15:13:35     60s] Stripe generation is complete.
+[04/07 15:13:35     60s] vias are now being generated.
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal2 at (70.00, 630.45) (70.06, 644.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal2 at (73.04, 630.45) (73.34, 644.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal2 at (74.84, 630.45) (75.14, 644.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal2 at (76.64, 630.45) (76.94, 644.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-610):	The power planner failed to find a matching VIARULE, so no via was created between layer: Metal7 & Metal8, size: 8.00 x 0.30 at (70.03, 630.45).
+[04/07 15:13:35     60s] Type 'man IMPPP-610' for more detail.
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal2 at (137.07, 630.45) (137.38, 644.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal2 at (138.88, 630.45) (139.18, 644.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal2 at (140.68, 630.45) (140.98, 644.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal2 at (142.47, 630.45) (142.77, 644.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal2 at (144.27, 630.45) (144.50, 644.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-612):	The intersection area is insufficient to satisfy MINIMUMCUT rule, so no via was created between layer: Metal7 & Metal8, size: 8.00 x 0.30 at (144.38, 630.45).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal4 at (80.69, 630.45) (80.99, 661.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal4 at (82.49, 630.45) (82.79, 661.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal4 at (84.29, 630.45) (84.59, 661.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal4 at (86.09, 630.45) (86.39, 661.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal4 at (87.89, 630.45) (88.18, 661.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal4 & Metal8 at (87.89, 630.29) (88.18, 630.59).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal4 at (147.00, 630.45) (147.27, 661.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal4 at (151.16, 630.45) (151.46, 661.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal4 at (152.96, 630.45) (153.26, 661.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-532):	ViaGen Warning: The top layer and bottom layer have same direction but only orthogonal via is allowed between layer Metal8 & Metal4 at (154.76, 630.45) (155.00, 661.60).
+[04/07 15:13:35     60s] **WARN: (IMPPP-612):	The intersection area is insufficient to satisfy MINIMUMCUT rule, so no via was created between layer: Metal7 & Metal8, size: 8.00 x 0.30 at (154.88, 630.45).
+[04/07 15:13:35     60s] addStripe created 4 wires.
+[04/07 15:13:35     60s] ViaGen created 116 vias, deleted 54 vias to avoid violation.
+[04/07 15:13:35     60s] +--------+----------------+----------------+
+[04/07 15:13:35     60s] |  Layer |     Created    |     Deleted    |
+[04/07 15:13:35     60s] +--------+----------------+----------------+
+[04/07 15:13:35     60s] |  Via1  |        8       |       22       |
+[04/07 15:13:35     60s] |  Via2  |        8       |       22       |
+[04/07 15:13:35     60s] |  Via3  |        8       |       10       |
+[04/07 15:13:35     60s] |  Via4  |       15       |        0       |
+[04/07 15:13:35     60s] |  Via5  |       15       |        0       |
+[04/07 15:13:35     60s] |  Via6  |       15       |        0       |
+[04/07 15:13:35     60s] |  Via7  |       47       |        0       |
+[04/07 15:13:35     60s] | Metal8 |        4       |       NA       |
+[04/07 15:13:35     60s] +--------+----------------+----------------+
+[04/07 15:13:35     60s] #% End addStripe (date=04/07 15:13:35, total cpu=0:00:00.2, real=0:00:00.0, peak res=1529.6M, current mem=1529.6M)
+[04/07 15:13:35     60s] <CMD> addStripe -number_of_sets 5 -start_from left -start 240 -stop 596 -spacing 2.5 -direction vertical -layer 8 -width 8 -nets {VSS VDD}
+[04/07 15:13:35     60s] #% Begin addStripe (date=04/07 15:13:35, mem=1529.6M)
+[04/07 15:13:35     60s] 
+[04/07 15:13:35     60s] Initialize fgc environment(mem: 1751.6M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1751.6M)
+[04/07 15:13:35     60s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1751.6M)
+[04/07 15:13:35     60s] Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1751.6M)
+[04/07 15:13:35     60s] Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1751.6M)
+[04/07 15:13:35     60s] Starting stripe generation ...
+[04/07 15:13:35     60s] Non-Default Mode Option Settings :
+[04/07 15:13:35     60s]   NONE
+[04/07 15:13:35     60s] **WARN: (IMPPP-4055):	The run time of addStripe will degrade with multiple cpu setting according to the number of stripe sets, ignore the setting of setMultiCpuUsage in addStripe.
+[04/07 15:13:35     60s] Type 'man IMPPP-4055' for more detail.
+[04/07 15:13:35     60s] Stripe generation is complete.
+[04/07 15:13:35     60s] vias are now being generated.
+[04/07 15:13:35     60s] addStripe created 10 wires.
+[04/07 15:13:35     60s] ViaGen created 220 vias, deleted 0 via to avoid violation.
+[04/07 15:13:35     60s] +--------+----------------+----------------+
+[04/07 15:13:35     60s] |  Layer |     Created    |     Deleted    |
+[04/07 15:13:35     60s] +--------+----------------+----------------+
+[04/07 15:13:35     60s] |  Via1  |       20       |        0       |
+[04/07 15:13:35     60s] |  Via2  |       20       |        0       |
+[04/07 15:13:35     60s] |  Via3  |       20       |        0       |
+[04/07 15:13:35     60s] |  Via4  |       20       |        0       |
+[04/07 15:13:35     60s] |  Via5  |       20       |        0       |
+[04/07 15:13:35     60s] |  Via6  |       20       |        0       |
+[04/07 15:13:35     60s] |  Via7  |       100      |        0       |
+[04/07 15:13:35     60s] | Metal8 |       10       |       NA       |
+[04/07 15:13:35     60s] +--------+----------------+----------------+
+[04/07 15:13:35     60s] #% End addStripe (date=04/07 15:13:35, total cpu=0:00:00.1, real=0:00:00.0, peak res=1529.6M, current mem=1529.6M)
+[04/07 15:13:35     60s] <CMD> sroute -nets { VDD VSS } -connect { corePin }
+[04/07 15:13:35     60s] #% Begin sroute (date=04/07 15:13:35, mem=1529.6M)
+[04/07 15:13:35     60s] *** Begin SPECIAL ROUTE on Tue Apr  7 15:13:35 2026 ***
+[04/07 15:13:35     60s] SPECIAL ROUTE ran on directory: /home/nfs/vrameshselvam/final_iteration/pnr
+[04/07 15:13:35     60s] SPECIAL ROUTE ran on machine: et4351.ewi.tudelft.nl (Linux 4.18.0-553.111.1.el8_10.x86_64 x86_64 2.00Ghz)
+[04/07 15:13:35     60s] 
+[04/07 15:13:35     60s] Begin option processing ...
+[04/07 15:13:35     60s] srouteConnectPowerBump set to false
+[04/07 15:13:35     60s] routeSelectNet set to "VDD VSS"
+[04/07 15:13:35     60s] routeSpecial set to true
+[04/07 15:13:35     60s] srouteConnectBlockPin set to false
+[04/07 15:13:35     60s] srouteConnectConverterPin set to false
+[04/07 15:13:35     60s] srouteConnectPadPin set to false
+[04/07 15:13:35     60s] srouteConnectStripe set to false
+[04/07 15:13:35     60s] srouteFollowCorePinEnd set to 3
+[04/07 15:13:35     60s] srouteFollowPadPin set to false
+[04/07 15:13:35     60s] srouteJogControl set to "preferWithChanges differentLayer"
+[04/07 15:13:35     60s] sroutePadPinAllPorts set to true
+[04/07 15:13:35     60s] sroutePreserveExistingRoutes set to true
+[04/07 15:13:35     60s] srouteRoutePowerBarPortOnBothDir set to true
+[04/07 15:13:35     60s] End option processing: cpu: 0:00:00, real: 0:00:00, peak: 2992.00 megs.
+[04/07 15:13:35     60s] 
+[04/07 15:13:35     60s] Reading DB technology information...
+[04/07 15:13:36     60s] Finished reading DB technology information.
+[04/07 15:13:36     60s] Reading floorplan and netlist information...
+[04/07 15:13:36     60s] Finished reading floorplan and netlist information.
+[04/07 15:13:36     60s] **WARN: (IMPSR-4302):	Cap-table/qrcTechFile is found in the design, so the same information from the technology file will be ignored.
+[04/07 15:13:36     60s] Read in 24 layers, 11 routing layers, 1 overlap layer
+[04/07 15:13:36     60s] Read in 2 nondefault rules, 0 used
+[04/07 15:13:36     60s] Read in 488 macros, 143 used
+[04/07 15:13:36     60s] Read in 146 components
+[04/07 15:13:36     60s]   142 core components: 142 unplaced, 0 placed, 0 fixed
+[04/07 15:13:36     60s]   4 block/ring components: 0 unplaced, 0 placed, 4 fixed
+[04/07 15:13:36     60s] Read in 10 physical pins
+[04/07 15:13:36     60s]   10 physical pins: 0 unplaced, 0 placed, 10 fixed
+[04/07 15:13:36     60s] Read in 5 blockages
+[04/07 15:13:36     60s] Read in 10 nets
+[04/07 15:13:36     60s] Read in 2 special nets, 2 routed
+[04/07 15:13:36     60s] Read in 302 terminals
+[04/07 15:13:36     60s] 2 nets selected.
+[04/07 15:13:36     60s] 
+[04/07 15:13:36     60s] Begin power routing ...
+[04/07 15:13:36     60s] CPU time for VDD FollowPin 0 seconds
+[04/07 15:13:36     60s] **WARN: (IMPPP-531):	ViaGen Warning: Due to SPACING rule violation, viaGen fail to generate via on layer Via6 at (240.00, 576.21) (248.00, 576.25).
+[04/07 15:13:36     60s] **WARN: (IMPPP-531):	ViaGen Warning: Due to SPACING rule violation, viaGen fail to generate via on layer Via6 at (324.38, 576.21) (332.38, 576.25).
+[04/07 15:13:36     60s] **WARN: (IMPPP-531):	ViaGen Warning: Due to SPACING rule violation, viaGen fail to generate via on layer Via6 at (408.75, 576.21) (416.75, 576.25).
+[04/07 15:13:36     60s] **WARN: (IMPPP-531):	ViaGen Warning: Due to SPACING rule violation, viaGen fail to generate via on layer Via6 at (493.12, 576.21) (501.12, 576.25).
+[04/07 15:13:36     60s] **WARN: (IMPPP-531):	ViaGen Warning: Due to SPACING rule violation, viaGen fail to generate via on layer Via6 at (577.50, 576.21) (585.50, 576.25).
+[04/07 15:13:36     61s] **WARN: (IMPPP-531):	ViaGen Warning: Due to SPACING rule violation, viaGen fail to generate via on layer Via6 at (70.00, 213.69) (78.00, 213.75).
+[04/07 15:13:36     61s] **WARN: (IMPPP-531):	ViaGen Warning: Due to SPACING rule violation, viaGen fail to generate via on layer Via6 at (136.50, 213.69) (144.50, 213.75).
+[04/07 15:13:36     61s] **WARN: (IMPPP-531):	ViaGen Warning: Due to SPACING rule violation, viaGen fail to generate via on layer Via6 at (240.00, 213.69) (248.00, 213.75).
+[04/07 15:13:36     61s] **WARN: (IMPPP-531):	ViaGen Warning: Due to SPACING rule violation, viaGen fail to generate via on layer Via6 at (324.38, 213.69) (332.38, 213.75).
+[04/07 15:13:36     61s] **WARN: (IMPPP-531):	ViaGen Warning: Due to SPACING rule violation, viaGen fail to generate via on layer Via6 at (408.75, 213.69) (416.75, 213.75).
+[04/07 15:13:36     61s] **WARN: (IMPPP-531):	ViaGen Warning: Due to SPACING rule violation, viaGen fail to generate via on layer Via6 at (493.12, 213.69) (501.12, 213.75).
+[04/07 15:13:36     61s] **WARN: (IMPPP-531):	ViaGen Warning: Due to SPACING rule violation, viaGen fail to generate via on layer Via6 at (577.50, 213.69) (585.50, 213.75).
+[04/07 15:13:36     61s] CPU time for VSS FollowPin 0 seconds
+[04/07 15:13:37     61s]   Number of Core ports routed: 698
+[04/07 15:13:37     61s]   Number of Followpin connections: 349
+[04/07 15:13:37     61s] End power routing: cpu: 0:00:01, real: 0:00:01, peak: 3026.00 megs.
+[04/07 15:13:37     61s] 
+[04/07 15:13:37     61s] 
+[04/07 15:13:37     61s] 
+[04/07 15:13:37     61s]  Begin updating DB with routing results ...
+[04/07 15:13:37     61s]  Updating DB with 10 io pins ...
+[04/07 15:13:37     61s]  Updating DB with 0 via definition ...
+[04/07 15:13:37     61s] sroute created 1047 wires.
+[04/07 15:13:37     61s] ViaGen created 15583 vias, deleted 30 vias to avoid violation.
+[04/07 15:13:37     61s] +--------+----------------+----------------+
+[04/07 15:13:37     61s] |  Layer |     Created    |     Deleted    |
+[04/07 15:13:37     61s] +--------+----------------+----------------+
+[04/07 15:13:37     61s] | Metal1 |      1047      |       NA       |
+[04/07 15:13:37     61s] |  Via1  |      2700      |        0       |
+[04/07 15:13:37     61s] |  Via2  |      2632      |       15       |
+[04/07 15:13:37     61s] |  Via3  |      2632      |       15       |
+[04/07 15:13:37     61s] |  Via4  |      2140      |        0       |
+[04/07 15:13:37     61s] |  Via5  |      2140      |        0       |
+[04/07 15:13:37     61s] |  Via6  |      1791      |        0       |
+[04/07 15:13:37     61s] |  Via7  |      1548      |        0       |
+[04/07 15:13:37     61s] +--------+----------------+----------------+
+[04/07 15:13:37     61s] #% End sroute (date=04/07 15:13:37, total cpu=0:00:01.1, real=0:00:02.0, peak res=1549.0M, current mem=1549.0M)
+[04/07 15:13:37     61s]  
+[04/07 15:13:37     61s] 
+[04/07 15:13:37     61s]  save design 
+[04/07 15:13:37     61s] 
+[04/07 15:13:37     61s] 
+[04/07 15:13:37     61s] <CMD> saveDesign checkpoints/et4351_pplan.enc
+[04/07 15:13:37     61s] #% Begin save design ... (date=04/07 15:13:37, mem=1549.0M)
+[04/07 15:13:37     61s] % Begin Save ccopt configuration ... (date=04/07 15:13:37, mem=1549.0M)
+[04/07 15:13:37     61s] % End Save ccopt configuration ... (date=04/07 15:13:37, total cpu=0:00:00.0, real=0:00:00.0, peak res=1549.0M, current mem=1549.0M)
+[04/07 15:13:37     61s] % Begin Save netlist data ... (date=04/07 15:13:37, mem=1549.0M)
+[04/07 15:13:37     61s] Writing Binary DB to checkpoints/et4351_pplan.enc.dat/vbin/et4351.v.bin in multi-threaded mode...
+[04/07 15:13:37     61s] % End Save netlist data ... (date=04/07 15:13:37, total cpu=0:00:00.2, real=0:00:00.0, peak res=1550.8M, current mem=1550.8M)
+[04/07 15:13:37     61s] Saving symbol-table file in separate thread ...
+[04/07 15:13:37     61s] Saving congestion map file in separate thread ...
+[04/07 15:13:37     61s] Saving congestion map file checkpoints/et4351_pplan.enc.dat/et4351.route.congmap.gz ...
+[04/07 15:13:37     61s] % Begin Save AAE data ... (date=04/07 15:13:37, mem=1550.8M)
+[04/07 15:13:37     61s] Saving AAE Data ...
+[04/07 15:13:37     61s] % End Save AAE data ... (date=04/07 15:13:37, total cpu=0:00:00.0, real=0:00:00.0, peak res=1550.8M, current mem=1550.8M)
+[04/07 15:13:37     61s] Saving preference file checkpoints/et4351_pplan.enc.dat/gui.pref.tcl ...
+[04/07 15:13:37     61s] Saving mode setting ...
+[04/07 15:13:37     61s] Saving global file ...
+[04/07 15:13:38     61s] Saving Drc markers ...
+[04/07 15:13:38     61s] ... 2 markers are saved ...
+[04/07 15:13:38     61s] ... 0 geometry drc markers are saved ...
+[04/07 15:13:38     61s] ... 0 antenna drc markers are saved ...
+[04/07 15:13:38     62s] % Begin Save routing data ... (date=04/07 15:13:38, mem=1551.1M)
+[04/07 15:13:38     62s] Saving route file ...
+[04/07 15:13:39     62s] *** Completed saveRoute (cpu=0:00:00.1 real=0:00:01.0 mem=1786.4M) ***
+[04/07 15:13:39     62s] % End Save routing data ... (date=04/07 15:13:39, total cpu=0:00:00.1, real=0:00:01.0, peak res=1551.2M, current mem=1551.2M)
+[04/07 15:13:39     62s] Saving special route data file in separate thread ...
+[04/07 15:13:39     62s] Saving PG file in separate thread ...
+[04/07 15:13:39     62s] Saving placement file in separate thread ...
+[04/07 15:13:39     62s] ** Saving stdCellPlacement_binary (version# 2) ...
+[04/07 15:13:39     62s] Saving PG file checkpoints/et4351_pplan.enc.dat/et4351.pg.gz, version#2, (Created by Innovus v21.11-s130_1 on Tue Apr  7 15:13:39 2026)
+[04/07 15:13:39     62s] Save Adaptive View Pruning View Names to Binary file
+[04/07 15:13:39     62s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1832.4M) ***
+[04/07 15:13:39     62s] TAT_INFO: ::saveSpecialRoute REAL = 0 : CPU = 0 : MEM = 0.
+[04/07 15:13:39     62s] *** Completed savePGFile (cpu=0:00:00.1 real=0:00:00.0 mem=1824.4M) ***
+[04/07 15:13:39     62s] TAT_INFO: ::savePGFile REAL = 0 : CPU = 0 : MEM = 0.
+[04/07 15:13:39     62s] TAT_INFO: ::savePlace REAL = 0 : CPU = 0 : MEM = 0.
+[04/07 15:13:40     62s] Saving property file checkpoints/et4351_pplan.enc.dat/et4351.prop
+[04/07 15:13:40     62s] *** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1808.4M) ***
+[04/07 15:13:40     62s] Saving preRoute extracted patterns in file 'checkpoints/et4351_pplan.enc.dat/et4351.techData.gz' ...
+[04/07 15:13:40     62s] Saving preRoute extraction data in directory 'checkpoints/et4351_pplan.enc.dat/extraction/' ...
+[04/07 15:13:40     62s] Checksum of RCGrid density data::132
+[04/07 15:13:40     62s] TAT_INFO: ::db::saveSymbolTable REAL = 0 : CPU = 0 : MEM = 0.
+[04/07 15:13:40     62s] TAT_INFO: ::saveCongMap REAL = 0 : CPU = 0 : MEM = 0.
+[04/07 15:13:40     62s] % Begin Save power constraints data ... (date=04/07 15:13:40, mem=1551.5M)
+[04/07 15:13:40     62s] % End Save power constraints data ... (date=04/07 15:13:40, total cpu=0:00:00.0, real=0:00:00.0, peak res=1551.5M, current mem=1551.5M)
+[04/07 15:13:41     62s] Generated self-contained design et4351_pplan.enc.dat
+[04/07 15:13:41     62s] #% End save design ... (date=04/07 15:13:41, total cpu=0:00:01.1, real=0:00:04.0, peak res=1582.0M, current mem=1551.8M)
+[04/07 15:13:41     62s] *** Message Summary: 0 warning(s), 0 error(s)
+[04/07 15:13:41     62s] 
+[04/07 15:13:41     62s] <CMD> fit
+[04/07 15:13:41     62s] 
+[04/07 15:13:41     62s] 
+[04/07 15:13:41     62s] 
+[04/07 15:13:41     62s]  ##############################################################    
+[04/07 15:13:41     62s]  ##                                                                
+[04/07 15:13:41     62s]  ##                        PLACE                                   
+[04/07 15:13:41     62s]  ##                                                                
+[04/07 15:13:41     62s]  ##############################################################    
+[04/07 15:13:41     62s] 
+[04/07 15:13:41     62s] 
+[04/07 15:13:41     62s] 
+[04/07 15:13:41     62s] <CMD> set_power_analysis_mode -report_missing_nets true -corner delay_typ -analysis_view analysis_view_power
+[04/07 15:13:41     62s] <CMD> read_activity_file ../sim_struct/vcd/et4351.struct.vcd -reset -format VCD -scope testbench/dut
+[04/07 15:13:41     62s] ** ERROR: (VOLTUS_POWR-1145): 
+[04/07 15:13:41     62s] File: ../sim_struct/vcd/et4351.struct.vcd 
+[04/07 15:13:41     62s] does NOT exist.
+[04/07 15:13:41     62s] **ERROR: (IMPSYT-6692):	Invalid return code while executing './scripts/pnr.tcl' was returned and script processing was stopped. Review the following error in './scripts/pnr.tcl' then restart.
+[04/07 15:13:41     62s] Error info: ./scripts/pnr.tcl: 
+[04/07 15:13:41     62s]     while executing
+[04/07 15:13:41     62s] "read_activity_file ../sim_struct/vcd/${DESIGN}.struct.vcd -reset -format VCD -scope testbench/dut"
+[04/07 15:13:41     62s]     (file "./scripts/5.place.tcl" line 29)
+[04/07 15:13:41     62s]     invoked from within
+[04/07 15:13:41     62s] "::se_source_orig ./scripts/5.place.tcl"
+[04/07 15:13:41     62s]     ("uplevel" body line 1)
+[04/07 15:13:41     62s]     invoked from within
+[04/07 15:13:41     62s] "uplevel [concat ::se_source_orig $args]"
+[04/07 15:13:41     62s]     (procedure "source" line 186)
+[04/07 15:13:41     62s]     invoked from within
+[04/07 15:13:41     62s] "source ./scripts/5.place.tcl"
+[04/07 15:13:41     62s]     (file "./scripts/pnr.tcl" line 25)
+[04/07 15:13:41     62s]     invoked from within
+[04/07 15:13:41     62s] "::se_source_orig ./scripts/pnr.tcl"
+[04/07 15:13:41     62s]     ("uplevel" body line 1)
+[04/07 15:13:41     62s]     invoked from within
+[04/07 15:13:41     62s] "uplevel [concat ::se_source_orig $args]"
+[04/07 15:13:41     62s]     (procedure "source" line 186)
+[04/07 15:13:41     62s]     invoked from within
+[04/07 15:13:41     62s] "source ./scripts/pnr.tcl"
+[04/07 15:13:41     62s]     ("uplevel" body line 1)
+[04/07 15:13:41     62s]     invoked from within
+[04/07 15:13:41     62s] "uplevel #0 source ./scripts/pnr.tcl"
+[04/07 15:13:41     62s]     ("eval" body line 1)
+[04/07 15:13:41     62s]     invoked from within
+[04/07 15:13:41     62s] "eval {uplevel #0 source ./scripts/pnr.tcl}"
+[04/07 15:13:41     62s]     (in namespace inscope "::" script line 1)
+[04/07 15:13:41     62s]     invoked from within
+[04/07 15:13:41     62s] "namespace inscope :: eval "uplevel #0 source $fileName"".
+[04/07 15:13:41     62s] <CMD> win
+[04/07 15:14:43     67s] 
+[04/07 15:14:43     67s] *** Memory Usage v#1 (Current mem = 2460.812M, initial mem = 326.535M) ***
+[04/07 15:14:43     67s] 
+[04/07 15:14:43     67s] *** Summary of all messages that are not suppressed in this session:
+[04/07 15:14:43     67s] Severity  ID               Count  Summary                                  
+[04/07 15:14:43     67s] WARNING   IMPLF-200            2  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[04/07 15:14:43     67s] WARNING   IMPFP-7238           1  CORE's  corner:	%s  is	NOT on %s. You ca...
+[04/07 15:14:43     67s] WARNING   IMPFP-7236           1  DIE's corner: %s is NOT on %s,  Please u...
+[04/07 15:14:43     67s] WARNING   IMPFP-669            9  IO pin "%s" not found.                   
+[04/07 15:14:43     67s] WARNING   IMPFP-10013          8  Halo should be created around block %s a...
+[04/07 15:14:43     67s] WARNING   IMPFP-325            1  Floorplan of the design is resized. All ...
+[04/07 15:14:43     67s] WARNING   IMPFP-3961           6  The techSite '%s' has no related standar...
+[04/07 15:14:43     67s] WARNING   IMPTS-17             7  Inconsistency detected in the capacitanc...
+[04/07 15:14:43     67s] ERROR     IMPSYT-6692          1  Invalid return code while executing '%s'...
+[04/07 15:14:43     67s] WARNING   IMPPP-531           12  ViaGen Warning: Due to %s rule violation...
+[04/07 15:14:43     67s] WARNING   IMPPP-532           27  ViaGen Warning: The top layer and bottom...
+[04/07 15:14:43     67s] WARNING   IMPPP-610            1  The power planner failed to find a match...
+[04/07 15:14:43     67s] WARNING   IMPPP-612            2  The intersection area is insufficient to...
+[04/07 15:14:43     67s] WARNING   IMPPP-4055           4  The run time of addStripe will degrade w...
+[04/07 15:14:43     67s] WARNING   IMPSR-4302           2  Cap-table/qrcTechFile is found in the de...
+[04/07 15:14:43     67s] WARNING   TCLCMD-513          60  The software could not find a matching o...
+[04/07 15:14:43     67s] ERROR     TCLCMD-917         120  Cannot find '%s' that match '%s'         
+[04/07 15:14:43     67s] WARNING   TCLCMD-1461          2  Skipped unsupported command: %s          
+[04/07 15:14:43     67s] WARNING   TECHLIB-302          2  No function defined for cell '%s'. The c...
+[04/07 15:14:43     67s] WARNING   TECHLIB-1161         9  The library level attribute %s on line %...
+[04/07 15:14:43     67s] *** Message Summary: 156 warning(s), 121 error(s)
+[04/07 15:14:43     67s] 
+[04/07 15:14:43     67s] --- Ending "Innovus" (totcpu=0:01:08, real=0:02:22, mem=2460.8M) ---
