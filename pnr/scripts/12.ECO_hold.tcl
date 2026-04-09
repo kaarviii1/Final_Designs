@@ -73,15 +73,18 @@ ecoRoute
 timeDesign -postRoute -hold \
     -pathReports -slackReports \
     -numPaths 50 \
-    -outDir timingReports/eco_hold
+    -outDir ECO_HOLD/report_timing_hold
 
 timeDesign -postRoute \
     -pathReports -slackReports \
     -numPaths 50 \
-    -outDir timingReports/eco_setup
+    -outDir ECO_HOLD/report_timing
+
+
+read_activity_file ../sim_phys/vcd/${DESIGN}.phys.hold.vcd -reset -format VCD -scope testbench/dut > finalReports/activityReport.rpt
 
 # ---------------------------------------------------------------------------
 # Save
 # ---------------------------------------------------------------------------
 saveDesign checkpoints/${DESIGN}_route_eco.enc
-puts "\n\n ECO hold fix complete. Check timingReports/eco_hold \n\n"
+puts "\n\n ECO hold fix complete. Check finalReports \n\n"

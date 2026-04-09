@@ -34,8 +34,10 @@ catch { setOptMode -usefulSkewCCOpt extreme }
 catch { setPathGroupOptions reg2reg -effortLevel high -weight 2 }
 catch { setPathGroupOptions default -effortLevel low }
 catch { setExtractRCMode  -effortLevel high -engine postRoute -total_c_th 5 -relative_c_th 0.03 -coupling_c_th 3 }
+catch {setNanoRouteMode -quiet -drouteAntennaFactor 1.000000}
 catch {setNanoRouteMode -quiet -drouteEndIteration 30}
 catch {setNanoRouteMode -quiet -drouteFixAntenna true}
+catch {setNanoRouteMode -quiet -droutePostRouteSpreadWire "auto"}
 catch {setNanoRouteMode -quiet -drouteStartIteration 0}
 catch {setNanoRouteMode -quiet -drouteUseLefPinTaperRule true}
 catch {setNanoRouteMode -quiet -drouteUseMinSpacingForBlockage auto}
@@ -53,7 +55,7 @@ catch {setNanoRouteMode -quiet -routeTdrEffort 5}
 catch {setNanoRouteMode -quiet -routeWithSiDriven true}
 catch {setNanoRouteMode -quiet -routeWithSiPostRouteFix false}
 catch {setNanoRouteMode -quiet -routeWithTimingDriven true}
-catch {setNanoRouteMode -quiet -timingEngine ".timing_file_487971.tif.gz"}
+catch {setNanoRouteMode -quiet -timingEngine ".et4351_333822.slk.gz"}
 
 catch { setPlaceMode -place_global_activity_power_driven true }
 catch { setPlaceMode -place_global_activity_power_driven_effort standard }
@@ -62,6 +64,7 @@ catch { setPlaceMode -place_global_solver_effort high }
 catch { setPlaceMode -place_global_timing_effort high }
 catch { setPlaceMode -place_global_uniform_density true }
 catch { setIlmMode -keepHighFanoutPorts true -keepLoopBack false -keepInstInSdc false -keepFlatten true }
+catch { setActiveLogicViewMode -keepHighFanoutCriticalInsts false }
 catch { setUsefulSkewMode -ecoRoute false }
 catch { setDelayCalMode -enable_high_fanout true }
 catch { setDelayCalMode -engine aae }

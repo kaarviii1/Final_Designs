@@ -39306,20 +39306,20 @@
 "object":"/designs/et4351/instances_seq/resetn_sync_int_reg",
 "type":"instance"},
 {"index": "1", 
- "date": "Tue Apr 07 14:08:31 UTC 2026",
- "seconds": 1775570911.40206,
+ "date": "Thu Apr 09 16:21:58 UTC 2026",
+ "seconds": 1775751718.717937,
  "netlist": "fv/et4351/fv_map.v.gz", 
  "netlist_exists": "1", 
  "netlist_normalize": "/home/nfs/vrameshselvam/final_iteration/synth/fv/et4351/fv_map.v.gz", 
- "netlist_mtime": "1775570904", 
- "netlist_timestamp": "Tue Apr 07 14:08:24 UTC 2026", 
+ "netlist_mtime": "1775751710", 
+ "netlist_timestamp": "Thu Apr 09 16:21:50 UTC 2026", 
  "netlist_size": "464768", 
- "netlist_cksum": "2764563940", 
+ "netlist_cksum": "984977925", 
  "design_name": "et4351", 
  "synth_workdir": "/home/nfs/vrameshselvam/final_iteration/synth", 
  "synthesis_command":"",
  "current_label": "fv_map", 
  "previous_label": "rtl", 
- "write_verif_file_runtime": 7.0213779999999995 
+ "write_verif_file_runtime": 7.937061 
  }
 ]

@@ -1,0 +1,1 @@
+/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/mmmc/views/analysis_view_power/latency.sdc
