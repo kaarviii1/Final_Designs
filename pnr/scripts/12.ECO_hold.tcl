@@ -81,8 +81,6 @@ timeDesign -postRoute \
     -outDir ECO_HOLD/report_timing
 
 
-read_activity_file ../sim_phys/vcd/${DESIGN}.phys.hold.vcd -reset -format VCD -scope testbench/dut > finalReports/activityReport.rpt
-
 # ---------------------------------------------------------------------------
 # Save
 # ---------------------------------------------------------------------------

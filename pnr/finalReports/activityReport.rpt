@@ -1,36 +1,37 @@
+             0V	    VSS
+          1.32V	    VDD
 clk(62.5MHz) CK: assigning clock clk to net clk
 flash_clk(31.25MHz) CK: assigning clock flash_clk to net flash_clk
 Parsing VCD file ../sim_phys/vcd/et4351.phys.hold.vcd
 
 Starting Reading VCD variables
-2026-Apr-09 20:55:25 (2026-Apr-09 18:55:25 GMT)
-2026-Apr-09 20:55:25 (2026-Apr-09 18:55:25 GMT): 10%
-2026-Apr-09 20:55:25 (2026-Apr-09 18:55:25 GMT): 20%
-2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 30%
-2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 40%
-2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 50%
-2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 60%
-2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 70%
-2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 80%
-2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 90%
+2026-Apr-09 23:53:31 (2026-Apr-09 21:53:31 GMT)
+2026-Apr-09 23:53:31 (2026-Apr-09 21:53:31 GMT): 10%
+2026-Apr-09 23:53:31 (2026-Apr-09 21:53:31 GMT): 20%
+2026-Apr-09 23:53:31 (2026-Apr-09 21:53:31 GMT): 30%
+2026-Apr-09 23:53:31 (2026-Apr-09 21:53:31 GMT): 40%
+2026-Apr-09 23:53:31 (2026-Apr-09 21:53:31 GMT): 50%
+2026-Apr-09 23:53:31 (2026-Apr-09 21:53:31 GMT): 60%
+2026-Apr-09 23:53:31 (2026-Apr-09 21:53:31 GMT): 70%
+2026-Apr-09 23:53:31 (2026-Apr-09 21:53:31 GMT): 80%
+2026-Apr-09 23:53:31 (2026-Apr-09 21:53:31 GMT): 90%
 
 Finished Reading VCD variables
-2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT)
-   With this vcd command,  646993 value changes and 6.512e-06 second
+2026-Apr-09 23:53:31 (2026-Apr-09 21:53:31 GMT)
+   With this vcd command,  647313 value changes and 6.512e-06 second
 simulation time were counted for power consumption calculation.
 
   Filename (activity)                    :
 ../sim_phys/vcd/et4351.phys.hold.vcd
-  Names in file that matched to design   : 46104/46108
+  Names in file that matched to design   : 46123/46127
   Annotation coverage for this file
-   (Unique nets matched/Total nets)       : 45986/46004 = 99.9609%
+   (Unique nets matched/Total nets)       : 46004/46004 = 100%
 
   4 nets were found in the VCD file(s) but were not in
   the design.  These nets are listed in the file
 voltus_power_missing_netnames.rpt.
 
-  Total annotation coverage for all files of type VCD: 45986/46004 =
-99.9609%
-  Percent of VCD annotated nets with zero toggles: 25867/46004 = 56.2277%
+  Total annotation coverage for all files of type VCD: 46004/46004 = 100%
+  Percent of VCD annotated nets with zero toggles: 25871/46004 = 56.2364%
 
 'read_activity_file' finished successfully.

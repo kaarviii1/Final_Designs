@@ -28,7 +28,7 @@ source ./scripts/6.cts.tcl
 # suspend
 source ./scripts/7.route.tcl
 # suspend
-#source ./scripts/8.verify.tcl
+source ./scripts/8.verify.tcl
 # suspend
 source ./scripts/12.ECO_hold.tcl
 # suspend

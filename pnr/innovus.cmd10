@@ -1,0 +1,49 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Thu Apr  9 23:38:24 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v21.11-s130_1 (64bit) 08/19/2021 16:59 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 21.11-s130_1 NR210811-1832/21_11-UB (database version 18.20.554) {superthreading v2.14}
+#@(#)CDS: AAE 21.11-s059 (64bit) 08/19/2021 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 21.11-s010_1 () Aug 12 2021 04:17:41 ( )
+#@(#)CDS: SYNTECH 21.11-s003_1 () Aug  4 2021 01:23:26 ( )
+#@(#)CDS: CPE v21.11-s010
+#@(#)CDS: IQuantus/TQuantus 20.1.2-s578 (64bit) Fri Jul 9 11:48:16 PDT 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+setMessageLimit 1 ENCLF 45
+setMessageLimit 1 ENCLF 119
+setMessageLimit 1 ENCLF 200
+setMessageLimit 1 ENCLF 201
+setMessageLimit 10 IMPDB 2078
+setMessageLimit 10 IMPDC 348
+setMultiCpuUsage -localCpu 4 -cpuPerRemoteHost 4 -remoteHost 1 -keepLicense true
+restoreDesign ./checkpoints/et4351_done.enc.dat et4351
+setDrawView place
+fit
+set_power_analysis_mode -report_missing_nets true -corner delay_typ -analysis_view analysis_view_power
+read_activity_file ../sim_phys/vcd/et4351.phys.hold.vcd -reset -format VCD -scope testbench/dut
+propagate_activity
+report_power -hierarchy all -outfile finalReports/report_power_postRouteVCD.rpt
+read_activity_file ../sim_phys/vcd/et4351.phys.hold.vcd -reset -format VCD -scope testbench/dut > finalReports/activityReport.rpt
+clearDrc
+verifyConnectivity -type all -error 1000 -warning 50 -report verifyReports/verifyConnectivity.rpt
+verify_drc -limit 1000 -report verifyReports/verify_drc.rpt
+verifyProcessAntenna -error 1000 -reportfile verifyReports/verifyProcessAntenna.rpt
+saveDrc /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/vergQTmpRknZJA/qthread_src.drc
+clearDrc
+saveDrc /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/vergQTmpRknZJA/qthread_0.drc
+saveDrc /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/vergQTmpRknZJA/qthread_2.drc
+saveDrc /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/vergQTmpRknZJA/qthread_3.drc
+saveDrc /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/vergQTmpRknZJA/qthread_1.drc
+saveDrc /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/vergQTmp6W0sKu/qthread_src.drc
+clearDrc
+saveDrc /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/vergQTmp6W0sKu/qthread_2.drc
+saveDrc /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/vergQTmp6W0sKu/qthread_0.drc
+saveDrc /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/vergQTmp6W0sKu/qthread_3.drc
+saveDrc /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/vergQTmp6W0sKu/qthread_1.drc

@@ -3150,3 +3150,8 @@ Custom Box                             0
 Trim Metal                             0
 
 ######Streamout is finished!
+
+*** Memory Usage v#1 (Current mem = 3881.102M, initial mem = 318.535M) ***
+*** Message Summary: 155 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:29:56, real=0:37:26, mem=3881.1M) ---

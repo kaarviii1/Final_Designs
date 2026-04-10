@@ -1,5 +1,5 @@
 # vsim testbench -c -do "./scripts/run_vcd_hold.cmd" -t 1ns -sdfmin "/testbench/dut=../pnr/outputs/et4351.phys.sdf" "+nosdferror" -v2k_int_delays "+nosdfwarn" "+firmware=../firmware/accel_audio.hex" "+fft_data=../firmware/fft_data.hex" 
-# Start time: 19:38:20 on Apr 09,2026
+# Start time: 23:33:31 on Apr 09,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # //  Questa Sim-64
 # //  Version 2020.4 linux_x86_64 Oct 13 2020
@@ -335,6 +335,8 @@
 #    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/soc/simpleuart/send_divcnt_reg_27_
 # ** Warning: (vsim-3448) /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/verilog/fast_vdd1v2_basicCells_lvt.v(3198): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
 #    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/soc/simpleuart/send_divcnt_reg_29_
+# ** Warning: (vsim-3448) /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/verilog/fast_vdd1v2_basicCells_lvt.v(3474): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/soc/simpleuart/send_pattern_reg_0_
 # ** Warning: (vsim-3448) /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/verilog/fast_vdd1v2_basicCells_lvt.v(3331): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
 #    Time: 0 ns  Iteration: 0  Instance: /testbench/dut/soc/simpleuart/cfg_divider_reg_22_
 # ** Warning: (vsim-3448) /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/verilog/fast_vdd1v2_basicCells_lvt.v(3331): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
@@ -477,5 +479,5 @@
 ##################################################
 # ** Note: $finish    : ../src/testbench/tb_et4351.sv(182)
 #    Time: 23613328 ns  Iteration: 1  Instance: /testbench
-# End time: 19:39:32 on Apr 09,2026, Elapsed time: 0:01:12
-# Errors: 0, Warnings: 113
+# End time: 23:34:42 on Apr 09,2026, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 114

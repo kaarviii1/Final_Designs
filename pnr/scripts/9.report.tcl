@@ -36,4 +36,5 @@ setDelayCalMode -reset -siMode
 timeDesign -postRoute -pathReports -slackReports -numPaths 50 -outDir finalReports/report_timing
 timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -outDir finalReports/report_timing_hold
 timeDesign -postRoute -drvReports -numPaths 500 -outDir finalReports/report_DRV
-report_noise -bumpy_waveform -output_file finalReports/bumpyWaves.rpt 
+report_noise -bumpy_waveform -output_file finalReports/bumpyWaves.rpt
+
