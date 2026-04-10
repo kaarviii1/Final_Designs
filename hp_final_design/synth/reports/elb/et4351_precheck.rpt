@@ -1,0 +1,940 @@
+
+ 	 Check Design Report (c)
+	 ------------------- 
+No subdesign's name is greater than 1.5k in length.
+
+ Feedthrough Module(s)
+ -------------------------
+No feed through module in 'et4351'
+
+  Unresolved References & Empty Modules
+  ------------------------------------- 
+No unresolved references in design 'et4351'
+
+No empty modules in design 'et4351'
+
+ Unloaded Pin(s), Port(s)
+ -------------------------
+No unloaded sequential element in 'et4351'
+
+No unloaded port in 'et4351'
+
+ Unloaded Combinational Pin(s)
+ -------------------------------
+design 'et4351' has the following unloaded combinational elements
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/DPOPT_INTERNAL_INSTi/instances_comb/g1702/pins_out/z
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/DPOPT_INTERNAL_INSTi1587/instances_comb/g1703/pins_out/z
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/DPOPT_INTERNAL_INSTi1588/instances_comb/g1769/pins_out/z
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/DPOPT_INTERNAL_INSTi1589/instances_comb/g1770/pins_out/z
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/DPOPT_INTERNAL_INSTi1590/instances_comb/g1771/pins_out/z
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/DPOPT_INTERNAL_INSTi1591/instances_comb/g1772/pins_out/z
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/DPOPT_INTERNAL_INSTi1592/instances_comb/g1773/pins_out/z
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/DPOPT_INTERNAL_INSTi1593/instances_comb/g1774/pins_out/z
+Total number of unloaded combinational elements in design 'et4351' : 8
+
+ Assigns
+ ------- 
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_wstrb[2]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_wstrb[1]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_wstrb[0]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[31]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[30]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[29]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[28]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[27]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[26]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[25]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[24]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[23]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[22]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[21]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[20]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[19]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[18]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[17]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[16]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[15]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[14]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[13]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[12]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[11]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[10]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[9]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[8]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[7]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/subports_out/accel_mem_addr[6]' in module accelerator_fft_LOG_MAX_N32_MEM_WIDTH32_ADDR_WIDTH6
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/add_72_49/subports_out/Z[2]' in module add_unsigned_2052
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/add_72_49/subports_out/Z[1]' in module add_unsigned_2052
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/add_72_49/subports_out/Z[0]' in module add_unsigned_2052
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/add_1312_30/subports_out/Z[0]' in module add_unsigned_2082
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/ADD_UNS_OP/subports_out/Z[0]' in module add_unsigned_252_7
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/subports_out/Z[0]' in module add_unsigned_carry_15060
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_96_27/subports_out/Z[0]' in module add_unsigned_carry_15062
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_3_/subports_out/soc_i' in module bidir_buf
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_3_/subports_out/io' in module bidir_buf
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_0_/subports_out/soc_i' in module bidir_buf_2098
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_0_/subports_out/io' in module bidir_buf_2098
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_1_/subports_out/soc_i' in module bidir_buf_2099
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_1_/subports_out/io' in module bidir_buf_2099
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_2_/subports_out/soc_i' in module bidir_buf_2100
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_2_/subports_out/io' in module bidir_buf_2100
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_255_48/subports_out/out_0[1]' in module csa_tree_12232
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_255_48/subports_out/out_0[0]' in module csa_tree_12232
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_255_48/subports_out/out_1[0]' in module csa_tree_12232
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_mul_293_28_Y_mul_279_31/subports_out/out_0[33]' in module csa_tree_45930
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_mul_293_28_Y_mul_279_31/subports_out/out_1[33]' in module csa_tree_45930
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_mul_293_28_Y_mul_279_31/subports_out/out_1[0]' in module csa_tree_45930
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_mul_295_33/subports_out/out_0[33]' in module csa_tree_45930_2327
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_mul_295_33/subports_out/out_1[33]' in module csa_tree_45930_2327
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_mul_295_33/subports_out/out_1[0]' in module csa_tree_45930_2327
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_280_40_Y_add_294_39_groupi/subports_out/out_0[11]' in module csa_tree_add_280_40_Y_add_294_39_group_29
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_280_40_Y_add_294_39_groupi/subports_out/out_0[10]' in module csa_tree_add_280_40_Y_add_294_39_group_29
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_280_40_Y_add_294_39_groupi/subports_out/out_0[9]' in module csa_tree_add_280_40_Y_add_294_39_group_29
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_280_40_Y_add_294_39_groupi/subports_out/out_0[8]' in module csa_tree_add_280_40_Y_add_294_39_group_29
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_280_40_Y_add_294_39_groupi/subports_out/out_0[7]' in module csa_tree_add_280_40_Y_add_294_39_group_29
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_280_40_Y_add_294_39_groupi/subports_out/out_0[6]' in module csa_tree_add_280_40_Y_add_294_39_group_29
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_280_40_Y_add_294_39_groupi/subports_out/out_0[5]' in module csa_tree_add_280_40_Y_add_294_39_group_29
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_280_40_Y_add_294_39_groupi/subports_out/out_0[4]' in module csa_tree_add_280_40_Y_add_294_39_group_29
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_280_40_Y_add_294_39_groupi/subports_out/out_0[3]' in module csa_tree_add_280_40_Y_add_294_39_group_29
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_280_40_Y_add_294_39_groupi/subports_out/out_0[2]' in module csa_tree_add_280_40_Y_add_294_39_group_29
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_280_40_Y_add_294_39_groupi/subports_out/out_0[1]' in module csa_tree_add_280_40_Y_add_294_39_group_29
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_280_40_Y_add_294_39_groupi/subports_out/out_0[0]' in module csa_tree_add_280_40_Y_add_294_39_group_29
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_296_46_groupi/subports_out/out_0[11]' in module csa_tree_add_296_46_group_27
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_296_46_groupi/subports_out/out_0[10]' in module csa_tree_add_296_46_group_27
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_296_46_groupi/subports_out/out_0[9]' in module csa_tree_add_296_46_group_27
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_296_46_groupi/subports_out/out_0[8]' in module csa_tree_add_296_46_group_27
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_296_46_groupi/subports_out/out_0[7]' in module csa_tree_add_296_46_group_27
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_296_46_groupi/subports_out/out_0[6]' in module csa_tree_add_296_46_group_27
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_296_46_groupi/subports_out/out_0[5]' in module csa_tree_add_296_46_group_27
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_296_46_groupi/subports_out/out_0[4]' in module csa_tree_add_296_46_group_27
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_296_46_groupi/subports_out/out_0[3]' in module csa_tree_add_296_46_group_27
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_296_46_groupi/subports_out/out_0[2]' in module csa_tree_add_296_46_group_27
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_296_46_groupi/subports_out/out_0[1]' in module csa_tree_add_296_46_group_27
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_296_46_groupi/subports_out/out_0[0]' in module csa_tree_add_296_46_group_27
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/dec_sub_267_32/subports_out/Z[0]' in module decrement_unsigned_15055_48280
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/dec_sub_1854_23/subports_out/Z[0]' in module decrement_unsigned_479_1759
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/instances_hier/dec_sub_2317_31/subports_out/Z[0]' in module decrement_unsigned_48501_49015
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/instances_hier/dec_sub_132_32/subports_out/Z[0]' in module decrement_unsigned_49431_49610
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/dec_sub_1428_51/subports_out/Z[0]' in module decrement_unsigned_49431_50520
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/dec_sub_1445_19/subports_out/Z[0]' in module decrement_unsigned_766_1758
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/inc_add_97_29/subports_out/Z[0]' in module increment_unsigned_15058_48283
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/inc_add_1568_34/subports_out/Z[0]' in module increment_unsigned_478_1764
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/instances_hier/inc_add_99_32/subports_out/Z[0]' in module increment_unsigned_49432_49614
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/instances_hier/inc_add_118_40/subports_out/Z[0]' in module increment_unsigned_49461_49613
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trap' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_instr' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_addr[1]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_addr[0]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_read' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_write' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[31]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[30]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[29]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[28]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[27]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[26]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[25]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[24]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[23]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[22]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[21]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[20]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[19]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[18]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[17]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[16]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[15]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[14]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[13]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[12]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[11]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[10]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[9]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[8]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[7]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[6]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[5]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[4]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[3]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[2]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[1]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_addr[0]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[31]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[30]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[29]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[28]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[27]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[26]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[25]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[24]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[23]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[22]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[21]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[20]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[19]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[18]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[17]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[16]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[15]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[14]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[13]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[12]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[11]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[10]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[9]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[8]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[7]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[6]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[5]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[4]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[3]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[2]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[1]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wdata[0]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wstrb[3]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wstrb[2]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wstrb[1]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/mem_la_wstrb[0]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_valid' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[31]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[30]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[29]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[28]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[27]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[26]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[25]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[24]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[23]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[22]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[21]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[20]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[19]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[18]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[17]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[16]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[15]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[14]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[13]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[12]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[11]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[10]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[9]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[8]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[7]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[6]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[5]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[4]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[3]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[2]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[1]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_insn[0]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[31]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[30]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[29]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[28]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[27]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[26]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[25]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[24]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[23]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[22]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[21]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[20]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[19]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[18]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[17]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[16]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[15]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[14]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[13]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[12]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[11]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[10]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[9]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[8]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[7]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[6]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[5]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[4]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[3]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[2]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[1]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs1[0]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[31]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[30]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[29]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[28]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[27]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[26]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[25]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[24]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[23]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[22]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[21]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[20]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[19]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[18]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[17]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[16]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[15]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[14]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[13]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[12]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[11]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[10]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[9]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[8]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[7]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[6]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[5]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[4]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[3]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[2]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[1]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/pcpi_rs2[0]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[31]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[30]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[29]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[28]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[27]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[26]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[25]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[24]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[23]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[22]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[21]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[20]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[19]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[18]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[17]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[16]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[15]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[14]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[13]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[12]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[11]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[10]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[9]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[8]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[7]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[6]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[5]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[4]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[3]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[2]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[1]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/eoi[0]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_valid' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[35]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[34]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[33]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[32]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[31]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[30]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[29]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[28]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[27]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[26]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[25]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[24]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[23]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[22]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[21]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[20]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[19]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[18]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[17]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[16]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[15]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[14]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[13]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[12]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[11]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[10]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[9]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[8]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[7]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[6]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[5]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[4]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[3]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[2]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[1]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/subports_out/trace_data[0]' in module picorv32_ENABLE_COUNTERS1_BARREL_SHIFTER1_COMPRESSED_ISA1_ENABLE_MUL1_ENABLE_FAST_MUL0_ENABLE_DIV1_ENABLE_IRQ1_ENABLE_IRQ_QREGS0_PROGADDR_RESET1048576_PROGADDR_IRQ0_STACKADDR1024
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/subports_out/pcpi_ready' in module picorv32_pcpi_div
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/subports_out/pcpi_ready' in module picorv32_pcpi_mul
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/subports_out/iomem_addr[1]' in module picosoc
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/subports_out/iomem_addr[0]' in module picosoc
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[30]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[29]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[28]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[27]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[26]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[25]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[24]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[23]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[22]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[21]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[20]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[19]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[18]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[17]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[16]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[15]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[14]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[13]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[12]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[11]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[10]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[9]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/simpleuart/subports_out/reg_dat_do[8]' in module simpleuart
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[30]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[29]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[28]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[27]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[26]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[25]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[24]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[23]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[15]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[14]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[13]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[12]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[11]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[10]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[9]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[8]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[7]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[6]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[5]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[4]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[3]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[2]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[1]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/subports_out/cfgreg_do[0]' in module spimemio
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/subports_out/dout_tag[3]' in module spimemio_xfer
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/subports_out/flash_io3_oe' in module spimemio_xfer
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/sub_110_42/subports_out/Z[2]' in module sub_unsigned_2007
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/sub_110_42/subports_out/Z[1]' in module sub_unsigned_2007
+Encountered an assign statement at subport '/designs/et4351/instances_hier/accel/instances_hier/sub_110_42/subports_out/Z[0]' in module sub_unsigned_2007
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_hier/SUB_UNS_OP2/subports_out/Z[0]' in module sub_unsigned_2054
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_hier/sub_504_26/subports_out/Z[1]' in module sub_unsigned_2056
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_hier/sub_504_26/subports_out/Z[0]' in module sub_unsigned_2056
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/sub_1846_23/subports_out/Z[2]' in module sub_unsigned_2060
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/sub_1846_23/subports_out/Z[1]' in module sub_unsigned_2060
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/sub_1846_23/subports_out/Z[0]' in module sub_unsigned_2060
+Encountered an assign statement at subport '/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/instances_hier/minus_2510_60/subports_out/Z[0]' in module sub_unsigned_2093
+Total number of assign statements in design 'et4351' : 390
+
+ Undriven Port(s)/Pin(s)
+ ------------------------
+No undriven combinational pin in 'et4351'
+
+No undriven sequential pin in 'et4351'
+
+No undriven hierarchical pin in 'et4351'
+
+No undriven port in 'et4351'
+
+ Multidriven Port(s)/Pin(s)
+--------------------------
+
+The following combinational pin(s) in design 'et4351' are multidriven
+/designs/et4351/instances_hier/soc/instances_comb/g870/pins_in/in_1
+/designs/et4351/instances_hier/soc/instances_comb/g877/pins_in/in_1
+/designs/et4351/instances_hier/soc/instances_comb/g884/pins_in/in_1
+/designs/et4351/instances_hier/soc/instances_comb/g891/pins_in/in_1
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_comb/g1939/pins_in/in_1
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_comb/g1944/pins_in/in_1
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_comb/g1948/pins_in/in_1
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_comb/g1949/pins_in/in_1
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_comb/g1978/pins_in/in_1
+Total number of combinational multidriven pin(s) in design 'et4351' : 9
+
+No multidriven sequential pin in 'et4351'
+
+No multidriven hierarchical pin in 'et4351'
+
+No multidriven ports in 'et4351'
+
+No multidriven unloaded nets in 'et4351'
+
+  Constant Pin(s)
+  ----------------
+design 'et4351' has the following constant input combinational pin(s)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/DPOPT_INTERNAL_INSTi1589/instances_comb/g1754/pins_in/in_1
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/DPOPT_INTERNAL_INSTi1590/instances_comb/g1755/pins_in/in_1
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/DPOPT_INTERNAL_INSTi1592/instances_comb/g1757/pins_in/in_1
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/DPOPT_INTERNAL_INSTi1593/instances_comb/g1758/pins_in/in_1
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/g9351/pins_in/in_1
+Total number of constant combinational pins in design 'et4351' : 5
+
+design 'et4351' has the following constant input sequential pin(s)
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_0/pins_in/CSB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_0/pins_in/OEB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_1/pins_in/CSB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_1/pins_in/OEB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_2/pins_in/CSB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_2/pins_in/OEB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_3/pins_in/CSB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_3/pins_in/OEB
+Total number of constant sequential pins in design 'et4351' : 8
+
+design 'et4351' has the following constant input hierarchical pin(s)
+/designs/et4351/instances_hier/accel/pins_in/iomem_addr[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/pins_in/iomem_addr[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/pins_in/irq_5 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/pins_in/irq_6 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/pins_in/irq_7 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/pins_in/resetn 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/gte_103_81/pins_in/A[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/gte_103_81/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/gte_103_81/pins_in/B[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/gte_103_81/pins_in/B[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/gte_103_81/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/lt_102_82/pins_in/A[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/lt_102_82/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/lt_102_82/pins_in/B[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/lt_102_82/pins_in/B[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/lt_102_82/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/sub_110_42/pins_in/A[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/sub_110_42/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/sub_110_42/pins_in/B[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/sub_110_42/pins_in/B[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/sub_110_42/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_add_255_48/pins_in/in_0[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[30] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[29] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[28] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[27] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[26] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[25] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_92_44_groupi/pins_in/in_1[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_93_42_groupi/pins_in/in_0[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_eq_93_42_groupi/pins_in/in_1[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_minus_287_47_Y_sub_295_46_groupi/pins_in/in_0[32] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_minus_287_47_Y_sub_295_46_groupi/pins_in/in_1[32] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_minus_287_47_Y_sub_295_46_groupi/pins_in/in_2[32] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_minus_287_47_Y_sub_295_46_groupi/pins_in/in_3[32] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_sub_279_40_Y_minus_286_46_Y_sub_293_39_groupi/pins_in/in_0[32] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_sub_279_40_Y_minus_286_46_Y_sub_293_39_groupi/pins_in/in_1[32] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_sub_279_40_Y_minus_286_46_Y_sub_293_39_groupi/pins_in/in_2[32] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/csa_tree_sub_279_40_Y_minus_286_46_Y_sub_293_39_groupi/pins_in/in_3[32] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/dec_sub_267_32/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[30] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[29] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[28] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[27] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[26] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[25] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_95_21/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_96_27/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_96_27/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/final_adder_add_96_27/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/inc_add_97_29/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/lte_98_29/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/lte_98_29/pins_in/B[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/lte_98_29/pins_in/B[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_hier/lte_98_29/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/ADD_UNS_OP/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/ADD_UNS_OP/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/add_1312_30/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/add_1312_30/pins_in/B[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/add_1312_30/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/dec_sub_1428_51/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/dec_sub_1445_19/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/dec_sub_1854_23/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/gte_1839_34/pins_in/A[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/gte_1839_34/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/gte_1839_34/pins_in/B[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/gte_1839_34/pins_in/B[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/gte_1839_34/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/inc_add_1435_40/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/inc_add_1568_34/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/sub_1846_23/pins_in/A[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/sub_1846_23/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/sub_1846_23/pins_in/B[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/sub_1846_23/pins_in/B[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/sub_1846_23/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/instances_hier/minus_2510_60/pins_in/A 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/instances_hier/minus_2529_27_Y_minus_2531_27/pins_in/A 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/instances_hier/add_2278_63_I1_I1/pins_in/A[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/instances_hier/dec_sub_2317_31/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_wr 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[31] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[30] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[29] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[28] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[27] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[26] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[25] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_wait 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_ready 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[31] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[30] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[29] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[28] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[27] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[26] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[25] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gt_110_53/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gt_110_53/pins_in/B 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/A[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/A[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/A[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/A[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/A[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/A[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/A[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/B[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/B[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/B[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/B[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/B[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/B[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/B[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/B[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/B[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/B[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/gte_186_34/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[25] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_186_61/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/A[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/A[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/A[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/A[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/A[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/A[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/A[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/B[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/B[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/B[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/B[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/B[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/B[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/B[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/B[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/B[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/B[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/lt_233_52/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[31] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[30] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[29] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[28] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[27] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[26] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[25] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/addr[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/addr[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[30] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[29] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[28] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[27] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[26] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[25] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/instances_hier/dec_sub_132_32/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/instances_hier/gt_84_24/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/instances_hier/gt_84_24/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/instances_hier/inc_add_74_31/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/instances_hier/inc_add_99_32/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/instances_hier/inc_add_118_40/pins_in/CI 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/add_72_49/pins_in/A[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/add_72_49/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/add_72_49/pins_in/B[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/add_72_49/pins_in/B[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/add_72_49/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/pins_in/din_tag[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/pins_in/din_cont 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_hier/SUB_UNS_OP2/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_hier/SUB_UNS_OP2/pins_in/B[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_hier/sub_504_26/pins_in/A[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_hier/sub_504_26/pins_in/A[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_hier/sub_504_26/pins_in/B[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_hier/sub_504_26/pins_in/B[0] 	 (fanout : 0)
+Total number of constant hierarchical pins in design 'et4351' : 388
+
+No constant connected ports in design 'et4351'
+
+  Preserved instances(s)
+  ----------------
+No preserved combinational instance(s) in design 'et4351'
+design 'et4351' has the following preserved sequential instance(s)
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_0
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_1
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_2
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_3
+Total number of preserved sequential instances in design 'et4351' : 4
+No preserved hierarchical instance(s) in design 'et4351'
+
+  Physical only instances(s)
+  ----------------
+No physical only instance(s) in design 'et4351'
+
+  Logical only instance(s) and linked libcells
+    -----------------------------------------
+No logical only instance(s) in design 'et4351'
+
+Libcells with no corresponding LEF
+----------------------------------
+No libcell(s) found.
+
+LEF cells with no corresponding libcell
+---------------------------------------
+/libraries/physical_cells/libcells/FILL1LVT
+/libraries/physical_cells/libcells/FILL16LVT
+/libraries/physical_cells/libcells/FILL2LVT
+/libraries/physical_cells/libcells/FILL32LVT
+/libraries/physical_cells/libcells/FILL4LVT
+/libraries/physical_cells/libcells/FILL64LVT
+/libraries/physical_cells/libcells/FILL8LVT
+Total number cell(s) with only physical (LEF) Info : 7
+
+ Summary
+ ------- 
+
+              Name                       Total
+----------------------------------------------
+Unresolved References                        0
+Empty Modules                                0
+Unloaded Port(s)                             0
+Unloaded Sequential Pin(s)                   0
+Unloaded Combinational Pin(s)                8
+Assigns                                    390
+Undriven Port(s)                             0
+Undriven Leaf Pin(s)                         0
+Undriven hierarchical pin(s)                 0
+Multidriven Port(s)                          0
+Multidriven Leaf Pin(s)                      9
+Multidriven hierarchical Pin(s)              0
+Multidriven unloaded net(s)                  0
+Constant Port(s)                             0
+Constant Leaf Pin(s)                        13
+Constant hierarchical Pin(s)               388
+Preserved leaf instance(s)                   4
+Preserved hierarchical instance(s)           0
+Feedthrough Modules(s)                       0
+Libcells with no LEF cell                    0
+Physical (LEF) cells with no libcell         7
+Subdesigns with long module name             0
+Physical only instance(s)                    0
+Logical only instance(s)                     0
+
+  Done Checking the design.

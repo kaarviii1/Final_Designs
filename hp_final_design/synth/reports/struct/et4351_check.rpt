@@ -1,0 +1,461 @@
+
+ 	 Check Design Report (c)
+	 ------------------- 
+No subdesign's name is greater than 1.5k in length.
+
+ Feedthrough Module(s)
+ -------------------------
+No feed through module in 'et4351'
+
+  Unresolved References & Empty Modules
+  ------------------------------------- 
+No unresolved references in design 'et4351'
+
+No empty modules in design 'et4351'
+
+ Unloaded Pin(s), Port(s)
+ -------------------------
+No unloaded sequential element in 'et4351'
+
+No unloaded port in 'et4351'
+
+ Unloaded Combinational Pin(s)
+ -------------------------------
+design 'et4351' has the following unloaded combinational elements
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_0/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_1/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_2/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_3/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_4/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_5/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_6/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_7/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_8/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_9/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_10/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_11/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_12/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_13/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_14/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_15/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_16/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_17/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_18/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_280_40_Y_add_294_39_groupi_cdnfadd_031_19/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_0/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_1/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_2/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_3/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_4/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_5/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_6/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_7/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_8/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_9/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_10/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_11/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_12/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_13/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_14/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_15/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_16/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_17/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_18/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_add_296_46_groupi_cdnfadd_031_19/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19710/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19726/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19733/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19761/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19762/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19783/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19794/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19830/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19831/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19872/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19873/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19892/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19893/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_28_Y_mul_279_31_g19900/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19701/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19717/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19724/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19751/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19752/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19776/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19784/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19822/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19823/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19862/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19863/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19880/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19899/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_293_50_Y_mul_279_47_g19912/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19678/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19689/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19705/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19740/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19741/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19747/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19785/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19787/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19805/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19844/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19845/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19846/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19894/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_33_g19895/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19708/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19722/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19734/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19771/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19772/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19785/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19816/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19818/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19836/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19876/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19877/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19878/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19923/pins_out/CO
+/designs/et4351/instances_hier/accel/instances_hier/fft/instances_comb/csa_tree_mul_295_57_g19924/pins_out/CO
+Total number of unloaded combinational elements in design 'et4351' : 96
+
+ Assigns
+ ------- 
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_3_/subports_out/soc_i' in module bidir_buf
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_3_/subports_out/io' in module bidir_buf
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_0_/subports_out/soc_i' in module bidir_buf_2098
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_0_/subports_out/io' in module bidir_buf_2098
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_1_/subports_out/soc_i' in module bidir_buf_2099
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_1_/subports_out/io' in module bidir_buf_2099
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_2_/subports_out/soc_i' in module bidir_buf_2100
+Encountered an assign statement at subport '/designs/et4351/instances_hier/flash_bufs_2_/subports_out/io' in module bidir_buf_2100
+Total number of assign statements in design 'et4351' : 8
+
+ Undriven Port(s)/Pin(s)
+ ------------------------
+No undriven combinational pin in 'et4351'
+
+No undriven sequential pin in 'et4351'
+
+The following hierarchical pin(s) in design 'et4351' are undriven
+/designs/et4351/instances_hier/accel/pins_in/iomem_addr[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/pins_in/iomem_addr[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/pins_in/irq_5 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/pins_in/irq_6 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/pins_in/irq_7 	 (fanout : 0)
+/designs/et4351/instances_hier/accel/instances_hier/fft/pins_in/resetn 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk1.pcpi_mul/pins_in/pcpi_insn[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/pins_in/pcpi_insn[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_wr 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[31] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[30] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[29] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[28] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[27] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[26] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[25] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_rd[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_wait 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/pcpi_ready 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[31] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[30] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[29] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[28] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[27] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[26] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[25] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/pins_in/irq[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/memory/pins_in/addr[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[5] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[4] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[2] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_div_di[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[31] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[30] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[29] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[28] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[27] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[26] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[25] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[22] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[21] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[20] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[19] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[18] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[17] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[16] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[11] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[10] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[9] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/simpleuart/pins_in/reg_dat_di[8] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/addr[1] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/addr[0] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[30] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[29] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[28] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[27] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[26] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[25] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[24] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[23] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[15] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[14] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[13] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[12] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[7] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/pins_in/cfgreg_di[6] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/pins_in/din_tag[3] 	 (fanout : 0)
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/pins_in/din_cont 	 (fanout : 0)
+Total number of hierarchical undriven pins in design 'et4351' : 167
+
+No undriven port in 'et4351'
+
+ Multidriven Port(s)/Pin(s)
+--------------------------
+
+The following combinational pin(s) in design 'et4351' are multidriven
+/designs/et4351/instances_hier/soc/instances_comb/g2831/pins_in/B1
+/designs/et4351/instances_hier/soc/instances_comb/g2834/pins_in/B1
+/designs/et4351/instances_hier/soc/instances_comb/g2850/pins_in/A1
+/designs/et4351/instances_hier/soc/instances_comb/g2852/pins_in/A1
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_comb/g2782/pins_in/A1N
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_comb/g2796/pins_in/B1
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_comb/g2797/pins_in/B1
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_comb/g2880/pins_in/A
+Total number of combinational multidriven pin(s) in design 'et4351' : 8
+
+No multidriven sequential pin in 'et4351'
+
+No multidriven hierarchical pin in 'et4351'
+
+No multidriven ports in 'et4351'
+
+No multidriven unloaded nets in 'et4351'
+
+  Constant Pin(s)
+  ----------------
+design 'et4351' has the following constant input combinational pin(s)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_comb/g109679/pins_in/C
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_comb/g109780/pins_in/B0
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_comb/g111859/pins_in/B0
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_comb/g115217/pins_in/C0
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_hier/genblk2.pcpi_div/instances_comb/g5615/pins_in/C
+/designs/et4351/instances_hier/soc/instances_comb/gte_186_34_g652/pins_in/C
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_hier/xfer/instances_comb/g2265/pins_in/A
+Total number of constant combinational pins in design 'et4351' : 7
+
+design 'et4351' has the following constant input sequential pin(s)
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_30__8_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_30__9_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_30__11_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_30__14_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_30__15_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_30__16_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_30__20_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_30__21_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_30__25_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_30__26_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_30__30_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__5_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__6_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__7_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__10_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__12_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__13_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__17_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__18_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__19_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__22_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__23_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__24_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__27_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__28_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__29_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/cpu/instances_seq/cpuregs_reg_31__31_/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_0/pins_in/CSB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_0/pins_in/OEB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_1/pins_in/CSB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_1/pins_in/OEB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_2/pins_in/CSB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_2/pins_in/OEB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_3/pins_in/CSB
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_3/pins_in/OEB
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_seq/xfer_io2_90_reg/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_seq/xfer_io2_90_reg/pins_in/SN
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_seq/xfer_io1_90_reg/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_seq/xfer_io1_90_reg/pins_in/SN
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_seq/xfer_io0_90_reg/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_seq/xfer_io0_90_reg/pins_in/SN
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_seq/xfer_io3_90_reg/pins_in/RN
+/designs/et4351/instances_hier/soc/instances_hier/spimemio/instances_seq/xfer_io3_90_reg/pins_in/SN
+Total number of constant sequential pins in design 'et4351' : 43
+
+No constant hierarchical pin(s) in design 'et4351'
+
+No constant connected ports in design 'et4351'
+
+  Preserved instances(s)
+  ----------------
+No preserved combinational instance(s) in design 'et4351'
+design 'et4351' has the following preserved sequential instance(s)
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_0
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_1
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_2
+/designs/et4351/instances_hier/soc/instances_hier/memory/instances_seq/sram_3
+Total number of preserved sequential instances in design 'et4351' : 4
+No preserved hierarchical instance(s) in design 'et4351'
+
+  Physical only instances(s)
+  ----------------
+No physical only instance(s) in design 'et4351'
+
+  Logical only instance(s) and linked libcells
+    -----------------------------------------
+No logical only instance(s) in design 'et4351'
+
+Libcells with no corresponding LEF
+----------------------------------
+No libcell(s) found.
+
+LEF cells with no corresponding libcell
+---------------------------------------
+/libraries/physical_cells/libcells/FILL1LVT
+/libraries/physical_cells/libcells/FILL16LVT
+/libraries/physical_cells/libcells/FILL2LVT
+/libraries/physical_cells/libcells/FILL32LVT
+/libraries/physical_cells/libcells/FILL4LVT
+/libraries/physical_cells/libcells/FILL64LVT
+/libraries/physical_cells/libcells/FILL8LVT
+Total number cell(s) with only physical (LEF) Info : 7
+
+ Summary
+ ------- 
+
+              Name                       Total
+----------------------------------------------
+Unresolved References                        0
+Empty Modules                                0
+Unloaded Port(s)                             0
+Unloaded Sequential Pin(s)                   0
+Unloaded Combinational Pin(s)               96
+Assigns                                      8
+Undriven Port(s)                             0
+Undriven Leaf Pin(s)                         0
+Undriven hierarchical pin(s)               167
+Multidriven Port(s)                          0
+Multidriven Leaf Pin(s)                      8
+Multidriven hierarchical Pin(s)              0
+Multidriven unloaded net(s)                  0
+Constant Port(s)                             0
+Constant Leaf Pin(s)                        50
+Constant hierarchical Pin(s)                 0
+Preserved leaf instance(s)                   4
+Preserved hierarchical instance(s)           0
+Feedthrough Modules(s)                       0
+Libcells with no LEF cell                    0
+Physical (LEF) cells with no libcell         7
+Subdesigns with long module name             0
+Physical only instance(s)                    0
+Logical only instance(s)                     0
+
+  Done Checking the design.

@@ -1,0 +1,1387 @@
+[04/09 23:37:52      0s] 
+[04/09 23:37:52      0s] Cadence Innovus(TM) Implementation System.
+[04/09 23:37:52      0s] Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+[04/09 23:37:52      0s] 
+[04/09 23:37:52      0s] Version:	v21.11-s130_1, built Thu Aug 19 16:59:56 PDT 2021
+[04/09 23:37:52      0s] Options:	
+[04/09 23:37:52      0s] Date:		Thu Apr  9 23:37:52 2026
+[04/09 23:37:52      0s] Host:		et4351.ewi.tudelft.nl (x86_64 w/Linux 4.18.0-553.111.1.el8_10.x86_64) (1core*64cpus*AMD EPYC 7702P 64-Core Processor 512KB)
+[04/09 23:37:52      0s] OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+[04/09 23:37:52      0s] 
+[04/09 23:37:52      0s] License:
+[04/09 23:37:52      0s] 		[23:37:52.316850] Configured Lic search path (20.02-p002): 27012@flexserv1.tudelft.nl:27017@flexserv1.tudelft.nl
+
+[04/09 23:37:52      0s] 		invs	Innovus Implementation System	21.1	checkout succeeded
+[04/09 23:37:52      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[04/09 23:38:14     13s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v21.11-s130_1 (64bit) 08/19/2021 16:59 (Linux 3.10.0-693.el7.x86_64)
+[04/09 23:38:20     17s] @(#)CDS: NanoRoute 21.11-s130_1 NR210811-1832/21_11-UB (database version 18.20.554) {superthreading v2.14}
+[04/09 23:38:20     17s] @(#)CDS: AAE 21.11-s059 (64bit) 08/19/2021 (Linux 3.10.0-693.el7.x86_64)
+[04/09 23:38:20     17s] @(#)CDS: CTE 21.11-s010_1 () Aug 12 2021 04:17:41 ( )
+[04/09 23:38:20     17s] @(#)CDS: SYNTECH 21.11-s003_1 () Aug  4 2021 01:23:26 ( )
+[04/09 23:38:20     17s] @(#)CDS: CPE v21.11-s010
+[04/09 23:38:20     17s] @(#)CDS: IQuantus/TQuantus 20.1.2-s578 (64bit) Fri Jul 9 11:48:16 PDT 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[04/09 23:38:20     17s] @(#)CDS: OA 22.60-p059 Mon Jun 28 12:16:29 2021
+[04/09 23:38:20     17s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[04/09 23:38:20     17s] @(#)CDS: RCDB 11.15.0
+[04/09 23:38:20     17s] @(#)CDS: STYLUS 21.11-s001_1 (06/02/2021 03:53 PDT)
+[04/09 23:38:20     17s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA.
+
+[04/09 23:38:20     17s] Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+[04/09 23:38:26     20s] 
+[04/09 23:38:26     20s] **INFO:  MMMC transition support version v31-84 
+[04/09 23:38:26     20s] 
+[04/09 23:38:26     20s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[04/09 23:38:26     20s] <CMD> suppressMessage ENCEXT-2799
+[04/09 23:38:26     20s] <CMD> win
+[04/09 23:38:37     21s] <CMD> setMessageLimit 1 ENCLF 45
+[04/09 23:38:37     21s] <CMD> setMessageLimit 1 ENCLF 119
+[04/09 23:38:37     21s] <CMD> setMessageLimit 1 ENCLF 200
+[04/09 23:38:37     21s] <CMD> setMessageLimit 1 ENCLF 201
+[04/09 23:38:37     21s] <CMD> setMessageLimit 10 IMPDB 2078
+[04/09 23:38:37     21s] <CMD> setMessageLimit 10 IMPDC 348
+[04/09 23:38:37     21s] <CMD> setMultiCpuUsage -localCpu 4 -cpuPerRemoteHost 4 -remoteHost 1 -keepLicense true
+[04/09 23:38:37     21s] Setting releaseMultiCpuLicenseMode to false.
+[04/09 23:38:37     21s] <CMD> restoreDesign ./checkpoints/et4351_done.enc.dat et4351
+[04/09 23:38:37     21s] #% Begin load design ... (date=04/09 23:38:37, mem=799.7M)
+[04/09 23:38:38     21s] Set Default Input Pin Transition as 0.1 ps.
+[04/09 23:38:38     22s] Loading design 'et4351' saved by 'Innovus' '21.11-s130_1' on 'Thu Apr 9 21:03:08 2026'.
+[04/09 23:38:38     22s] % Begin Load MMMC data ... (date=04/09 23:38:38, mem=801.4M)
+[04/09 23:38:38     22s] % End Load MMMC data ... (date=04/09 23:38:38, total cpu=0:00:00.1, real=0:00:00.0, peak res=802.7M, current mem=802.7M)
+[04/09 23:38:38     22s] 
+[04/09 23:38:38     22s] Loading LEF file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/lef/gsclib045_tech.lef ...
+[04/09 23:38:38     22s] 
+[04/09 23:38:38     22s] Loading LEF file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/lef/gsclib045_lvt_macro.lef ...
+[04/09 23:38:38     22s] Set DBUPerIGU to M2 pitch 400.
+[04/09 23:38:39     22s] 
+[04/09 23:38:39     22s] Loading LEF file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/lef/saed32sram.lef ...
+[04/09 23:38:39     22s] **WARN: (IMPLF-200):	Pin 'CSB1' in macro 'SRAM2RW128x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[04/09 23:38:39     22s] Type 'man IMPLF-200' for more detail.
+[04/09 23:38:39     22s] **WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 1.
+[04/09 23:38:39     22s] To increase the message display limit, refer to the product command reference manual.
+[04/09 23:38:39     22s] 
+[04/09 23:38:39     22s] viaInitial starts at Thu Apr  9 23:38:39 2026
+viaInitial ends at Thu Apr  9 23:38:39 2026
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+[04/09 23:38:39     22s] Loading view definition file from /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/viewDefinition.tcl
+[04/09 23:38:39     22s] Starting library reading in 'Multi-threaded flow' (with '4' threads)
+[04/09 23:38:40     24s] Reading library_max timing library /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/slow_vdd1v0_basicCells_lvt.lib.
+[04/09 23:38:40     24s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNALVT'. The cell will only be used for analysis. (File /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/slow_vdd1v0_basicCells_lvt.lib)
+[04/09 23:38:40     24s] Read 480 cells in library slow_vdd1v0.
+[04/09 23:38:40     24s] Reading library_max timing library /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib.
+[04/09 23:38:40     24s] **WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 24401 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib)
+[04/09 23:38:40     24s] **WARN: (TECHLIB-1161):	The library level attribute default_wire_load on line 24402 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib)
+[04/09 23:38:40     24s] **WARN: (TECHLIB-1161):	The library level attribute default_wire_load_selection on line 24403 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib)
+[04/09 23:38:40     24s] Read 35 cells in library saed32sram_ss0p95vn40c.
+[04/09 23:38:40     24s] Library reading multithread flow ended.
+[04/09 23:38:40     24s] Starting library reading in 'Multi-threaded flow' (with '4' threads)
+[04/09 23:38:40     26s] Reading library_min timing library /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/fast_vdd1v2_basicCells_lvt.lib.
+[04/09 23:38:40     26s] **WARN: (TECHLIB-302):	No function defined for cell 'ANTENNALVT'. The cell will only be used for analysis. (File /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/fast_vdd1v2_basicCells_lvt.lib)
+[04/09 23:38:40     26s] Read 480 cells in library fast_vdd1v2.
+[04/09 23:38:40     26s] Reading library_min timing library /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib.
+[04/09 23:38:40     26s] **WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 24400 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib)
+[04/09 23:38:40     26s] **WARN: (TECHLIB-1161):	The library level attribute default_wire_load on line 24401 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib)
+[04/09 23:38:40     26s] **WARN: (TECHLIB-1161):	The library level attribute default_wire_load_selection on line 24402 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib)
+[04/09 23:38:40     26s] Read 35 cells in library saed32sram_ff1p16vn40c.
+[04/09 23:38:40     26s] Library reading multithread flow ended.
+[04/09 23:38:40     26s] Ending "PreSetAnalysisView" (total cpu=0:00:03.9, real=0:00:01.0, peak res=970.4M, current mem=842.0M)
+[04/09 23:38:40     26s] *** End library_loading (cpu=0.06min, real=0.02min, mem=141.0M, fe_cpu=0.45min, fe_real=0.80min, fe_mem=960.3M) ***
+[04/09 23:38:40     26s] % Begin Load netlist data ... (date=04/09 23:38:40, mem=842.0M)
+[04/09 23:38:40     26s] *** Begin netlist parsing (mem=960.3M) ***
+[04/09 23:38:40     26s] Created 515 new cells from 4 timing libraries.
+[04/09 23:38:40     26s] Reading netlist ...
+[04/09 23:38:40     26s] Backslashed names will retain backslash and a trailing blank character.
+[04/09 23:38:40     26s] Reading verilogBinary netlist '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/vbin/et4351.v.bin'
+[04/09 23:38:40     26s] Reading binary database version 2 in multi-threaded mode
+[04/09 23:38:41     27s] 
+[04/09 23:38:41     27s] *** Memory Usage v#1 (Current mem = 983.305M, initial mem = 318.535M) ***
+[04/09 23:38:41     27s] *** End netlist parsing (cpu=0:00:00.4, real=0:00:01.0, mem=983.3M) ***
+[04/09 23:38:41     27s] % End Load netlist data ... (date=04/09 23:38:41, total cpu=0:00:00.4, real=0:00:01.0, peak res=870.6M, current mem=870.6M)
+[04/09 23:38:41     27s] Set top cell to et4351.
+[04/09 23:38:44     27s] Hooked 1030 DB cells to tlib cells.
+[04/09 23:38:44     27s] Ending "BindLib:" (total cpu=0:00:00.3, real=0:00:00.0, peak res=888.3M, current mem=888.3M)
+[04/09 23:38:44     27s] Starting recursive module instantiation check.
+[04/09 23:38:44     27s] No recursion found.
+[04/09 23:38:44     27s] Building hierarchical netlist for Cell et4351 ...
+[04/09 23:38:44     28s] *** Netlist is unique.
+[04/09 23:38:44     28s] Setting Std. cell height to 3420 DBU (smallest netlist inst).
+[04/09 23:38:44     28s] ** info: there are 1053 modules.
+[04/09 23:38:44     28s] ** info: there are 43093 stdCell insts.
+[04/09 23:38:44     28s] ** info: there are 4 macros.
+[04/09 23:38:44     28s] 
+[04/09 23:38:44     28s] *** Memory Usage v#1 (Current mem = 1017.219M, initial mem = 318.535M) ***
+[04/09 23:38:44     28s] **WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+[04/09 23:38:44     28s] Type 'man IMPTS-17' for more detail.
+[04/09 23:38:44     28s] *info: set bottom ioPad orient R0
+[04/09 23:38:44     28s] **WARN: (IMPFP-3961):	The techSite 'CoreSiteDouble' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[04/09 23:38:44     28s] Type 'man IMPFP-3961' for more detail.
+[04/09 23:38:44     28s] **WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[04/09 23:38:44     28s] Type 'man IMPFP-3961' for more detail.
+[04/09 23:38:44     28s] **WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[04/09 23:38:44     28s] Type 'man IMPFP-3961' for more detail.
+[04/09 23:38:44     28s] Start create_tracks
+[04/09 23:38:44     28s] Set Default Net Delay as 1000 ps.
+[04/09 23:38:44     28s] Set Default Net Load as 0.5 pF. 
+[04/09 23:38:44     28s] Set Default Input Pin Transition as 0.1 ps.
+[04/09 23:38:44     28s] **WARN: (EMS-27):	Message (IMPTS-17) has exceeded the current message display limit of 1.
+[04/09 23:38:44     28s] To increase the message display limit, refer to the product command reference manual.
+[04/09 23:38:45     28s] Loading preference file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/gui.pref.tcl ...
+[04/09 23:38:45     28s] ##  Process: 45            (User Set)               
+[04/09 23:38:45     28s] ##     Node: (not set)                           
+[04/09 23:38:45     28s] 
+##  Check design process and node:  
+##  Design tech node is not set.
+
+[04/09 23:38:45     28s] Applying the recommended capacitance filtering threshold values for 45nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[04/09 23:38:45     28s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[04/09 23:38:45     28s] 	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+[04/09 23:38:45     28s] 	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+[04/09 23:38:45     28s] 	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+[04/09 23:38:45     28s] setAnalysisMode -usefulSkew already set.
+[04/09 23:38:45     28s] **WARN: (IMPOPT-3602):	The specified path group name reg2reg is not defined.
+[04/09 23:38:45     28s] Type 'man IMPOPT-3602' for more detail.
+[04/09 23:38:45     28s] Effort level <high> specified for reg2reg path_group
+[04/09 23:38:45     28s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[04/09 23:38:45     28s] AAE_INFO: switching -siAware from false to true ...
+[04/09 23:38:45     28s] AAE_INFO: The setting is changed from false to true in setDelayCalMode -SIAware
+[04/09 23:38:45     28s] Change floorplan default-technical-site to 'CoreSite'.
+[04/09 23:38:45     28s] Extraction setup Delayed 
+[04/09 23:38:45     28s] *Info: initialize multi-corner CTS.
+[04/09 23:38:45     28s] Starting library reading in 'Multi-threaded flow' (with '4' threads)
+[04/09 23:38:45     29s] Reading library_typ timing library /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib.
+[04/09 23:38:45     29s] **WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 24402 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib)
+[04/09 23:38:45     29s] **WARN: (TECHLIB-1161):	The library level attribute default_wire_load on line 24403 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib)
+[04/09 23:38:45     29s] **WARN: (TECHLIB-1161):	The library level attribute default_wire_load_selection on line 24404 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib)
+[04/09 23:38:45     29s] Read 35 cells in library saed32sram_tt1p05v125c.
+[04/09 23:38:45     29s] Library reading multithread flow ended.
+[04/09 23:38:46     30s] Ending "SetAnalysisView" (total cpu=0:00:01.2, real=0:00:01.0, peak res=1174.2M, current mem=931.1M)
+[04/09 23:38:46     30s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[04/09 23:38:46     30s] 
+[04/09 23:38:46     30s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[04/09 23:38:46     30s] Summary for sequential cells identification: 
+[04/09 23:38:46     30s]   Identified SBFF number: 104
+[04/09 23:38:46     30s]   Identified MBFF number: 0
+[04/09 23:38:46     30s]   Identified SB Latch number: 0
+[04/09 23:38:46     30s]   Identified MB Latch number: 0
+[04/09 23:38:46     30s]   Not identified SBFF number: 16
+[04/09 23:38:46     30s]   Not identified MBFF number: 0
+[04/09 23:38:46     30s]   Not identified SB Latch number: 0
+[04/09 23:38:46     30s]   Not identified MB Latch number: 0
+[04/09 23:38:46     30s]   Number of sequential cells which are not FFs: 32
+[04/09 23:38:46     30s] Total number of combinational cells: 318
+[04/09 23:38:46     30s] Total number of sequential cells: 152
+[04/09 23:38:46     30s] Total number of tristate cells: 10
+[04/09 23:38:46     30s] Total number of level shifter cells: 0
+[04/09 23:38:46     30s] Total number of power gating cells: 0
+[04/09 23:38:46     30s] Total number of isolation cells: 0
+[04/09 23:38:46     30s] Total number of power switch cells: 0
+[04/09 23:38:46     30s] Total number of pulse generator cells: 0
+[04/09 23:38:46     30s] Total number of always on buffers: 0
+[04/09 23:38:46     30s] Total number of retention cells: 0
+[04/09 23:38:46     30s] List of usable buffers: BUFX2LVT BUFX12LVT BUFX16LVT BUFX20LVT CLKBUFX2LVT BUFX3LVT BUFX4LVT BUFX6LVT BUFX8LVT CLKBUFX12LVT CLKBUFX16LVT CLKBUFX20LVT CLKBUFX3LVT CLKBUFX4LVT CLKBUFX6LVT CLKBUFX8LVT
+[04/09 23:38:46     30s] Total number of usable buffers: 16
+[04/09 23:38:46     30s] List of unusable buffers:
+[04/09 23:38:46     30s] Total number of unusable buffers: 0
+[04/09 23:38:46     30s] List of usable inverters: CLKINVX1LVT CLKINVX2LVT CLKINVX12LVT CLKINVX16LVT CLKINVX20LVT CLKINVX4LVT CLKINVX3LVT CLKINVX6LVT CLKINVX8LVT INVX1LVT INVX2LVT INVX12LVT INVX16LVT INVX20LVT INVXLLVT INVX3LVT INVX4LVT INVX6LVT INVX8LVT
+[04/09 23:38:46     30s] Total number of usable inverters: 19
+[04/09 23:38:46     30s] List of unusable inverters:
+[04/09 23:38:46     30s] Total number of unusable inverters: 0
+[04/09 23:38:46     30s] List of identified usable delay cells: DLY1X1LVT DLY1X4LVT DLY2X1LVT DLY2X4LVT DLY3X1LVT DLY3X4LVT DLY4X1LVT DLY4X4LVT
+[04/09 23:38:46     30s] Total number of identified usable delay cells: 8
+[04/09 23:38:46     30s] List of identified unusable delay cells:
+[04/09 23:38:46     30s] Total number of identified unusable delay cells: 0
+[04/09 23:38:46     30s] 
+[04/09 23:38:46     30s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[04/09 23:38:46     30s] 
+[04/09 23:38:46     30s] TimeStamp Deleting Cell Server Begin ...
+[04/09 23:38:46     30s] 
+[04/09 23:38:46     30s] TimeStamp Deleting Cell Server End ...
+[04/09 23:38:46     30s] Ending "Cell type marking" (total cpu=0:00:00.1, real=0:00:00.0, peak res=1203.6M, current mem=1203.6M)
+[04/09 23:38:46     30s] 
+[04/09 23:38:46     30s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign Begin ...
+[04/09 23:38:46     30s] Summary for sequential cells identification: 
+[04/09 23:38:46     30s]   Identified SBFF number: 104
+[04/09 23:38:46     30s]   Identified MBFF number: 0
+[04/09 23:38:46     30s]   Identified SB Latch number: 0
+[04/09 23:38:46     30s]   Identified MB Latch number: 0
+[04/09 23:38:46     30s]   Not identified SBFF number: 16
+[04/09 23:38:46     30s]   Not identified MBFF number: 0
+[04/09 23:38:46     30s]   Not identified SB Latch number: 0
+[04/09 23:38:46     30s]   Not identified MB Latch number: 0
+[04/09 23:38:46     30s]   Number of sequential cells which are not FFs: 32
+[04/09 23:38:46     30s] 
+[04/09 23:38:46     30s] Trim Metal Layers:
+[04/09 23:38:46     30s]  Visiting view : analysis_view_setup
+[04/09 23:38:46     30s]    : PowerDomain = none : Weighted F : unweighted  = 24.50 (1.000) with rcCorner = 0
+[04/09 23:38:46     30s]    : PowerDomain = none : Weighted F : unweighted  = 12.70 (1.000) with rcCorner = -1
+[04/09 23:38:46     30s]  Visiting view : analysis_view_power
+[04/09 23:38:46     30s]    : PowerDomain = none : Weighted F : unweighted  = 8.90 (1.000) with rcCorner = 0
+[04/09 23:38:46     30s]    : PowerDomain = none : Weighted F : unweighted  = 4.10 (1.000) with rcCorner = -1
+[04/09 23:38:46     30s]  Visiting view : analysis_view_hold
+[04/09 23:38:46     30s]    : PowerDomain = none : Weighted F : unweighted  = 8.90 (1.000) with rcCorner = 0
+[04/09 23:38:46     30s]    : PowerDomain = none : Weighted F : unweighted  = 4.10 (1.000) with rcCorner = -1
+[04/09 23:38:46     30s]  Visiting view : analysis_view_power
+[04/09 23:38:46     30s]    : PowerDomain = none : Weighted F : unweighted  = 8.90 (1.000) with rcCorner = 0
+[04/09 23:38:46     30s]    : PowerDomain = none : Weighted F : unweighted  = 4.10 (1.000) with rcCorner = -1
+[04/09 23:38:46     30s] 
+[04/09 23:38:46     30s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign End ...
+[04/09 23:38:46     30s] Reading floorplan file - /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.fp.gz (mem = 1278.0M).
+[04/09 23:38:46     30s] % Begin Load floorplan data ... (date=04/09 23:38:46, mem=1205.3M)
+[04/09 23:38:47     30s] *info: reset 46512 existing net BottomPreferredLayer and AvoidDetour
+[04/09 23:38:47     30s] Deleting old partition specification.
+[04/09 23:38:47     30s] Set FPlanBox to (0 0 1329600 1329600)
+[04/09 23:38:47     30s] **WARN: (IMPFP-3961):	The techSite 'CoreSiteDouble' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[04/09 23:38:47     30s] Type 'man IMPFP-3961' for more detail.
+[04/09 23:38:47     30s] **WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[04/09 23:38:47     30s] Type 'man IMPFP-3961' for more detail.
+[04/09 23:38:47     30s] **WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[04/09 23:38:47     30s] Type 'man IMPFP-3961' for more detail.
+[04/09 23:38:47     30s] Start create_tracks
+[04/09 23:38:47     30s]  ... processed partition successfully.
+[04/09 23:38:47     30s] Reading binary special route file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.fp.spr.gz (Created by Innovus v21.11-s130_1 on Thu Apr  9 21:03:04 2026, version: 1)
+[04/09 23:38:47     30s] Ending "Read special route file" (total cpu=0:00:00.1, real=0:00:00.0, peak res=1206.2M, current mem=1206.2M)
+[04/09 23:38:47     30s] There are 106 nets with weight being set
+[04/09 23:38:47     30s] There are 111 nets with bottomPreferredRoutingLayer being set
+[04/09 23:38:47     30s] There are 106 nets with avoidDetour being set
+[04/09 23:38:47     30s] Extracting standard cell pins and blockage ...... 
+[04/09 23:38:47     30s] Pin and blockage extraction finished
+[04/09 23:38:47     30s] % End Load floorplan data ... (date=04/09 23:38:47, total cpu=0:00:00.2, real=0:00:01.0, peak res=1208.1M, current mem=1208.0M)
+[04/09 23:38:47     30s] Reading congestion map file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.route.congmap.gz ...
+[04/09 23:38:47     30s] % Begin Load SymbolTable ... (date=04/09 23:38:47, mem=1208.0M)
+[04/09 23:38:48     30s] Suppress "**WARN ..." messages.
+[04/09 23:38:48     30s] routingBox: (0 0) (1329600 1329600)
+[04/09 23:38:48     30s] coreBox:    (68400 68400) (1261200 1261200)
+[04/09 23:38:48     30s] Un-suppress "**WARN ..." messages.
+[04/09 23:38:48     31s] % End Load SymbolTable ... (date=04/09 23:38:48, total cpu=0:00:00.3, real=0:00:01.0, peak res=1217.5M, current mem=1217.5M)
+[04/09 23:38:48     31s] Loading place ...
+[04/09 23:38:48     31s] % Begin Load placement data ... (date=04/09 23:38:48, mem=1217.5M)
+[04/09 23:38:48     31s] Reading placement file - /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.place.gz.
+[04/09 23:38:48     31s] ** Reading stdCellPlacement_binary (Created by Innovus v21.11-s130_1 on Thu Apr  9 21:03:04 2026, version# 2) ...
+[04/09 23:38:48     31s] Read Views for adaptive view pruning ...
+[04/09 23:38:48     31s] Read 0 views from Binary DB for adaptive view pruning
+[04/09 23:38:48     31s] *** Completed restorePlace (cpu=0:00:00.2 real=0:00:00.0 mem=1298.9M) ***
+[04/09 23:38:48     31s] Total net length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 2.509e+03)
+[04/09 23:38:48     31s] % End Load placement data ... (date=04/09 23:38:48, total cpu=0:00:00.2, real=0:00:00.0, peak res=1227.9M, current mem=1224.4M)
+[04/09 23:38:49     31s] Reading PG file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.pg.gz, version#2, (Created by Innovus v21.11-s130_1 on       Thu Apr  9 21:03:04 2026)
+[04/09 23:38:49     31s] *** Completed restorePGFile (cpu=0:00:00.0 real=0:00:01.0 mem=1295.9M) ***
+[04/09 23:38:49     31s] % Begin Load routing data ... (date=04/09 23:38:49, mem=1225.6M)
+[04/09 23:38:49     31s] Reading routing file - /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.route.gz.
+[04/09 23:38:50     31s] Reading Innovus routing data (Created by Innovus v21.11-s130_1 on Thu Apr  9 21:03:03 2026 Format: 20.1) ...
+[04/09 23:38:50     32s] *** Total 46006 nets are successfully restored.
+[04/09 23:38:50     32s] *** Completed restoreRoute (cpu=0:00:00.8 real=0:00:01.0 mem=1375.9M) ***
+[04/09 23:38:50     32s] % End Load routing data ... (date=04/09 23:38:50, total cpu=0:00:00.9, real=0:00:01.0, peak res=1306.2M, current mem=1305.2M)
+[04/09 23:38:50     32s] TAT_INFO: restoreCongMap REAL = 1 : CPU = 0 : MEM = 0.
+[04/09 23:38:50     32s] Reading property file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.prop
+[04/09 23:38:50     32s] *** Completed restoreProperty (cpu=0:00:00.1 real=0:00:00.0 mem=1374.9M) ***
+[04/09 23:38:51     32s] Reading dirtyarea snapshot file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.db.da.gz (Create by Innovus v21.11-s130_1 on Thu Apr  9 21:03:05 2026, version: 4).
+[04/09 23:38:52     33s] Set Default Input Pin Transition as 0.1 ps.
+[04/09 23:38:52     33s] Loading preRoute extraction data from directory '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/extraction/' ...
+[04/09 23:38:52     33s] Restore PreRoute RC Grid meta data successful.
+[04/09 23:38:52     33s] Extraction setup Started 
+[04/09 23:38:52     33s] 
+[04/09 23:38:52     33s] Trim Metal Layers:
+[04/09 23:38:52     33s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[04/09 23:38:52     33s] Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+[04/09 23:38:52     33s] __QRC_SADV_USE_LE__ is set 0
+[04/09 23:38:53     34s] Metal Layer Id 1 is Metal1 
+[04/09 23:38:53     34s] Metal Layer Id 2 is Metal2 
+[04/09 23:38:53     34s] Metal Layer Id 3 is Metal3 
+[04/09 23:38:53     34s] Metal Layer Id 4 is Metal4 
+[04/09 23:38:53     34s] Metal Layer Id 5 is Metal5 
+[04/09 23:38:53     34s] Metal Layer Id 6 is Metal6 
+[04/09 23:38:53     34s] Metal Layer Id 7 is Metal7 
+[04/09 23:38:53     34s] Metal Layer Id 8 is Metal8 
+[04/09 23:38:53     34s] Metal Layer Id 9 is Metal9 
+[04/09 23:38:53     34s] Metal Layer Id 10 is Metal10 
+[04/09 23:38:53     34s] Metal Layer Id 11 is Metal11 
+[04/09 23:38:53     34s] Via Layer Id 33 is Cont 
+[04/09 23:38:53     34s] Via Layer Id 34 is Via1 
+[04/09 23:38:53     34s] Via Layer Id 35 is Via2 
+[04/09 23:38:53     34s] Via Layer Id 36 is Via3 
+[04/09 23:38:53     34s] Via Layer Id 37 is Via4 
+[04/09 23:38:53     34s] Via Layer Id 38 is Via5 
+[04/09 23:38:53     34s] Via Layer Id 39 is Via6 
+[04/09 23:38:53     34s] Via Layer Id 40 is Via7 
+[04/09 23:38:53     34s] Via Layer Id 41 is Via8 
+[04/09 23:38:53     34s] Via Layer Id 42 is Via9 
+[04/09 23:38:53     34s] Via Layer Id 43 is Via10 
+[04/09 23:38:53     34s] Via Layer Id 44 is Bondpad 
+[04/09 23:38:53     34s] 
+[04/09 23:38:53     34s] Trim Metal Layers:
+[04/09 23:38:53     34s] Generating auto layer map file.
+[04/09 23:38:53     34s]  lef metal Layer Id 1 mapped to tech Id 5 of Layer metal_1 
+[04/09 23:38:53     34s]  lef via Layer Id 1 mapped to tech Id 6 of Layer via_1 
+[04/09 23:38:53     34s]  lef metal Layer Id 2 mapped to tech Id 7 of Layer metal_2 
+[04/09 23:38:53     34s]  lef via Layer Id 2 mapped to tech Id 8 of Layer via_2 
+[04/09 23:38:53     34s]  lef metal Layer Id 3 mapped to tech Id 9 of Layer metal_3 
+[04/09 23:38:53     34s]  lef via Layer Id 3 mapped to tech Id 10 of Layer via_3 
+[04/09 23:38:53     34s]  lef metal Layer Id 4 mapped to tech Id 11 of Layer metal_4 
+[04/09 23:38:53     34s]  lef via Layer Id 4 mapped to tech Id 12 of Layer via_4 
+[04/09 23:38:53     34s]  lef metal Layer Id 5 mapped to tech Id 13 of Layer metal_5 
+[04/09 23:38:53     34s]  lef via Layer Id 5 mapped to tech Id 14 of Layer via_5 
+[04/09 23:38:53     34s]  lef metal Layer Id 6 mapped to tech Id 15 of Layer metal_6 
+[04/09 23:38:53     34s]  lef via Layer Id 6 mapped to tech Id 16 of Layer via_6 
+[04/09 23:38:53     34s]  lef metal Layer Id 7 mapped to tech Id 17 of Layer metal_7 
+[04/09 23:38:53     34s]  lef via Layer Id 7 mapped to tech Id 18 of Layer via_7 
+[04/09 23:38:53     34s]  lef metal Layer Id 8 mapped to tech Id 19 of Layer metal_8 
+[04/09 23:38:53     34s]  lef via Layer Id 8 mapped to tech Id 20 of Layer via_8 
+[04/09 23:38:53     34s]  lef metal Layer Id 9 mapped to tech Id 21 of Layer metal_9 
+[04/09 23:38:53     34s]  lef via Layer Id 9 mapped to tech Id 22 of Layer via_9 
+[04/09 23:38:53     34s]  lef metal Layer Id 10 mapped to tech Id 23 of Layer metal_10 
+[04/09 23:38:53     34s]  lef via Layer Id 10 mapped to tech Id 24 of Layer via_10 
+[04/09 23:38:53     34s]  lef metal Layer Id 11 mapped to tech Id 25 of Layer metal_11 
+[04/09 23:38:53     34s] Metal Layer Id 1 mapped to 5 
+[04/09 23:38:53     34s] Via Layer Id 1 mapped to 6 
+[04/09 23:38:53     34s] Metal Layer Id 2 mapped to 7 
+[04/09 23:38:53     34s] Via Layer Id 2 mapped to 8 
+[04/09 23:38:53     34s] Metal Layer Id 3 mapped to 9 
+[04/09 23:38:53     34s] Via Layer Id 3 mapped to 10 
+[04/09 23:38:53     34s] Metal Layer Id 4 mapped to 11 
+[04/09 23:38:53     34s] Via Layer Id 4 mapped to 12 
+[04/09 23:38:53     34s] Metal Layer Id 5 mapped to 13 
+[04/09 23:38:53     34s] Via Layer Id 5 mapped to 14 
+[04/09 23:38:53     34s] Metal Layer Id 6 mapped to 15 
+[04/09 23:38:53     34s] Via Layer Id 6 mapped to 16 
+[04/09 23:38:53     34s] Metal Layer Id 7 mapped to 17 
+[04/09 23:38:53     34s] Via Layer Id 7 mapped to 18 
+[04/09 23:38:53     34s] Metal Layer Id 8 mapped to 19 
+[04/09 23:38:53     34s] Via Layer Id 8 mapped to 20 
+[04/09 23:38:53     34s] Metal Layer Id 9 mapped to 21 
+[04/09 23:38:53     34s] Via Layer Id 9 mapped to 22 
+[04/09 23:38:53     34s] Metal Layer Id 10 mapped to 23 
+[04/09 23:38:53     34s] Via Layer Id 10 mapped to 24 
+[04/09 23:38:53     34s] Metal Layer Id 11 mapped to 25 
+[04/09 23:38:53     34s] eee: pegPreRouteEnableSaveRestoreRCPatterns:1, retVal:1, doesAnyTechFileNeedExtraction1
+[04/09 23:38:53     34s] eee: Reading patterns meta data.
+[04/09 23:38:53     34s] Restore PreRoute Pattern Extraction data successful in header.
+[04/09 23:38:53     34s] Loading preRoute extracted patterns from file '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.techData.gz' ...
+[04/09 23:38:53     34s] readViaRC viaRead:119, nrVia:119
+[04/09 23:38:53     34s] isWireRCValid Validate checksum:4711880, FromFile:4711880accessWirePatterns Pattern count:31752, FromFile:31752 Checksum:4711880, FromFile:4711880
+[04/09 23:38:53     34s] eee: PatternAvail:1, PreRoutePatternReadFailed:0
+[04/09 23:38:53     34s] Restore PreRoute Pattern Extraction data successful.
+[04/09 23:38:53     34s] Completed (cpu: 0:00:00.9 real: 0:00:01.0)
+[04/09 23:38:53     34s] Set Shrink Factor to 1.00000
+[04/09 23:38:53     34s] Summary of Active RC-Corners : 
+[04/09 23:38:53     34s]  
+[04/09 23:38:53     34s]  Analysis View: analysis_view_setup
+[04/09 23:38:53     34s]     RC-Corner Name        : rc
+[04/09 23:38:53     34s]     RC-Corner Index       : 0
+[04/09 23:38:53     34s]     RC-Corner Temperature : 25 Celsius
+[04/09 23:38:53     34s]     RC-Corner Cap Table   : ''
+[04/09 23:38:53     34s]     RC-Corner PreRoute Res Factor         : 1
+[04/09 23:38:53     34s]     RC-Corner PreRoute Cap Factor         : 1
+[04/09 23:38:53     34s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[04/09 23:38:53     34s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[04/09 23:38:53     34s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[04/09 23:38:53     34s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/09 23:38:53     34s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/09 23:38:53     34s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel high)]
+[04/09 23:38:53     34s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel high)]
+[04/09 23:38:53     34s]     RC-Corner Technology file: '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/mmmc/rc/gpdk045.tch'
+[04/09 23:38:53     34s]  
+[04/09 23:38:53     34s]  Analysis View: analysis_view_power
+[04/09 23:38:53     34s]     RC-Corner Name        : rc
+[04/09 23:38:53     34s]     RC-Corner Index       : 0
+[04/09 23:38:53     34s]     RC-Corner Temperature : 25 Celsius
+[04/09 23:38:53     34s]     RC-Corner Cap Table   : ''
+[04/09 23:38:53     34s]     RC-Corner PreRoute Res Factor         : 1
+[04/09 23:38:53     34s]     RC-Corner PreRoute Cap Factor         : 1
+[04/09 23:38:53     34s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[04/09 23:38:53     34s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[04/09 23:38:53     34s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[04/09 23:38:53     34s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/09 23:38:53     34s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/09 23:38:53     34s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel high)]
+[04/09 23:38:53     34s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel high)]
+[04/09 23:38:53     34s]     RC-Corner Technology file: '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/mmmc/rc/gpdk045.tch'
+[04/09 23:38:53     34s]  
+[04/09 23:38:53     34s]  Analysis View: analysis_view_hold
+[04/09 23:38:53     34s]     RC-Corner Name        : rc
+[04/09 23:38:53     34s]     RC-Corner Index       : 0
+[04/09 23:38:53     34s]     RC-Corner Temperature : 25 Celsius
+[04/09 23:38:53     34s]     RC-Corner Cap Table   : ''
+[04/09 23:38:53     34s]     RC-Corner PreRoute Res Factor         : 1
+[04/09 23:38:53     34s]     RC-Corner PreRoute Cap Factor         : 1
+[04/09 23:38:53     34s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[04/09 23:38:53     34s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[04/09 23:38:53     34s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[04/09 23:38:53     34s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/09 23:38:53     34s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/09 23:38:53     34s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel high)]
+[04/09 23:38:53     34s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel high)]
+[04/09 23:38:53     34s]     RC-Corner Technology file: '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/mmmc/rc/gpdk045.tch'
+[04/09 23:38:53     34s] 
+[04/09 23:38:53     34s] Trim Metal Layers:
+[04/09 23:38:53     35s] LayerId::1 widthSet size::1
+[04/09 23:38:53     35s] LayerId::2 widthSet size::1
+[04/09 23:38:53     35s] LayerId::3 widthSet size::1
+[04/09 23:38:53     35s] LayerId::4 widthSet size::1
+[04/09 23:38:53     35s] LayerId::5 widthSet size::1
+[04/09 23:38:53     35s] LayerId::6 widthSet size::1
+[04/09 23:38:53     35s] LayerId::7 widthSet size::1
+[04/09 23:38:53     35s] LayerId::8 widthSet size::1
+[04/09 23:38:53     35s] LayerId::9 widthSet size::1
+[04/09 23:38:53     35s] LayerId::10 widthSet size::1
+[04/09 23:38:53     35s] LayerId::11 widthSet size::1
+[04/09 23:38:53     35s] Checksum of RCGrid density data read::(132 132) passed::1
+[04/09 23:38:53     35s] Restore PreRoute RC Grid data successful.
+[04/09 23:38:53     35s] eee: pegSigSF::1.070000
+[04/09 23:38:53     35s] Initializing multi-corner resistance tables ...
+[04/09 23:38:53     35s] ReadRoutingBlockageFactor status::1
+[04/09 23:38:53     35s] Restore PreRoute Blockage data successful.
+[04/09 23:38:53     35s] eee: Reading Grid unit RC.
+[04/09 23:38:53     35s] pesRestorePreRouteExtractionData::readRCGridUnitRC called for corner::rc
+[04/09 23:38:53     35s] RCCorner in design data Name::rc Tech::/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/mmmc/rc/gpdk045.tch 25.000000 1.000000 1.000000 
+[04/09 23:38:53     35s] RCCorner in saved data Name::rc Tech::/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/mmmc/rc/gpdk045.tch 25.000000 1.000000 1.000000 
+[04/09 23:38:53     35s] RC corner rc not found in the saved preRoute extraction data.
+[04/09 23:38:53     35s] eee: RCGridUnitRC data read is unsuccessful
+[04/09 23:38:53     35s] Number of RC corner to be extracted::2
+[04/09 23:38:53     35s] eee: l::1 avDens::0.113763 usedTrk::14026.959922 availTrk::123300.000000 sigTrk::14026.959922
+[04/09 23:38:53     35s] eee: l::2 avDens::0.169414 usedTrk::16440.370757 availTrk::97042.500000 sigTrk::16440.370757
+[04/09 23:38:53     35s] eee: l::3 avDens::0.276502 usedTrk::27746.968905 availTrk::100350.000000 sigTrk::27746.968905
+[04/09 23:38:53     35s] eee: l::4 avDens::0.170025 usedTrk::16223.445530 availTrk::95418.000000 sigTrk::16223.445530
+[04/09 23:38:53     35s] eee: l::5 avDens::0.239892 usedTrk::18157.444409 availTrk::75690.000000 sigTrk::18157.444409
+[04/09 23:38:53     35s] eee: l::6 avDens::0.136478 usedTrk::8518.285024 availTrk::62415.000000 sigTrk::8518.285024
+[04/09 23:38:53     35s] eee: l::7 avDens::0.096242 usedTrk::8020.834154 availTrk::83340.000000 sigTrk::8020.834154
+[04/09 23:38:53     35s] eee: l::8 avDens::0.052210 usedTrk::3522.085503 availTrk::67459.500000 sigTrk::3522.085503
+[04/09 23:38:53     35s] eee: l::9 avDens::0.071739 usedTrk::1271.936849 availTrk::17730.000000 sigTrk::1271.936849
+[04/09 23:38:53     35s] eee: l::10 avDens::0.034715 usedTrk::32.055556 availTrk::923.400000 sigTrk::32.055556
+[04/09 23:38:53     35s] eee: l::11 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[04/09 23:38:53     35s] Preroute length aware model : n: 40 ; LLS: 2-3 ; HLS: 3-5 ; rDens: 0.350057 ; uaWl: 0.999696 ; uaWlH: 0.547176 ; aWlH: 0.000298 ; Pmax: 0.883900 ; wcR: 0.772700 ; newSi: 0.083600 ; pMod: 79 ;
+[04/09 23:38:53     35s] Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+[04/09 23:38:53     35s] Restore PreRoute all RC Grid data successful.Start generating vias ..
+[04/09 23:38:54     35s] #create default rule from bind_ndr_rule rule=0x7f2744204ab0 0x7f270cd40568
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:38:54     35s] ### import design signature (1): route=1 fixed_route=1 flt_obj=0 vio=1905142130 swire=1 shield_wire=1 net_attr=1 dirty_area=0 del_dirty_area=0 cell=0 placement=0 pin_access=1 inst_pattern=1
+[04/09 23:38:54     35s] #Skip building auto via since it is not turned on.
+[04/09 23:38:54     35s] Extracting standard cell pins and blockage ...... 
+[04/09 23:38:54     35s] Pin and blockage extraction finished
+[04/09 23:38:54     35s] Via generation completed.
+[04/09 23:38:54     35s] % Begin Load power constraints ... (date=04/09 23:38:54, mem=1373.1M)
+[04/09 23:38:54     35s] % End Load power constraints ... (date=04/09 23:38:54, total cpu=0:00:00.1, real=0:00:00.0, peak res=1373.5M, current mem=1373.5M)
+[04/09 23:38:54     36s] % Begin load AAE data ... (date=04/09 23:38:54, mem=1417.3M)
+[04/09 23:38:55     36s] AAE DB initialization (MEM=1526.03 CPU=0:00:00.1 REAL=0:00:00.0) 
+[04/09 23:38:55     36s] % End load AAE data ... (date=04/09 23:38:55, total cpu=0:00:00.9, real=0:00:01.0, peak res=1439.1M, current mem=1439.1M)
+[04/09 23:38:55     36s] Restoring CCOpt config...
+[04/09 23:38:55     36s]   Extracting original clock gating for clk...
+[04/09 23:38:55     37s]     clock_tree clk contains 7229 sinks and 0 clock gates.
+[04/09 23:38:55     37s]   Extracting original clock gating for clk done.
+[04/09 23:38:55     37s]   Extracting original clock gating for clk_generator_for_flash_clk<1>...
+[04/09 23:38:55     37s]     clock_tree clk_generator_for_flash_clk<1> contains 3 sinks and 0 clock gates.
+[04/09 23:38:55     37s]   Extracting original clock gating for clk_generator_for_flash_clk<1> done.
+[04/09 23:38:55     37s]   Found 1 generator input for clock tree clk_generator_for_flash_clk<1>.
+[04/09 23:38:55     37s]   Extracting original clock gating for clk_generator_for_flash_clk<2>...
+[04/09 23:38:55     37s]     clock_tree clk_generator_for_flash_clk<2> contains 14 sinks and 0 clock gates.
+[04/09 23:38:55     37s]   Extracting original clock gating for clk_generator_for_flash_clk<2> done.
+[04/09 23:38:55     37s]   Found 1 generator input for clock tree clk_generator_for_flash_clk<2>.
+[04/09 23:38:55     37s]   Extracting original clock gating for clk_generator_for_flash_clk<3>...
+[04/09 23:38:55     37s]     clock_tree clk_generator_for_flash_clk<3> contains 10 sinks and 0 clock gates.
+[04/09 23:38:55     37s]   Extracting original clock gating for clk_generator_for_flash_clk<3> done.
+[04/09 23:38:55     37s]   Found 1 generator input for clock tree clk_generator_for_flash_clk<3>.
+[04/09 23:38:55     37s]   The skew group _clock_gen_clk_config_clk_reg/constraint_mode was created. It contains 34 sinks and 1 sources.
+[04/09 23:38:55     37s]   The skew group _clock_gen_clk_config_en_reg/constraint_mode was created. It contains 34 sinks and 1 sources.
+[04/09 23:38:55     37s]   The skew group _clock_gen_clk_flash_clk_reg/constraint_mode was created. It contains 15 sinks and 1 sources.
+[04/09 23:38:55     37s]   The skew group clk/constraint_mode was created. It contains 7249 sinks and 1 sources.
+[04/09 23:38:55     37s] **WARN: (IMPCCOPT-2332):	The property locked_originally is deprecated. It still works, but it may be removed in a future release.
+[04/09 23:38:55     37s] **WARN: (IMPCCOPT-2332):	The property locked_originally is deprecated. It still works, but it may be removed in a future release.
+[04/09 23:38:55     37s] **WARN: (IMPCCOPT-2332):	The property locked_originally is deprecated. It still works, but it may be removed in a future release.
+[04/09 23:38:55     37s] **WARN: (IMPCCOPT-2332):	The property locked_originally is deprecated. It still works, but it may be removed in a future release.
+[04/09 23:38:55     37s] Restoring CCOpt config done.
+[04/09 23:38:55     37s] 
+[04/09 23:38:55     37s] TimeStamp Deleting Cell Server Begin ...
+[04/09 23:38:55     37s] 
+[04/09 23:38:55     37s] TimeStamp Deleting Cell Server End ...
+[04/09 23:38:55     37s] 
+[04/09 23:38:55     37s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[04/09 23:38:55     37s] Summary for sequential cells identification: 
+[04/09 23:38:55     37s]   Identified SBFF number: 104
+[04/09 23:38:55     37s]   Identified MBFF number: 0
+[04/09 23:38:55     37s]   Identified SB Latch number: 0
+[04/09 23:38:55     37s]   Identified MB Latch number: 0
+[04/09 23:38:55     37s]   Not identified SBFF number: 16
+[04/09 23:38:55     37s]   Not identified MBFF number: 0
+[04/09 23:38:55     37s]   Not identified SB Latch number: 0
+[04/09 23:38:55     37s]   Not identified MB Latch number: 0
+[04/09 23:38:55     37s]   Number of sequential cells which are not FFs: 32
+[04/09 23:38:55     37s] Total number of combinational cells: 318
+[04/09 23:38:55     37s] Total number of sequential cells: 152
+[04/09 23:38:55     37s] Total number of tristate cells: 10
+[04/09 23:38:55     37s] Total number of level shifter cells: 0
+[04/09 23:38:55     37s] Total number of power gating cells: 0
+[04/09 23:38:55     37s] Total number of isolation cells: 0
+[04/09 23:38:55     37s] Total number of power switch cells: 0
+[04/09 23:38:55     37s] Total number of pulse generator cells: 0
+[04/09 23:38:55     37s] Total number of always on buffers: 0
+[04/09 23:38:55     37s] Total number of retention cells: 0
+[04/09 23:38:55     37s] List of usable buffers: BUFX2LVT BUFX12LVT BUFX16LVT BUFX20LVT CLKBUFX2LVT BUFX3LVT BUFX4LVT BUFX6LVT BUFX8LVT CLKBUFX12LVT CLKBUFX16LVT CLKBUFX20LVT CLKBUFX3LVT CLKBUFX4LVT CLKBUFX6LVT CLKBUFX8LVT
+[04/09 23:38:55     37s] Total number of usable buffers: 16
+[04/09 23:38:55     37s] List of unusable buffers:
+[04/09 23:38:55     37s] Total number of unusable buffers: 0
+[04/09 23:38:55     37s] List of usable inverters: CLKINVX1LVT CLKINVX2LVT CLKINVX12LVT CLKINVX16LVT CLKINVX20LVT CLKINVX4LVT CLKINVX3LVT CLKINVX6LVT CLKINVX8LVT INVX1LVT INVX2LVT INVX12LVT INVX16LVT INVX20LVT INVXLLVT INVX3LVT INVX4LVT INVX6LVT INVX8LVT
+[04/09 23:38:55     37s] Total number of usable inverters: 19
+[04/09 23:38:55     37s] List of unusable inverters:
+[04/09 23:38:55     37s] Total number of unusable inverters: 0
+[04/09 23:38:55     37s] List of identified usable delay cells: DLY1X1LVT DLY1X4LVT DLY2X1LVT DLY2X4LVT DLY3X1LVT DLY3X4LVT DLY4X1LVT DLY4X4LVT
+[04/09 23:38:55     37s] Total number of identified usable delay cells: 8
+[04/09 23:38:55     37s] List of identified unusable delay cells:
+[04/09 23:38:55     37s] Total number of identified unusable delay cells: 0
+[04/09 23:38:55     37s] 
+[04/09 23:38:55     37s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[04/09 23:38:55     37s] 
+[04/09 23:38:55     37s] TimeStamp Deleting Cell Server Begin ...
+[04/09 23:38:55     37s] 
+[04/09 23:38:55     37s] TimeStamp Deleting Cell Server End ...
+[04/09 23:38:56     37s] #% End load design ... (date=04/09 23:38:55, total cpu=0:00:15.8, real=0:00:19.0, peak res=1450.0M, current mem=1444.0M)
+[04/09 23:38:56     37s] 
+[04/09 23:38:56     37s] *** Summary of all messages that are not suppressed in this session:
+[04/09 23:38:56     37s] Severity  ID               Count  Summary                                  
+[04/09 23:38:56     37s] WARNING   IMPLF-200            2  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[04/09 23:38:56     37s] WARNING   IMPFP-3961           6  The techSite '%s' has no related standar...
+[04/09 23:38:56     37s] WARNING   IMPTS-17             8  Inconsistency detected in the capacitanc...
+[04/09 23:38:56     37s] WARNING   IMPOPT-3602          1  The specified path group name %s is not ...
+[04/09 23:38:56     37s] WARNING   IMPCCOPT-2332        4  The property %s is deprecated. It still ...
+[04/09 23:38:56     37s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[04/09 23:38:56     37s] WARNING   TECHLIB-302          2  No function defined for cell '%s'. The c...
+[04/09 23:38:56     37s] WARNING   TECHLIB-1161         9  The library level attribute %s on line %...
+[04/09 23:38:56     37s] *** Message Summary: 33 warning(s), 0 error(s)
+[04/09 23:38:56     37s] 
+[04/09 23:38:56     37s] <CMD> setDrawView place
+[04/09 23:38:56     37s] <CMD> fit
+[04/09 23:38:56     37s] <CMD> set_power_analysis_mode -report_missing_nets true -corner delay_typ -analysis_view analysis_view_power
+[04/09 23:38:56     37s] <CMD> read_activity_file ../sim_phys/vcd/et4351.phys.hold.vcd -reset -format VCD -scope testbench/dut
+[04/09 23:38:56     37s] Multithreaded Timing Analysis is initialized with 4 threads
+[04/09 23:38:56     37s] 
+[04/09 23:38:56     37s] **WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+[04/09 23:38:56     37s] Type 'man IMPTS-17' for more detail.
+[04/09 23:38:56     37s] #################################################################################
+[04/09 23:38:56     37s] # Design Stage: PostRoute
+[04/09 23:38:56     37s] # Design Name: et4351
+[04/09 23:38:56     37s] # Design Mode: 45nm
+[04/09 23:38:56     37s] # Analysis Mode: MMMC OCV 
+[04/09 23:38:56     37s] # Parasitics Mode: No SPEF/RCDB 
+[04/09 23:38:56     37s] # Signoff Settings: SI On 
+[04/09 23:38:56     37s] #################################################################################
+[04/09 23:38:57     40s] Topological Sorting (REAL = 0:00:01.0, MEM = 1722.1M, InitMEM = 1722.1M)
+[04/09 23:38:57     40s] Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_setup'
+[04/09 23:38:57     40s] Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+[04/09 23:38:57     41s] *** CDM Built up (cpu=0:00:03.5  real=0:00:01.0  mem= 1722.1M) ***
+[04/09 23:38:57     42s] #################################################################################
+[04/09 23:38:57     42s] # Design Stage: PostRoute
+[04/09 23:38:57     42s] # Design Name: et4351
+[04/09 23:38:57     42s] # Design Mode: 45nm
+[04/09 23:38:57     42s] # Analysis Mode: MMMC OCV 
+[04/09 23:38:57     42s] # Parasitics Mode: No SPEF/RCDB 
+[04/09 23:38:57     42s] # Signoff Settings: SI On 
+[04/09 23:38:57     42s] #################################################################################
+[04/09 23:38:57     42s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1714.1M) ***
+[04/09 23:38:58     44s] #################################################################################
+[04/09 23:38:58     44s] # Design Stage: PostRoute
+[04/09 23:38:58     44s] # Design Name: et4351
+[04/09 23:38:58     44s] # Design Mode: 45nm
+[04/09 23:38:58     44s] # Analysis Mode: MMMC OCV 
+[04/09 23:38:58     44s] # Parasitics Mode: No SPEF/RCDB 
+[04/09 23:38:58     44s] # Signoff Settings: SI On 
+[04/09 23:38:58     44s] #################################################################################
+[04/09 23:38:58     44s] AAE_INFO: 4 threads acquired from CTE.
+[04/09 23:38:58     44s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1714.1M) ***
+[04/09 23:38:59     46s] #################################################################################
+[04/09 23:38:59     46s] # Design Stage: PostRoute
+[04/09 23:38:59     46s] # Design Name: et4351
+[04/09 23:38:59     46s] # Design Mode: 45nm
+[04/09 23:38:59     46s] # Analysis Mode: MMMC OCV 
+[04/09 23:38:59     46s] # Parasitics Mode: No SPEF/RCDB 
+[04/09 23:38:59     46s] # Signoff Settings: SI On 
+[04/09 23:38:59     46s] #################################################################################
+[04/09 23:38:59     46s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1714.1M) ***
+[04/09 23:38:59     48s] clk(62.5MHz) flash_clk(31.25MHz) <CMD> propagate_activity
+[04/09 23:39:03     51s] AAE_INFO: opIsDesignInPostRouteState() is 1
+[04/09 23:39:03     51s] AAE_INFO: resetNetProps viewIdx 0 
+[04/09 23:39:03     51s] AAE_INFO: resetNetProps viewIdx 1 
+[04/09 23:39:03     51s] Starting SI iteration 1 using Infinite Timing Windows
+[04/09 23:39:03     52s] #################################################################################
+[04/09 23:39:03     52s] # Design Stage: PostRoute
+[04/09 23:39:03     52s] # Design Name: et4351
+[04/09 23:39:03     52s] # Design Mode: 45nm
+[04/09 23:39:03     52s] # Analysis Mode: MMMC OCV 
+[04/09 23:39:03     52s] # Parasitics Mode: No SPEF/RCDB 
+[04/09 23:39:03     52s] # Signoff Settings: SI On 
+[04/09 23:39:03     52s] #################################################################################
+[04/09 23:39:03     52s] Extraction called for design 'et4351' of instances=43097 and nets=46512 using extraction engine 'postRoute' at effort level 'high' .
+[04/09 23:39:03     52s] Integrated QRC (IQuantus) Extraction in Multi-Corner mode called for design 'et4351'. Number of corners is 1.
+[04/09 23:39:03     52s] No IQuantus parasitic data in Innovus. Going for full-chip extraction.
+[04/09 23:39:03     52s]  Min pitch recieved = 1520 
+[04/09 23:39:05     53s] IQuantus Extraction invoked in multi (4) processes mode on local host.
+[04/09 23:39:05     53s] 
+[04/09 23:39:05     53s] IQuantus Extraction engine initialization using 1 tech files:
+[04/09 23:39:05     53s] 	/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/mmmc/rc/gpdk045.tch at temperature 25C . 
+[04/09 23:39:05     53s] 
+[04/09 23:39:05     53s] +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[04/09 23:39:07     55s] No layermap file specified. Automatically mapping tech and lef layers. Log file is 'extLogDir/IQuantus_09-Apr-2026_23:39:03_982999_YBPxCY/extr.et4351.layermap.log'.
+[04/09 23:39:07     55s] +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[04/09 23:39:07     55s] IQuantus Extraction engine initialized successfully.
+[04/09 23:39:07     55s] 
+[04/09 23:39:07     55s] Dumping IQuantus extraction options in file 'extLogDir/IQuantus_09-Apr-2026_23:39:03_982999_YBPxCY/extr.et4351.extraction_options.log'.
+[04/09 23:39:07     55s] Initialization for IQuantus Fullchip Extraction DONE (CPU Time: 0:00:03.4  Real Time: 0:00:04.0  MEM: 2002.711M)
+[04/09 23:39:07     55s] QX tile count(x,y) : (7,7)
+[04/09 23:39:07     55s] FE-QX grid count(x,y) :  (22,22)
+[04/09 23:39:07     55s] Halo size : 1.200000 micron
+[04/09 23:39:07     55s] 
+[04/09 23:39:07     55s] Geometry processing of Gray and Metal fill STARTED.................... DONE (CPU Time: 0:00:02.5  Real Time: 0:00:03.0  MEM: 2002.711M)
+[04/09 23:39:12     58s] Geometry processing of nets STARTED.................... DONE (NETS: 45890  Geometries: 1200929  CPU Time: 0:00:06.7  Real Time: 0:00:08.0  MEM: 2002.711M)
+[04/09 23:39:18     64s] 
+[04/09 23:39:18     64s] Extraction of Geometries STARTED.
+[04/09 23:39:18     64s] +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[04/09 23:39:19     65s] Creating 4 parallel subjobs for IQuantus extraction...
+[04/09 23:39:19     65s] EDP: start server on et4351.ewi.tudelft.nl:39885
+[04/09 23:39:19     65s] EDP: start server on et4351.ewi.tudelft.nl:50215
+[04/09 23:39:41     69s] Connected to et4351.ewi.tudelft.nl 46739 1 ( PID=991248 ). Wait time was 22 seconds
+[04/09 23:39:42     69s] Connected to et4351.ewi.tudelft.nl 33103 0 ( PID=991221 ). Wait time was 23 seconds
+[04/09 23:39:44     69s] Connected to et4351.ewi.tudelft.nl 52235 2 ( PID=991276 ). Wait time was 25 seconds
+[04/09 23:39:44     69s] Connected to et4351.ewi.tudelft.nl 40249 3 ( PID=991309 ). Wait time was 25 seconds
+[04/09 23:40:06     71s] EDP: Task 2 finished (source /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/iqrc_tmp_982999_rW4D8B/multi_cpu_job_982999_2.tcl)
+[04/09 23:40:09     74s] EDP: Task 1 finished (source /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/iqrc_tmp_982999_rW4D8B/multi_cpu_job_982999_1.tcl)
+[04/09 23:40:12     77s] EDP: Task 3 finished (source /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/iqrc_tmp_982999_rW4D8B/multi_cpu_job_982999_3.tcl)
+[04/09 23:40:15     80s] EDP: Task 0 finished (source /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/iqrc_tmp_982999_rW4D8B/multi_cpu_job_982999_0.tcl)
+[04/09 23:40:20    256s] +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[04/09 23:40:20    256s] Extraction of Geometries DONE (NETS: 45890  Total CPU Time: 0:03:11  Real Time: 0:01:02  MEM: 2587.789M)
+[04/09 23:40:20    256s] 
+[04/09 23:40:20    256s] Parasitic Network Creation STARTED
+[04/09 23:40:20    256s] Creating parasitic data file '/tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/et4351_982999_xuSBWc.rcdb.d' for storing RC.
+[04/09 23:40:20    257s] ....................
+[04/09 23:40:25    261s] Number of Extracted Resistors     : 933570
+[04/09 23:40:25    261s] Number of Extracted Ground Caps   : 979988
+[04/09 23:40:25    261s] Number of Extracted Coupling Caps : 40654
+[04/09 23:40:25    261s] Parasitic Network Creation DONE (Nets: 45890  CPU Time: 0:00:05.5  Real Time: 0:00:05.0  MEM: 2621.789M)
+[04/09 23:40:25    261s] 
+[04/09 23:40:25    261s] IQuantus Extraction engine is being closed... 
+[04/09 23:40:26    262s] Lumped Parasitic Loading Started (total cpu=0:00:00.0, real=0:00:00.0, current mem=2613.789M)
+[04/09 23:40:26    262s] Opening parasitic data file '/tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/et4351_982999_xuSBWc.rcdb.d' for reading (mem: 2613.789M)
+[04/09 23:40:26    262s] processing rcdb (/tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/et4351_982999_xuSBWc.rcdb.d) for hinst (top) of cell (et4351);
+[04/09 23:40:27    263s] Closing parasitic data file '/tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/et4351_982999_xuSBWc.rcdb.d': 0 access done (mem: 2613.789M)
+[04/09 23:40:27    263s] Lumped Parasitic Loading Completed (total cpu=0:00:01.4, real=0:00:01.0, current mem=2613.789M)
+[04/09 23:40:27    263s] IQuantus Fullchip Extraction DONE (Total CPU Time: 0:03:31  Processes: 4  Real Time: 0:01:24  MEM: 2613.789M)
+[04/09 23:40:28    266s] Topological Sorting (REAL = 0:00:00.0, MEM = 2639.0M, InitMEM = 2630.4M)
+[04/09 23:40:28    266s] Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_setup'
+[04/09 23:40:28    266s] Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+[04/09 23:40:28    266s] Setting infinite Tws ...
+[04/09 23:40:28    266s] First Iteration Infinite Tw... 
+[04/09 23:40:28    267s] Calculate early delays in OCV mode...
+[04/09 23:40:28    267s] Calculate late delays in OCV mode...
+[04/09 23:40:28    267s] Calculate early delays in OCV mode...
+[04/09 23:40:28    267s] Calculate late delays in OCV mode...
+[04/09 23:40:28    267s] Start delay calculation (fullDC) (4 T). (MEM=2643.55)
+[04/09 23:40:29    267s] Start AAE Lib Loading. (MEM=2656.35)
+[04/09 23:40:29    267s] End AAE Lib Loading. (MEM=2702.5 CPU=0:00:00.1 Real=0:00:00.0)
+[04/09 23:40:29    267s] End AAE Lib Interpolated Model. (MEM=2702.5 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[04/09 23:40:29    267s]  Report initialization with DMWrite ... (0, Worst)
+[04/09 23:40:29    267s] Opening parasitic data file '/tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/et4351_982999_xuSBWc.rcdb.d' for reading (mem: 2740.660M)
+[04/09 23:40:29    267s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 2742.7M)
+[04/09 23:40:29    268s] AAE_INFO: 4 threads acquired from CTE.
+[04/09 23:40:34    285s] Total number of fetched objects 46008
+[04/09 23:40:34    285s] AAE_INFO-618: Total number of nets in the design is 46512,  99.0 percent of the nets selected for SI analysis
+[04/09 23:40:37    299s] Total number of fetched objects 46008
+[04/09 23:40:37    299s] AAE_INFO-618: Total number of nets in the design is 46512,  99.2 percent of the nets selected for SI analysis
+[04/09 23:40:38    299s] End Timing Check Calculation. (CPU Time=0:00:00.5, Real Time=0:00:01.0)
+[04/09 23:40:38    300s] End Timing Check Calculation. (CPU Time=0:00:00.5, Real Time=0:00:00.0)
+[04/09 23:40:38    300s] End delay calculation. (MEM=2980.18 CPU=0:00:30.1 REAL=0:00:08.0)
+[04/09 23:40:38    300s] End delay calculation (fullDC). (MEM=2980.18 CPU=0:00:33.6 REAL=0:00:10.0)
+[04/09 23:40:38    300s] *** CDM Built up (cpu=0:04:09  real=0:01:35  mem= 2980.2M) ***
+[04/09 23:40:40    306s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 2948.2M)
+[04/09 23:40:40    306s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[04/09 23:40:40    307s] Loading CTE timing window is completed (CPU = 0:00:01.2, REAL = 0:00:00.0, MEM = 2948.2M)
+[04/09 23:40:40    307s] Starting SI iteration 2
+[04/09 23:40:41    308s] Calculate early delays in OCV mode...
+[04/09 23:40:41    308s] Calculate late delays in OCV mode...
+[04/09 23:40:41    308s] Calculate early delays in OCV mode...
+[04/09 23:40:41    308s] Calculate late delays in OCV mode...
+[04/09 23:40:41    308s] Start delay calculation (fullDC) (4 T). (MEM=2893.41)
+[04/09 23:40:41    308s] End AAE Lib Interpolated Model. (MEM=2893.41 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[04/09 23:40:41    308s]  Report initialization with DMUpdate ... (1, Worst)
+[04/09 23:40:41    309s] Glitch Analysis: View analysis_view_setup -- Total Number of Nets Skipped = 0. 
+[04/09 23:40:41    309s] Glitch Analysis: View analysis_view_setup -- Total Number of Nets Analyzed = 0. 
+[04/09 23:40:41    309s] Total number of fetched objects 46008
+[04/09 23:40:41    309s] AAE_INFO-618: Total number of nets in the design is 46512,  0.4 percent of the nets selected for SI analysis
+[04/09 23:40:42    310s] Glitch Analysis: View analysis_view_power -- Total Number of Nets Skipped = 222. 
+[04/09 23:40:42    310s] Glitch Analysis: View analysis_view_power -- Total Number of Nets Analyzed = 46008. 
+[04/09 23:40:42    310s] Total number of fetched objects 46008
+[04/09 23:40:42    310s] AAE_INFO-618: Total number of nets in the design is 46512,  0.2 percent of the nets selected for SI analysis
+[04/09 23:40:42    310s] End delay calculation. (MEM=3073.14 CPU=0:00:01.7 REAL=0:00:01.0)
+[04/09 23:40:42    310s] End delay calculation (fullDC). (MEM=3073.14 CPU=0:00:02.0 REAL=0:00:01.0)
+[04/09 23:40:42    310s] *** CDM Built up (cpu=0:00:02.1  real=0:00:01.0  mem= 3073.1M) ***
+[04/09 23:40:43    312s] 
+[04/09 23:40:43    312s] Power Net Detected:
+[04/09 23:40:43    312s]         Voltage	    Name
+[04/09 23:40:43    312s]              0V	    VSS
+[04/09 23:40:43    312s]           1.32V	    VDD
+[04/09 23:40:46    315s] <CMD> report_power -hierarchy all -outfile finalReports/report_power_postRouteVCD.rpt
+[04/09 23:40:46    315s]              0V	    VSS
+[04/09 23:40:46    315s]           1.32V	    VDD
+[04/09 23:40:46    315s] 
+[04/09 23:40:46    315s] Begin Power Analysis
+[04/09 23:40:46    315s] 
+[04/09 23:40:46    316s]              0V	    VSS
+[04/09 23:40:46    316s]           1.32V	    VDD
+[04/09 23:40:46    316s] Begin Processing Timing Library for Power Calculation
+[04/09 23:40:46    316s] 
+[04/09 23:40:46    316s] Begin Processing Timing Library for Power Calculation
+[04/09 23:40:46    316s] 
+[04/09 23:40:46    316s] 
+[04/09 23:40:46    316s] 
+[04/09 23:40:46    316s] Begin Processing Power Net/Grid for Power Calculation
+[04/09 23:40:46    316s] 
+[04/09 23:40:46    316s] Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2198.75MB/4336.01MB/2198.75MB)
+[04/09 23:40:46    316s] 
+[04/09 23:40:46    316s] Begin Processing Timing Window Data for Power Calculation
+[04/09 23:40:46    316s] 
+[04/09 23:40:46    316s] clk(62.5MHz) flash_clk(31.25MHz) Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2198.75MB/4336.01MB/2198.75MB)
+[04/09 23:40:47    316s] 
+[04/09 23:40:47    316s] Begin Processing User Attributes
+[04/09 23:40:47    316s] 
+[04/09 23:40:47    316s] Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2198.75MB/4336.01MB/2198.75MB)
+[04/09 23:40:47    316s] 
+[04/09 23:40:47    316s] Begin Processing Signal Activity
+[04/09 23:40:47    316s] 
+[04/09 23:40:48    318s] Ended Processing Signal Activity: (cpu=0:00:01, real=0:00:01, mem(process/total/peak)=2199.05MB/4336.01MB/2199.05MB)
+[04/09 23:40:48    318s] 
+[04/09 23:40:48    318s] Begin Power Computation
+[04/09 23:40:48    318s] 
+[04/09 23:40:48    318s]       ----------------------------------------------------------
+[04/09 23:40:48    318s]       # of cell(s) missing both power/leakage table: 0
+[04/09 23:40:48    318s]       # of cell(s) missing power table: 2
+[04/09 23:40:48    318s]       # of cell(s) missing leakage table: 1
+[04/09 23:40:48    318s]       # of MSMV cell(s) missing power_level: 0
+[04/09 23:40:48    318s]       ----------------------------------------------------------
+[04/09 23:40:48    318s] CellName                                  Missing Table(s)
+[04/09 23:40:48    318s] SRAM1RW256x8                              leakge power, 
+[04/09 23:40:48    318s] TIEHILVT                                  internal power, 
+[04/09 23:40:48    318s] TIELOLVT                                  internal power, 
+[04/09 23:40:48    318s] 
+[04/09 23:40:48    318s] 
+[04/09 23:40:51    324s] Ended Power Computation: (cpu=0:00:06, real=0:00:02, mem(process/total/peak)=2342.66MB/4452.70MB/2342.66MB)
+[04/09 23:40:51    324s] 
+[04/09 23:40:51    324s] Begin Processing User Attributes
+[04/09 23:40:51    324s] 
+[04/09 23:40:51    324s] Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2342.66MB/4452.70MB/2342.66MB)
+[04/09 23:40:51    324s] 
+[04/09 23:40:51    324s] Ended Power Analysis: (cpu=0:00:08, real=0:00:04, mem(process/total/peak)=2342.66MB/4452.70MB/2342.66MB)
+[04/09 23:40:51    324s] 
+[04/09 23:40:51    324s] *
+
+
+
+[04/09 23:40:51    324s] Total Power
+[04/09 23:40:51    324s] -----------------------------------------------------------------------------------------
+[04/09 23:40:51    324s] Total Internal Power:        2.84193730 	   71.4158%
+[04/09 23:40:51    324s] Total Switching Power:       1.02164205 	   25.6731%
+[04/09 23:40:51    324s] Total Leakage Power:         0.11584611 	    2.9111%
+[04/09 23:40:51    324s] Total Power:                 3.97942546
+[04/09 23:40:51    324s] -----------------------------------------------------------------------------------------
+[04/09 23:53:30    391s] <CMD> read_activity_file ../sim_phys/vcd/et4351.phys.hold.vcd -reset -format VCD -scope testbench/dut > finalReports/activityReport.rpt
+[04/09 23:53:30    391s]              0V	    VSS
+[04/09 23:53:30    391s]           1.32V	    VDD
+[04/09 23:53:31    391s] clk(62.5MHz) flash_clk(31.25MHz) 
+[04/09 23:56:11    400s] 
+[04/09 23:56:11    400s] 
+[04/09 23:56:11    400s]  ##############################################################    
+[04/09 23:56:11    400s]  ##                                                                
+[04/09 23:56:11    400s]  ##                        VERIFY                                  
+[04/09 23:56:11    400s]  ##                                                                
+[04/09 23:56:11    400s]  ##############################################################    
+[04/09 23:56:11    400s] 
+[04/09 23:56:11    400s] 
+[04/09 23:56:11    400s] 
+[04/09 23:56:11    400s] <CMD> clearDrc
+[04/09 23:56:11    400s] <CMD> verifyConnectivity -type all -error 1000 -warning 50 -report verifyReports/verifyConnectivity.rpt
+[04/09 23:56:11    400s] VERIFY_CONNECTIVITY use new engine.
+[04/09 23:56:11    400s] 
+[04/09 23:56:11    400s] ******** Start: VERIFY CONNECTIVITY ********
+[04/09 23:56:11    400s] Start Time: Thu Apr  9 23:56:11 2026
+[04/09 23:56:11    400s] 
+[04/09 23:56:11    400s] Design Name: et4351
+[04/09 23:56:11    400s] Database Units: 2000
+[04/09 23:56:11    400s] Design Boundary: (0.0000, 0.0000) (664.8000, 664.8000)
+[04/09 23:56:11    400s] Error Limit = 1000; Warning Limit = 50
+[04/09 23:56:11    400s] Check all nets
+[04/09 23:56:11    400s] Use 4 pthreads
+[04/09 23:56:13    405s] 
+[04/09 23:56:13    405s] Begin Summary 
+[04/09 23:56:13    405s]   Found no problems or warnings.
+[04/09 23:56:13    405s] End Summary
+[04/09 23:56:13    405s] 
+[04/09 23:56:13    405s] End Time: Thu Apr  9 23:56:13 2026
+[04/09 23:56:13    405s] Time Elapsed: 0:00:02.0
+[04/09 23:56:13    405s] 
+[04/09 23:56:13    405s] ******** End: VERIFY CONNECTIVITY ********
+[04/09 23:56:13    405s]   Verification Complete : 0 Viols.  0 Wrngs.
+[04/09 23:56:13    405s]   (CPU Time: 0:00:05.1  MEM: 54.000M)
+[04/09 23:56:13    405s] 
+[04/09 23:56:13    405s] <CMD> verify_drc -limit 1000 -report verifyReports/verify_drc.rpt
+[04/09 23:56:13    405s] #-check_same_via_cell true               # bool, default=false, user setting
+[04/09 23:56:13    405s] #-report verifyReports/verify_drc.rpt    # string, default="", user setting
+[04/09 23:56:13    405s]  *** Starting Verify DRC (MEM: 3183.2) ***
+[04/09 23:56:13    405s] 
+[04/09 23:56:13    405s] **WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+[04/09 23:56:13    405s] Type 'man IMPTS-17' for more detail.
+[04/09 23:56:13    405s] #create default rule from bind_ndr_rule rule=0x7f2744204ab0 0x7f269099e568
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[04/09 23:56:13    405s] ### import design signature (2): route=1 fixed_route=1 flt_obj=0 vio=1905142130 swire=1 shield_wire=1 net_attr=1 dirty_area=0 del_dirty_area=0 cell=0 placement=0 pin_access=1 inst_pattern=1
+[04/09 23:56:13    405s]   VERIFY DRC ...... Starting Verification
+[04/09 23:56:13    405s]   VERIFY DRC ...... Initializing
+[04/09 23:56:13    405s]   VERIFY DRC ...... Deleting Existing Violations
+[04/09 23:56:13    405s]   VERIFY DRC ...... Creating Sub-Areas
+[04/09 23:56:13    405s]   VERIFY DRC ...... Using new threading
+[04/09 23:56:28    464s]  VERIFY DRC ...... Sub-Area: {334.080 0.000 417.600 83.520} 5 of 64  Thread : 3
+[04/09 23:56:29    467s]  VERIFY DRC ...... Sub-Area: {501.120 0.000 584.640 83.520} 7 of 64  Thread : 2
+[04/09 23:56:31    475s]  VERIFY DRC ...... Sub-Area: {334.080 83.520 417.600 167.040} 13 of 64  Thread : 3
+[04/09 23:56:33    483s]  VERIFY DRC ...... Sub-Area: {167.040 0.000 250.560 83.520} 3 of 64  Thread : 0
+[04/09 23:56:47    538s]  VERIFY DRC ...... Sub-Area: {417.600 0.000 501.120 83.520} 6 of 64  Thread : 3
+[04/09 23:56:48    544s]  VERIFY DRC ...... Sub-Area: {250.560 0.000 334.080 83.520} 4 of 64  Thread : 0
+[04/09 23:56:49    548s]  VERIFY DRC ...... Sub-Area: {417.600 83.520 501.120 167.040} 14 of 64  Thread : 3
+[04/09 23:56:51    555s]  VERIFY DRC ...... Sub-Area: {167.040 83.520 250.560 167.040} 11 of 64  Thread : 0
+[04/09 23:56:51    557s]  VERIFY DRC ...... Sub-Area: {0.000 0.000 83.520 83.520} 1 of 64  Thread : 1
+[04/09 23:56:54    566s]  VERIFY DRC ...... Sub-Area: {250.560 83.520 334.080 167.040} 12 of 64  Thread : 0
+[04/09 23:56:56    574s]  VERIFY DRC ...... Sub-Area: {167.040 167.040 250.560 250.560} 19 of 64  Thread : 0
+[04/09 23:56:57    581s]  VERIFY DRC ...... Sub-Area: {250.560 167.040 334.080 250.560} 20 of 64  Thread : 0
+[04/09 23:56:59    587s]  VERIFY DRC ...... Sub-Area: {334.080 167.040 417.600 250.560} 21 of 64  Thread : 0
+[04/09 23:57:00    592s]  VERIFY DRC ...... Sub-Area: {0.000 167.040 83.520 250.560} 17 of 64  Thread : 3
+[04/09 23:57:00    593s]  VERIFY DRC ...... Sub-Area: {417.600 167.040 501.120 250.560} 22 of 64  Thread : 0
+[04/09 23:57:02    599s]  VERIFY DRC ...... Sub-Area: {501.120 167.040 584.640 250.560} 23 of 64  Thread : 0
+[04/09 23:57:03    602s]  VERIFY DRC ...... Sub-Area: {83.520 167.040 167.040 250.560} 18 of 64  Thread : 3
+[04/09 23:57:05    610s]  VERIFY DRC ...... Sub-Area: {584.640 0.000 664.800 83.520} 8 of 64  Thread : 2
+[04/09 23:57:05    611s]  VERIFY DRC ...... Sub-Area: {83.520 250.560 167.040 334.080} 26 of 64  Thread : 3
+[04/09 23:57:06    617s]  VERIFY DRC ...... Sub-Area: {250.560 250.560 334.080 334.080} 28 of 64  Thread : 2
+[04/09 23:57:07    618s]  VERIFY DRC ...... Sub-Area: {417.600 250.560 501.120 334.080} 30 of 64  Thread : 3
+[04/09 23:57:08    624s]  VERIFY DRC ...... Sub-Area: {334.080 250.560 417.600 334.080} 29 of 64  Thread : 3
+[04/09 23:57:09    628s]  VERIFY DRC ...... Sub-Area: {167.040 250.560 250.560 334.080} 27 of 64  Thread : 2
+[04/09 23:57:10    632s]  VERIFY DRC ...... Sub-Area: {83.520 0.000 167.040 83.520} 2 of 64  Thread : 1
+[04/09 23:57:11    635s]  VERIFY DRC ...... Sub-Area: {167.040 334.080 250.560 417.600} 35 of 64  Thread : 2
+[04/09 23:57:13    641s]  VERIFY DRC ...... Sub-Area: {584.640 167.040 664.800 250.560} 24 of 64  Thread : 0
+[04/09 23:57:13    641s]  VERIFY DRC ...... Sub-Area: {250.560 334.080 334.080 417.600} 36 of 64  Thread : 2
+[04/09 23:57:14    648s]  VERIFY DRC ...... Sub-Area: {501.120 250.560 584.640 334.080} 31 of 64  Thread : 2
+[04/09 23:57:15    650s]  VERIFY DRC ...... Sub-Area: {501.120 83.520 584.640 167.040} 15 of 64  Thread : 0
+[04/09 23:57:18    663s]  VERIFY DRC ...... Sub-Area: {0.000 334.080 83.520 417.600} 33 of 64  Thread : 3
+[04/09 23:57:24    688s]  VERIFY DRC ...... Sub-Area: {584.640 250.560 664.800 334.080} 32 of 64  Thread : 2
+[04/09 23:57:26    695s]  VERIFY DRC ...... Sub-Area: {334.080 334.080 417.600 417.600} 37 of 64  Thread : 2
+[04/09 23:57:28    702s]  VERIFY DRC ...... Sub-Area: {417.600 334.080 501.120 417.600} 38 of 64  Thread : 2
+[04/09 23:57:28    702s]  VERIFY DRC ...... Sub-Area: {0.000 83.520 83.520 167.040} 9 of 64  Thread : 1
+[04/09 23:57:29    705s]  VERIFY DRC ...... Sub-Area: {0.000 250.560 83.520 334.080} 25 of 64  Thread : 3
+[04/09 23:57:30    710s]  VERIFY DRC ...... Sub-Area: {501.120 334.080 584.640 417.600} 39 of 64  Thread : 2
+[04/09 23:57:30    712s]  VERIFY DRC ...... Sub-Area: {83.520 334.080 167.040 417.600} 34 of 64  Thread : 3
+[04/09 23:57:32    717s]  VERIFY DRC ...... Sub-Area: {83.520 417.600 167.040 501.120} 42 of 64  Thread : 3
+[04/09 23:57:32    718s]  VERIFY DRC ...... Sub-Area: {83.520 83.520 167.040 167.040} 10 of 64  Thread : 1
+[04/09 23:57:33    723s]  VERIFY DRC ...... Sub-Area: {167.040 417.600 250.560 501.120} 43 of 64  Thread : 3
+[04/09 23:57:33    723s]  VERIFY DRC ...... Sub-Area: {584.640 83.520 664.800 167.040} 16 of 64  Thread : 0
+[04/09 23:57:34    725s]  VERIFY DRC ...... Sub-Area: {334.080 417.600 417.600 501.120} 45 of 64  Thread : 1
+[04/09 23:57:36    733s]  VERIFY DRC ...... Sub-Area: {417.600 417.600 501.120 501.120} 46 of 64  Thread : 1
+[04/09 23:57:36    734s]  VERIFY DRC ...... Sub-Area: {167.040 501.120 250.560 584.640} 51 of 64  Thread : 0
+[04/09 23:57:38    742s]  VERIFY DRC ...... Sub-Area: {334.080 501.120 417.600 584.640} 53 of 64  Thread : 1
+[04/09 23:57:38    743s]  VERIFY DRC ...... Sub-Area: {501.120 501.120 584.640 584.640} 55 of 64  Thread : 0
+[04/09 23:57:39    748s]  VERIFY DRC ...... Sub-Area: {250.560 417.600 334.080 501.120} 44 of 64  Thread : 1
+[04/09 23:57:41    753s]  VERIFY DRC ...... Sub-Area: {417.600 501.120 501.120 584.640} 54 of 64  Thread : 0
+[04/09 23:57:42    757s]  VERIFY DRC ...... Sub-Area: {250.560 501.120 334.080 584.640} 52 of 64  Thread : 1
+[04/09 23:57:42    757s]  VERIFY DRC ...... Sub-Area: {584.640 334.080 664.800 417.600} 40 of 64  Thread : 2
+[04/09 23:57:49    785s]  VERIFY DRC ...... Sub-Area: {0.000 501.120 83.520 584.640} 49 of 64  Thread : 3
+[04/09 23:57:56    815s]  VERIFY DRC ...... Sub-Area: {334.080 584.640 417.600 664.800} 61 of 64  Thread : 2
+[04/09 23:57:58    822s]  VERIFY DRC ...... Sub-Area: {0.000 417.600 83.520 501.120} 41 of 64  Thread : 3
+[04/09 23:58:02    834s]  VERIFY DRC ...... Sub-Area: {584.640 501.120 664.800 584.640} 56 of 64  Thread : 0
+[04/09 23:58:03    840s]  VERIFY DRC ...... Sub-Area: {167.040 584.640 250.560 664.800} 59 of 64  Thread : 1
+[04/09 23:58:04    840s]  VERIFY DRC ...... Sub-Area: {501.120 417.600 584.640 501.120} 47 of 64  Thread : 0
+[04/09 23:58:10    867s]  VERIFY DRC ...... Sub-Area: {417.600 584.640 501.120 664.800} 62 of 64  Thread : 2
+[04/09 23:58:14    880s]  VERIFY DRC ...... Sub-Area: {584.640 417.600 664.800 501.120} 48 of 64  Thread : 0
+[04/09 23:58:17    890s]  VERIFY DRC ...... Sub-Area: {250.560 584.640 334.080 664.800} 60 of 64  Thread : 1
+[04/09 23:58:24    903s]  VERIFY DRC ...... Sub-Area: {501.120 584.640 584.640 664.800} 63 of 64  Thread : 2
+[04/09 23:58:43    942s]  VERIFY DRC ...... Sub-Area: {0.000 584.640 83.520 664.800} 57 of 64  Thread : 3
+[04/09 23:58:45    945s]  VERIFY DRC ...... Sub-Area: {83.520 501.120 167.040 584.640} 50 of 64  Thread : 3
+[04/09 23:58:45    945s]  VERIFY DRC ...... Thread : 1 finished.
+[04/09 23:58:55    966s]  VERIFY DRC ...... Sub-Area: {584.640 584.640 664.800 664.800} 64 of 64  Thread : 2
+[04/09 23:58:55    966s]  VERIFY DRC ...... Thread : 2 finished.
+[04/09 23:59:18    989s]  VERIFY DRC ...... Sub-Area: {83.520 584.640 167.040 664.800} 58 of 64  Thread : 3
+[04/09 23:59:18    989s]  VERIFY DRC ...... Thread : 3 finished.
+[04/09 23:59:18    989s] 
+[04/09 23:59:18    989s]   Verification Complete : 0 Viols.
+[04/09 23:59:18    989s] 
+[04/09 23:59:18    989s]  *** End Verify DRC (CPU: 0:09:44  ELAPSED TIME: 185.00  MEM: 246.0M) ***
+[04/09 23:59:18    989s] 
+[04/09 23:59:18    989s] <CMD> verifyProcessAntenna -error 1000 -reportfile verifyReports/verifyProcessAntenna.rpt
+[04/09 23:59:18    989s] 
+[04/09 23:59:18    989s] ******* START VERIFY ANTENNA ********
+[04/09 23:59:18    989s] Report File: verifyReports/verifyProcessAntenna.rpt
+[04/09 23:59:18    989s] LEF Macro File: et4351.antenna.lef
+[04/09 23:59:18    989s] 5000 nets processed: 0 violations
+[04/09 23:59:19    989s] 10000 nets processed: 0 violations
+[04/09 23:59:19    990s] 15000 nets processed: 0 violations
+[04/09 23:59:19    990s] 20000 nets processed: 0 violations
+[04/09 23:59:20    990s] 25000 nets processed: 0 violations
+[04/09 23:59:20    991s] 30000 nets processed: 0 violations
+[04/09 23:59:20    991s] 35000 nets processed: 0 violations
+[04/09 23:59:21    991s] 40000 nets processed: 0 violations
+[04/09 23:59:21    992s] 45000 nets processed: 0 violations
+[04/09 23:59:21    992s] Verification Complete: 0 Violations
+[04/09 23:59:21    992s] ******* DONE VERIFY ANTENNA ********
+[04/09 23:59:21    992s] (CPU Time: 0:00:03.1  MEM: 0.000M)
+[04/09 23:59:21    992s] 
+[04/10 02:03:39   1557s]  *** Starting Verify Geometry (MEM: 3425.3) ***
+[04/10 02:03:39   1557s] 
+[04/10 02:03:39   1557s] **WARN: (IMPVFG-257):	setVerifyGeometryMode/verifyGeometry command is obsolete and should not be used any more. It still works in this release but will be removed in future release. You should change to use set_verify_drc_mode/verify_drc which is the replacement tool for verifyGeometry.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Starting Verification
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Initializing
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Deleting Existing Violations
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Creating Sub-Areas
+[04/10 02:03:39   1557s]                   ...... bin size: 1920
+[04/10 02:03:39   1557s] Multi-CPU acceleration using 4 CPU(s).
+[04/10 02:03:39   1557s] <CMD> saveDrc /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/vergQTmpRknZJA/qthread_src.drc
+[04/10 02:03:39   1557s] Saving Drc markers ...
+[04/10 02:03:39   1557s] ... No Drc file written since there is no markers found.
+[04/10 02:03:39   1557s] <CMD> clearDrc
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 1 of 36  Thread : 0
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 2 of 36  Thread : 1
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 3 of 36  Thread : 2
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 4 of 36  Thread : 3
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 8 of 36  Thread : 3
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 5 of 36  Thread : 0
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 7 of 36  Thread : 2
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 6 of 36  Thread : 1
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 9 of 36  Thread : 0
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 12 of 36  Thread : 3
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 11 of 36  Thread : 2
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 13 of 36  Thread : 0
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 10 of 36  Thread : 1
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 15 of 36  Thread : 2
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 16 of 36  Thread : 3
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 14 of 36  Thread : 1
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 20 of 36  Thread : 3
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 19 of 36  Thread : 2
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 17 of 36  Thread : 0
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 24 of 36  Thread : 3
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 18 of 36  Thread : 1
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 21 of 36  Thread : 0
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 23 of 36  Thread : 2
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 28 of 36  Thread : 3
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 25 of 36  Thread : 0
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 27 of 36  Thread : 2
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 22 of 36  Thread : 1
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 31 of 36  Thread : 2
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 29 of 36  Thread : 0
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 32 of 36  Thread : 3
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 26 of 36  Thread : 1
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 30 of 36  Thread : 1
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 33 of 36  Thread : 0
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 35 of 36  Thread : 2
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 36 of 36  Thread : 3
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SubArea : 34 of 36  Thread : 1
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:03:39   1557s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:11   1668s] VG: elapsed time: 32.00
+[04/10 02:04:11   1668s] Begin Summary ...
+[04/10 02:04:11   1668s]   Cells       : 0
+[04/10 02:04:11   1668s]   SameNet     : 0
+[04/10 02:04:11   1668s]   Wiring      : 0
+[04/10 02:04:11   1668s]   Antenna     : 0
+[04/10 02:04:11   1668s]   Short       : 0
+[04/10 02:04:11   1668s]   Overlap     : 0
+[04/10 02:04:11   1668s] End Summary
+[04/10 02:04:11   1668s] 
+[04/10 02:04:11   1668s]   Verification Complete : 0 Viols.  0 Wrngs.
+[04/10 02:04:11   1668s] 
+[04/10 02:04:11   1668s] **********End: VERIFY GEOMETRY**********
+[04/10 02:04:11   1668s]  *** verify geometry (CPU: 0:01:51  MEM: 3090.0M)
+[04/10 02:04:11   1668s] 
+[04/10 02:04:37   1672s]  *** Starting Verify Geometry (MEM: 3425.3) ***
+[04/10 02:04:37   1672s] 
+[04/10 02:04:37   1672s] **WARN: (IMPVFG-257):	setVerifyGeometryMode/verifyGeometry command is obsolete and should not be used any more. It still works in this release but will be removed in future release. You should change to use set_verify_drc_mode/verify_drc which is the replacement tool for verifyGeometry.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Starting Verification
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Initializing
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Deleting Existing Violations
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Creating Sub-Areas
+[04/10 02:04:37   1672s]                   ...... bin size: 1920
+[04/10 02:04:37   1672s] Multi-CPU acceleration using 4 CPU(s).
+[04/10 02:04:37   1672s] <CMD> saveDrc /tmp/innovus_temp_982999_et4351.ewi.tudelft.nl_vrameshselvam_QdmmBA/vergQTmp6W0sKu/qthread_src.drc
+[04/10 02:04:37   1672s] Saving Drc markers ...
+[04/10 02:04:37   1672s] ... No Drc file written since there is no markers found.
+[04/10 02:04:37   1672s] <CMD> clearDrc
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 1 of 36  Thread : 0
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 2 of 36  Thread : 1
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 3 of 36  Thread : 2
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 4 of 36  Thread : 3
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 8 of 36  Thread : 3
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 6 of 36  Thread : 1
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 5 of 36  Thread : 0
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 7 of 36  Thread : 2
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 12 of 36  Thread : 3
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 9 of 36  Thread : 0
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 11 of 36  Thread : 2
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 10 of 36  Thread : 1
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 15 of 36  Thread : 2
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 16 of 36  Thread : 3
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 13 of 36  Thread : 0
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 14 of 36  Thread : 1
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 20 of 36  Thread : 3
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 19 of 36  Thread : 2
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 24 of 36  Thread : 3
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 18 of 36  Thread : 1
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 17 of 36  Thread : 0
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 23 of 36  Thread : 2
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 28 of 36  Thread : 3
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 22 of 36  Thread : 1
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 21 of 36  Thread : 0
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 27 of 36  Thread : 2
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 31 of 36  Thread : 2
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 32 of 36  Thread : 3
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 25 of 36  Thread : 0
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 26 of 36  Thread : 1
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 30 of 36  Thread : 1
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 29 of 36  Thread : 0
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 36 of 36  Thread : 3
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 34 of 36  Thread : 1
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 35 of 36  Thread : 2
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SubArea : 33 of 36  Thread : 0
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Cells          :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+[04/10 02:04:37   1672s]   VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+[04/10 02:05:07   1784s] VG: elapsed time: 30.00
+[04/10 02:05:07   1784s] Begin Summary ...
+[04/10 02:05:07   1784s]   Cells       : 0
+[04/10 02:05:07   1784s]   SameNet     : 0
+[04/10 02:05:07   1784s]   Wiring      : 0
+[04/10 02:05:07   1784s]   Antenna     : 0
+[04/10 02:05:07   1784s]   Short       : 0
+[04/10 02:05:07   1784s]   Overlap     : 0
+[04/10 02:05:07   1784s] End Summary
+[04/10 02:05:07   1784s] 
+[04/10 02:05:07   1784s]   Verification Complete : 0 Viols.  0 Wrngs.
+[04/10 02:05:07   1784s] 
+[04/10 02:05:07   1784s] **********End: VERIFY GEOMETRY**********
+[04/10 02:05:07   1784s]  *** verify geometry (CPU: 0:01:52  MEM: 3093.1M)
+[04/10 02:05:07   1784s] 
+[04/10 03:17:03   1815s] 
+[04/10 03:17:03   1815s] *** Memory Usage v#1 (Current mem = 3371.262M, initial mem = 318.535M) ***
+[04/10 03:17:03   1815s] 
+[04/10 03:17:03   1815s] *** Summary of all messages that are not suppressed in this session:
+[04/10 03:17:03   1815s] Severity  ID               Count  Summary                                  
+[04/10 03:17:03   1815s] WARNING   IMPLF-200            2  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[04/10 03:17:03   1815s] WARNING   IMPFP-3961           6  The techSite '%s' has no related standar...
+[04/10 03:17:03   1815s] WARNING   IMPTS-17            10  Inconsistency detected in the capacitanc...
+[04/10 03:17:03   1815s] WARNING   IMPVFG-257           2  setVerifyGeometryMode/verifyGeometry com...
+[04/10 03:17:03   1815s] WARNING   IMPOPT-3602          1  The specified path group name %s is not ...
+[04/10 03:17:03   1815s] WARNING   IMPCCOPT-2332        4  The property %s is deprecated. It still ...
+[04/10 03:17:03   1815s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[04/10 03:17:03   1815s] WARNING   TECHLIB-302          2  No function defined for cell '%s'. The c...
+[04/10 03:17:03   1815s] WARNING   TECHLIB-1161         9  The library level attribute %s on line %...
+[04/10 03:17:03   1815s] *** Message Summary: 37 warning(s), 0 error(s)
+[04/10 03:17:03   1815s] 
+[04/10 03:17:03   1815s] --- Ending "Innovus" (totcpu=0:30:16, real=3:39:11, mem=3371.3M) ---

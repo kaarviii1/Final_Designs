@@ -1,0 +1,446 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v21.11-s130_1, built Thu Aug 19 16:59:56 PDT 2021
+Options:	
+Date:		Thu Apr  9 23:23:32 2026
+Host:		et4351.ewi.tudelft.nl (x86_64 w/Linux 4.18.0-553.111.1.el8_10.x86_64) (1core*64cpus*AMD EPYC 7702P 64-Core Processor 512KB)
+OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+
+License:
+		[23:23:32.316794] Configured Lic search path (20.02-p002): 27012@flexserv1.tudelft.nl:27017@flexserv1.tudelft.nl
+
+		invs	Innovus Implementation System	21.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> set init_verilog ./outputs/et4351.phys.v
+<CMD> setMessageLimit 1 ENCLF 45
+<CMD> setMessageLimit 1 ENCLF 119
+<CMD> setMessageLimit 1 ENCLF 200
+<CMD> setMessageLimit 1 ENCLF 201
+<CMD> setMessageLimit 10 IMPDB 2078
+<CMD> setMessageLimit 10 IMPDC 348
+<CMD> setMultiCpuUsage -localCpu 4 -cpuPerRemoteHost 4 -remoteHost 1 -keepLicense true
+Setting releaseMultiCpuLicenseMode to false.
+<CMD> restoreDesign checkpoints/et4351_done.enc.dat/
+**ERROR: (IMPTCM-113):	Option "<design>" is required when option "<session>" is specified. Type 'man restoreDesign' for more details.
+
+
+ERROR:   
+
+  
+    while executing
+"error $catchMsg"
+    (procedure "restoreDesign" line 33)
+
+  
+<CMD> restoreDesign checkpoints/et4351_done.enc.dat et4351
+#% Begin load design ... (date=04/09 23:26:08, mem=800.5M)
+Set Default Input Pin Transition as 0.1 ps.
+Loading design 'et4351' saved by 'Innovus' '21.11-s130_1' on 'Thu Apr 9 21:03:08 2026'.
+% Begin Load MMMC data ... (date=04/09 23:26:09, mem=802.8M)
+% End Load MMMC data ... (date=04/09 23:26:09, total cpu=0:00:00.0, real=0:00:00.0, peak res=803.9M, current mem=803.9M)
+rc
+
+Loading LEF file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/lef/gsclib045_tech.lef ...
+
+Loading LEF file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/lef/gsclib045_lvt_macro.lef ...
+Set DBUPerIGU to M2 pitch 400.
+
+Loading LEF file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/lef/saed32sram.lef ...
+**WARN: (IMPLF-200):	Pin 'CSB1' in macro 'SRAM2RW128x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 1.
+To increase the message display limit, refer to the product command reference manual.
+
+viaInitial starts at Thu Apr  9 23:26:10 2026
+viaInitial ends at Thu Apr  9 23:26:10 2026
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/viewDefinition.tcl
+Starting library reading in 'Multi-threaded flow' (with '4' threads)
+Reading library_max timing library /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/slow_vdd1v0_basicCells_lvt.lib.
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNALVT'. The cell will only be used for analysis. (File /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/slow_vdd1v0_basicCells_lvt.lib)
+Read 480 cells in library slow_vdd1v0.
+Reading library_max timing library /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib.
+**WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 24401 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib)
+**WARN: (TECHLIB-1161):	The library level attribute default_wire_load on line 24402 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib)
+**WARN: (TECHLIB-1161):	The library level attribute default_wire_load_selection on line 24403 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib)
+Read 35 cells in library saed32sram_ss0p95vn40c.
+Library reading multithread flow ended.
+Starting library reading in 'Multi-threaded flow' (with '4' threads)
+Reading library_min timing library /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/fast_vdd1v2_basicCells_lvt.lib.
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNALVT'. The cell will only be used for analysis. (File /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/fast_vdd1v2_basicCells_lvt.lib)
+Read 480 cells in library fast_vdd1v2.
+Reading library_min timing library /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib.
+**WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 24400 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib)
+**WARN: (TECHLIB-1161):	The library level attribute default_wire_load on line 24401 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib)
+**WARN: (TECHLIB-1161):	The library level attribute default_wire_load_selection on line 24402 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib)
+Read 35 cells in library saed32sram_ff1p16vn40c.
+Library reading multithread flow ended.
+*** End library_loading (cpu=0.06min, real=0.02min, mem=140.0M, fe_cpu=0.61min, fe_real=2.65min, fe_mem=960.3M) ***
+% Begin Load netlist data ... (date=04/09 23:26:11, mem=844.3M)
+*** Begin netlist parsing (mem=960.3M) ***
+Created 515 new cells from 4 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilogBinary netlist '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/vbin/et4351.v.bin'
+Reading binary database version 2 in multi-threaded mode
+
+*** Memory Usage v#1 (Current mem = 981.289M, initial mem = 318.535M) ***
+*** End netlist parsing (cpu=0:00:00.3, real=0:00:00.0, mem=981.3M) ***
+% End Load netlist data ... (date=04/09 23:26:11, total cpu=0:00:00.4, real=0:00:00.0, peak res=873.2M, current mem=873.2M)
+Set top cell to et4351.
+Hooked 1030 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell et4351 ...
+*** Netlist is unique.
+** info: there are 1053 modules.
+** info: there are 43093 stdCell insts.
+** info: there are 4 macros.
+
+*** Memory Usage v#1 (Current mem = 1017.203M, initial mem = 318.535M) ***
+**WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+Type 'man IMPTS-17' for more detail.
+*info: set bottom ioPad orient R0
+**WARN: (IMPFP-3961):	The techSite 'CoreSiteDouble' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Start create_tracks
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+**WARN: (EMS-27):	Message (IMPTS-17) has exceeded the current message display limit of 1.
+To increase the message display limit, refer to the product command reference manual.
+Loading preference file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/gui.pref.tcl ...
+##  Process: 45            (User Set)               
+##     Node: (not set)                           
+
+##  Check design process and node:  
+##  Design tech node is not set.
+
+Applying the recommended capacitance filtering threshold values for 45nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+setAnalysisMode -usefulSkew already set.
+**WARN: (IMPOPT-3602):	The specified path group name reg2reg is not defined.
+Type 'man IMPOPT-3602' for more detail.
+Effort level <high> specified for reg2reg path_group
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+AAE_INFO: switching -siAware from false to true ...
+AAE_INFO: The setting is changed from false to true in setDelayCalMode -SIAware
+Change floorplan default-technical-site to 'CoreSite'.
+*Info: initialize multi-corner CTS.
+Starting library reading in 'Multi-threaded flow' (with '4' threads)
+Reading library_typ timing library /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib.
+**WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 24402 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib)
+**WARN: (TECHLIB-1161):	The library level attribute default_wire_load on line 24403 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib)
+**WARN: (TECHLIB-1161):	The library level attribute default_wire_load_selection on line 24404 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib)
+Read 35 cells in library saed32sram_tt1p05v125c.
+Library reading multithread flow ended.
+Total number of combinational cells: 318
+Total number of sequential cells: 152
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2LVT BUFX12LVT BUFX16LVT BUFX20LVT CLKBUFX2LVT BUFX3LVT BUFX4LVT BUFX6LVT BUFX8LVT CLKBUFX12LVT CLKBUFX16LVT CLKBUFX20LVT CLKBUFX3LVT CLKBUFX4LVT CLKBUFX6LVT CLKBUFX8LVT
+Total number of usable buffers: 16
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CLKINVX1LVT CLKINVX2LVT CLKINVX12LVT CLKINVX16LVT CLKINVX20LVT CLKINVX4LVT CLKINVX3LVT CLKINVX6LVT CLKINVX8LVT INVX1LVT INVX2LVT INVX12LVT INVX16LVT INVX20LVT INVXLLVT INVX3LVT INVX4LVT INVX6LVT INVX8LVT
+Total number of usable inverters: 19
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY1X1LVT DLY1X4LVT DLY2X1LVT DLY2X4LVT DLY3X1LVT DLY3X4LVT DLY4X1LVT DLY4X4LVT
+Total number of identified usable delay cells: 8
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+Reading floorplan file - /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.fp.gz (mem = 1279.5M).
+% Begin Load floorplan data ... (date=04/09 23:26:16, mem=1204.6M)
+*info: reset 46512 existing net BottomPreferredLayer and AvoidDetour
+Deleting old partition specification.
+Set FPlanBox to (0 0 1329600 1329600)
+**WARN: (IMPFP-3961):	The techSite 'CoreSiteDouble' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Start create_tracks
+ ... processed partition successfully.
+Reading binary special route file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.fp.spr.gz (Created by Innovus v21.11-s130_1 on Thu Apr  9 21:03:04 2026, version: 1)
+Ending "Read special route file" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1205.5M, current mem=1205.5M)
+There are 106 nets with weight being set
+There are 111 nets with bottomPreferredRoutingLayer being set
+There are 106 nets with avoidDetour being set
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+% End Load floorplan data ... (date=04/09 23:26:19, total cpu=0:00:00.2, real=0:00:03.0, peak res=1207.4M, current mem=1207.3M)
+Reading congestion map file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.route.congmap.gz ...
+% Begin Load SymbolTable ... (date=04/09 23:26:19, mem=1207.3M)
+Suppress "**WARN ..." messages.
+Un-suppress "**WARN ..." messages.
+% End Load SymbolTable ... (date=04/09 23:26:19, total cpu=0:00:00.3, real=0:00:01.0, peak res=1217.1M, current mem=1217.1M)
+Loading place ...
+% Begin Load placement data ... (date=04/09 23:26:20, mem=1217.1M)
+Reading placement file - /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.place.gz.
+** Reading stdCellPlacement_binary (Created by Innovus v21.11-s130_1 on Thu Apr  9 21:03:04 2026, version# 2) ...
+Read Views for adaptive view pruning ...
+Read 0 views from Binary DB for adaptive view pruning
+*** Completed restorePlace (cpu=0:00:00.1 real=0:00:00.0 mem=1300.4M) ***
+Total net length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 2.509e+03)
+% End Load placement data ... (date=04/09 23:26:20, total cpu=0:00:00.2, real=0:00:00.0, peak res=1226.0M, current mem=1224.1M)
+Reading PG file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.pg.gz, version#2, (Created by Innovus v21.11-s130_1 on       Thu Apr  9 21:03:04 2026)
+*** Completed restorePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1296.4M) ***
+% Begin Load routing data ... (date=04/09 23:26:20, mem=1225.0M)
+Reading routing file - /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.route.gz.
+Reading Innovus routing data (Created by Innovus v21.11-s130_1 on Thu Apr  9 21:03:03 2026 Format: 20.1) ...
+*** Total 46006 nets are successfully restored.
+*** Completed restoreRoute (cpu=0:00:00.7 real=0:00:01.0 mem=1375.4M) ***
+% End Load routing data ... (date=04/09 23:26:21, total cpu=0:00:00.7, real=0:00:01.0, peak res=1305.1M, current mem=1304.6M)
+TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+Reading property file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.prop
+*** Completed restoreProperty (cpu=0:00:00.1 real=0:00:01.0 mem=1374.4M) ***
+Reading dirtyarea snapshot file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.db.da.gz (Create by Innovus v21.11-s130_1 on Thu Apr  9 21:03:05 2026, version: 4).
+Set Default Input Pin Transition as 0.1 ps.
+Loading preRoute extraction data from directory '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/extraction/' ...
+Extraction setup Started 
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+Generating auto layer map file.
+Loading preRoute extracted patterns from file '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/et4351.techData.gz' ...
+Completed (cpu: 0:00:01.3 real: 0:00:01.0)
+Set Shrink Factor to 1.00000
+Summary of Active RC-Corners : 
+ 
+ Analysis View: analysis_view_setup
+    RC-Corner Name        : rc
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel high)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel high)]
+    RC-Corner Technology file: '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/mmmc/rc/gpdk045.tch'
+ 
+ Analysis View: analysis_view_power
+    RC-Corner Name        : rc
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel high)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel high)]
+    RC-Corner Technology file: '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/mmmc/rc/gpdk045.tch'
+ 
+ Analysis View: analysis_view_hold
+    RC-Corner Name        : rc
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel high)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel high)]
+    RC-Corner Technology file: '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_done.enc.dat/libs/mmmc/rc/gpdk045.tch'
+Initializing multi-corner resistance tables ...
+RC corner rc not found in the saved preRoute extraction data.
+Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+Start generating vias ..
+#Skip building auto via since it is not turned on.
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Via generation completed.
+% Begin Load power constraints ... (date=04/09 23:26:26, mem=1371.0M)
+** WARN:  (VOLTUS_POWR-3212): The 'set_power_analysis_mode -leakage_power_view |-dynamic_power_view|-analysis_view' will be obsolete in 18.20 release. Use 'set_analysis_view -leakage <> | -dynamic <>' to set leakage and dynamic power views.
+
+'read_activity_file' finished successfully.
+% End Load power constraints ... (date=04/09 23:26:26, total cpu=0:00:00.1, real=0:00:00.0, peak res=1371.4M, current mem=1371.4M)
+delay_typ delay_min delay_max
+% Begin load AAE data ... (date=04/09 23:26:27, mem=1415.2M)
+AAE DB initialization (MEM=1526.51 CPU=0:00:00.1 REAL=0:00:01.0) 
+% End load AAE data ... (date=04/09 23:26:28, total cpu=0:00:01.0, real=0:00:01.0, peak res=1437.0M, current mem=1437.0M)
+Restoring CCOpt config...
+  Extracting original clock gating for clk...
+    clock_tree clk contains 7229 sinks and 0 clock gates.
+  Extracting original clock gating for clk done.
+  Extracting original clock gating for clk_generator_for_flash_clk<1>...
+    clock_tree clk_generator_for_flash_clk<1> contains 3 sinks and 0 clock gates.
+  Extracting original clock gating for clk_generator_for_flash_clk<1> done.
+  Found 1 generator input for clock tree clk_generator_for_flash_clk<1>.
+  Extracting original clock gating for clk_generator_for_flash_clk<2>...
+    clock_tree clk_generator_for_flash_clk<2> contains 14 sinks and 0 clock gates.
+  Extracting original clock gating for clk_generator_for_flash_clk<2> done.
+  Found 1 generator input for clock tree clk_generator_for_flash_clk<2>.
+  Extracting original clock gating for clk_generator_for_flash_clk<3>...
+    clock_tree clk_generator_for_flash_clk<3> contains 10 sinks and 0 clock gates.
+  Extracting original clock gating for clk_generator_for_flash_clk<3> done.
+  Found 1 generator input for clock tree clk_generator_for_flash_clk<3>.
+  The skew group _clock_gen_clk_config_clk_reg/constraint_mode was created. It contains 34 sinks and 1 sources.
+  The skew group _clock_gen_clk_config_en_reg/constraint_mode was created. It contains 34 sinks and 1 sources.
+  The skew group _clock_gen_clk_flash_clk_reg/constraint_mode was created. It contains 15 sinks and 1 sources.
+  The skew group clk/constraint_mode was created. It contains 7249 sinks and 1 sources.
+**WARN: (IMPCCOPT-2332):	The property locked_originally is deprecated. It still works, but it may be removed in a future release.
+**WARN: (IMPCCOPT-2332):	The property locked_originally is deprecated. It still works, but it may be removed in a future release.
+**WARN: (IMPCCOPT-2332):	The property locked_originally is deprecated. It still works, but it may be removed in a future release.
+**WARN: (IMPCCOPT-2332):	The property locked_originally is deprecated. It still works, but it may be removed in a future release.
+Restoring CCOpt config done.
+Total number of combinational cells: 318
+Total number of sequential cells: 152
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2LVT BUFX12LVT BUFX16LVT BUFX20LVT CLKBUFX2LVT BUFX3LVT BUFX4LVT BUFX6LVT BUFX8LVT CLKBUFX12LVT CLKBUFX16LVT CLKBUFX20LVT CLKBUFX3LVT CLKBUFX4LVT CLKBUFX6LVT CLKBUFX8LVT
+Total number of usable buffers: 16
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CLKINVX1LVT CLKINVX2LVT CLKINVX12LVT CLKINVX16LVT CLKINVX20LVT CLKINVX4LVT CLKINVX3LVT CLKINVX6LVT CLKINVX8LVT INVX1LVT INVX2LVT INVX12LVT INVX16LVT INVX20LVT INVXLLVT INVX3LVT INVX4LVT INVX6LVT INVX8LVT
+Total number of usable inverters: 19
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY1X1LVT DLY1X4LVT DLY2X1LVT DLY2X4LVT DLY3X1LVT DLY3X4LVT DLY4X1LVT DLY4X4LVT
+Total number of identified usable delay cells: 8
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+#% End load design ... (date=04/09 23:26:28, total cpu=0:00:15.7, real=0:00:20.0, peak res=1447.9M, current mem=1441.9M)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-200            2  Pin '%s' in macro '%s' has no ANTENNAGAT...
+WARNING   IMPFP-3961           6  The techSite '%s' has no related standar...
+WARNING   IMPTS-17             8  Inconsistency detected in the capacitanc...
+WARNING   IMPOPT-3602          1  The specified path group name %s is not ...
+WARNING   IMPCCOPT-2332        4  The property %s is deprecated. It still ...
+WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+WARNING   TECHLIB-302          2  No function defined for cell '%s'. The c...
+WARNING   TECHLIB-1161         9  The library level attribute %s on line %...
+*** Message Summary: 33 warning(s), 0 error(s)
+
+<CMD> read_activity_file ../sim_phys/vcd/et4351.phys.hold.vcd -reset -format VCD -scope testbench/dut
+Multithreaded Timing Analysis is initialized with 4 threads
+
+**WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+Type 'man IMPTS-17' for more detail.
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_setup'
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 4 threads acquired from CTE.
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+clk(62.5MHz) flash_clk(31.25MHz) Parsing VCD file ../sim_phys/vcd/et4351.phys.hold.vcd
+
+Starting Reading VCD variables
+2026-Apr-09 23:30:59 (2026-Apr-09 21:30:59 GMT)
+2026-Apr-09 23:30:59 (2026-Apr-09 21:30:59 GMT): 10%
+2026-Apr-09 23:30:59 (2026-Apr-09 21:30:59 GMT): 20%
+2026-Apr-09 23:30:59 (2026-Apr-09 21:30:59 GMT): 30%
+2026-Apr-09 23:30:59 (2026-Apr-09 21:30:59 GMT): 40%
+2026-Apr-09 23:30:59 (2026-Apr-09 21:30:59 GMT): 50%
+2026-Apr-09 23:30:59 (2026-Apr-09 21:30:59 GMT): 60%
+2026-Apr-09 23:30:59 (2026-Apr-09 21:30:59 GMT): 70%
+2026-Apr-09 23:30:59 (2026-Apr-09 21:30:59 GMT): 80%
+2026-Apr-09 23:30:59 (2026-Apr-09 21:30:59 GMT): 90%
+
+Finished Reading VCD variables
+2026-Apr-09 23:30:59 (2026-Apr-09 21:30:59 GMT)
+   
+The vcd command required:
+   		1.74 user, 0.17 system, and 1.92 real seconds
+
+   Total number of value changes: 2582194.
+
+   Total simulation time: 0.00695362s.
+
+   With this vcd command,  647313 value changes and 6.512e-06 second
+simulation time were counted for power consumption calculation.
+
+  Filename (activity)                    :
+../sim_phys/vcd/et4351.phys.hold.vcd
+  Names in file that matched to design   : 46123/46127
+  Annotation coverage for this file
+   (Unique nets matched/Total nets)       : 46004/46004 = 100%
+
+  4 nets were found in the VCD file(s) but were not in
+  the design.  These nets are listed in the file
+voltus_power_missing_netnames.rpt.
+
+  Total annotation coverage for all files of type VCD: 46004/46004 = 100%
+  Percent of VCD annotated nets with zero toggles: 25871/46004 = 56.2364%
+
+'read_activity_file' finished successfully.
+
+*** Memory Usage v#1 (Current mem = 2367.633M, initial mem = 318.535M) ***
+*** Message Summary: 34 warning(s), 1 error(s)
+
+--- Ending "Innovus" (totcpu=0:01:21, real=0:07:56, mem=2367.6M) ---

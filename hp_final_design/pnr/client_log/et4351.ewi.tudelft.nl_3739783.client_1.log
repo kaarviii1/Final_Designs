@@ -1,0 +1,29 @@
+#################  nanoroute  ################
+#Copyright (c) 1999 - 2010
+#Cadence Design Systems, Inc.
+#All rights reserved. This work may not be copied, modified, 
+#re-published, uploaded, executed, or distributed in any way, 
+#in any medium, whether in whole or in part, without prior 
+#written permission from Cadence Design Systems, Inc.
+#http://www.cadence.com
+#
+#Product Version : 21.11-s130_1 NR210811-1832/21_11-UB
+#Database Version : 18.20 {superthreading v2.14}
+#Checkout Date : 08/11/2021:18:32:00 from 21_11
+#Compiled Date : 08/19/2021 16:30:20 using tools-
+#Hostname : et4351.ewi.tudelft.nl (x86_64 w/Linux 4.18.0-553.111.1.el8_10.x86_64 AMD EPYC 7702P 64-Core Processor 1Core 64CPU 0MB cache 257GB)
+#Current Working Directory : /home/nfs/vrameshselvam/my-directory/pnr
+#nanoroute Executable : /eda/cadence/2021-22/RHELx86/INNOVUS_21.11.000/tools.lnx86/plato/bin/64bit/nanoroute
+#Current Date and Time : Fri Apr 10 15:49:19 2026
+#
+#number of cpu = 4.
+#client index = 1775829214.
+#Connected to server et4351.ewi.tudelft.nl on port 54781. (4 threads)
+#Received shutdown signal from server.
+#Cpu time = 00:00:00
+#Elapsed time = 00:00:07
+#Increased memory = -0.01 (MB)
+#Total memory = 1.16 (MB)
+#Peak memory = 1.16 (MB)
+#Finished client route on Fri Apr 10 15:49:26 2026
+#

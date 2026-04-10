@@ -1,0 +1,3157 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v21.11-s130_1, built Thu Aug 19 16:59:56 PDT 2021
+Options:	
+Date:		Thu Apr  9 20:45:20 2026
+Host:		et4351.ewi.tudelft.nl (x86_64 w/Linux 4.18.0-553.111.1.el8_10.x86_64) (1core*64cpus*AMD EPYC 7702P 64-Core Processor 512KB)
+OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+
+License:
+		[20:45:20.316778] Configured Lic search path (20.02-p002): 27012@flexserv1.tudelft.nl:27017@flexserv1.tudelft.nl
+
+		invs	Innovus Implementation System	21.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> set init_verilog /home/nfs/vrameshselvam/final_iteration/pnr/outputs/et4351.phys.v
+<CMD> setMessageLimit 1 ENCLF 45
+<CMD> setMessageLimit 1 ENCLF 119
+<CMD> setMessageLimit 1 ENCLF 200
+<CMD> setMessageLimit 1 ENCLF 201
+<CMD> setMessageLimit 10 IMPDB 2078
+<CMD> setMessageLimit 10 IMPDC 348
+<CMD> setMultiCpuUsage -localCpu 4 -cpuPerRemoteHost 4 -remoteHost 1 -keepLicense true
+Setting releaseMultiCpuLicenseMode to false.
+<CMD> restoreDesign checkpoints/et4351_route.enc.dat et4351
+#% Begin load design ... (date=04/09 20:48:50, mem=835.3M)
+Set Default Input Pin Transition as 0.1 ps.
+Loading design 'et4351' saved by 'Innovus' '21.11-s130_1' on 'Thu Apr 9 20:26:32 2026'.
+% Begin Load MMMC data ... (date=04/09 20:48:51, mem=838.2M)
+% End Load MMMC data ... (date=04/09 20:48:51, total cpu=0:00:00.1, real=0:00:00.0, peak res=838.8M, current mem=838.8M)
+rc
+
+Loading LEF file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/lef/gsclib045_tech.lef ...
+
+Loading LEF file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/lef/gsclib045_lvt_macro.lef ...
+Set DBUPerIGU to M2 pitch 400.
+
+Loading LEF file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/lef/saed32sram.lef ...
+**WARN: (IMPLF-200):	Pin 'CSB1' in macro 'SRAM2RW128x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+**WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 1.
+To increase the message display limit, refer to the product command reference manual.
+
+viaInitial starts at Thu Apr  9 20:48:52 2026
+viaInitial ends at Thu Apr  9 20:48:52 2026
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/viewDefinition.tcl
+Starting library reading in 'Multi-threaded flow' (with '4' threads)
+Reading library_max timing library /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/slow_vdd1v0_basicCells_lvt.lib.
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNALVT'. The cell will only be used for analysis. (File /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/slow_vdd1v0_basicCells_lvt.lib)
+Read 480 cells in library slow_vdd1v0.
+Reading library_max timing library /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib.
+**WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 24401 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib)
+**WARN: (TECHLIB-1161):	The library level attribute default_wire_load on line 24402 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib)
+**WARN: (TECHLIB-1161):	The library level attribute default_wire_load_selection on line 24403 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ss0p95vn40c.lib)
+Read 35 cells in library saed32sram_ss0p95vn40c.
+Library reading multithread flow ended.
+Starting library reading in 'Multi-threaded flow' (with '4' threads)
+Reading library_min timing library /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/fast_vdd1v2_basicCells_lvt.lib.
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNALVT'. The cell will only be used for analysis. (File /data/Cadence/gpdk045_v60/gsclib045_all_v4.7/gsclib045_lvt/timing/fast_vdd1v2_basicCells_lvt.lib)
+Read 480 cells in library fast_vdd1v2.
+Reading library_min timing library /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib.
+**WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 24400 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib)
+**WARN: (TECHLIB-1161):	The library level attribute default_wire_load on line 24401 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib)
+**WARN: (TECHLIB-1161):	The library level attribute default_wire_load_selection on line 24402 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_ff1p16vn40c.lib)
+Read 35 cells in library saed32sram_ff1p16vn40c.
+Library reading multithread flow ended.
+*** End library_loading (cpu=0.06min, real=0.02min, mem=147.5M, fe_cpu=0.73min, fe_real=3.55min, fe_mem=965.8M) ***
+% Begin Load netlist data ... (date=04/09 20:48:53, mem=878.6M)
+*** Begin netlist parsing (mem=965.8M) ***
+Created 515 new cells from 4 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilogBinary netlist '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/vbin/et4351.v.bin'
+Reading binary database version 2 in multi-threaded mode
+
+*** Memory Usage v#1 (Current mem = 986.812M, initial mem = 318.535M) ***
+*** End netlist parsing (cpu=0:00:00.3, real=0:00:00.0, mem=986.8M) ***
+% End Load netlist data ... (date=04/09 20:48:53, total cpu=0:00:00.4, real=0:00:00.0, peak res=907.7M, current mem=907.7M)
+Set top cell to et4351.
+Hooked 1030 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell et4351 ...
+*** Netlist is unique.
+** info: there are 1053 modules.
+** info: there are 43074 stdCell insts.
+** info: there are 4 macros.
+
+*** Memory Usage v#1 (Current mem = 1022.727M, initial mem = 318.535M) ***
+**WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+Type 'man IMPTS-17' for more detail.
+*info: set bottom ioPad orient R0
+**WARN: (IMPFP-3961):	The techSite 'CoreSiteDouble' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Start create_tracks
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+**WARN: (EMS-27):	Message (IMPTS-17) has exceeded the current message display limit of 1.
+To increase the message display limit, refer to the product command reference manual.
+Loading preference file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/gui.pref.tcl ...
+##  Process: 45            (User Set)               
+##     Node: (not set)                           
+
+##  Check design process and node:  
+##  Design tech node is not set.
+
+Applying the recommended capacitance filtering threshold values for 45nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+setAnalysisMode -usefulSkew already set.
+**WARN: (IMPOPT-3602):	The specified path group name reg2reg is not defined.
+Type 'man IMPOPT-3602' for more detail.
+Effort level <high> specified for reg2reg path_group
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+AAE_INFO: switching -siAware from false to true ...
+AAE_INFO: The setting is changed from false to true in setDelayCalMode -SIAware
+Change floorplan default-technical-site to 'CoreSite'.
+*Info: initialize multi-corner CTS.
+Starting library reading in 'Multi-threaded flow' (with '4' threads)
+Reading library_typ timing library /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib.
+**WARN: (TECHLIB-1161):	The library level attribute default_operating_conditions on line 24402 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib)
+**WARN: (TECHLIB-1161):	The library level attribute default_wire_load on line 24403 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib)
+**WARN: (TECHLIB-1161):	The library level attribute default_wire_load_selection on line 24404 is defined after at least one cell definition. The attribute will be ignored. (File /data/Cadence/gpdk045_v60/Synopsys_sram/saed32sram_tt1p05v125c.lib)
+Read 35 cells in library saed32sram_tt1p05v125c.
+Library reading multithread flow ended.
+Total number of combinational cells: 318
+Total number of sequential cells: 152
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2LVT BUFX12LVT BUFX16LVT BUFX20LVT CLKBUFX2LVT BUFX3LVT BUFX4LVT BUFX6LVT BUFX8LVT CLKBUFX12LVT CLKBUFX16LVT CLKBUFX20LVT CLKBUFX3LVT CLKBUFX4LVT CLKBUFX6LVT CLKBUFX8LVT
+Total number of usable buffers: 16
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CLKINVX1LVT CLKINVX2LVT CLKINVX12LVT CLKINVX16LVT CLKINVX20LVT CLKINVX4LVT CLKINVX3LVT CLKINVX6LVT CLKINVX8LVT INVX1LVT INVX2LVT INVX12LVT INVX16LVT INVX20LVT INVXLLVT INVX3LVT INVX4LVT INVX6LVT INVX8LVT
+Total number of usable inverters: 19
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY1X1LVT DLY1X4LVT DLY2X1LVT DLY2X4LVT DLY3X1LVT DLY3X4LVT DLY4X1LVT DLY4X4LVT
+Total number of identified usable delay cells: 8
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+Reading floorplan file - /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/et4351.fp.gz (mem = 1285.8M).
+% Begin Load floorplan data ... (date=04/09 20:48:55, mem=1241.7M)
+*info: reset 46493 existing net BottomPreferredLayer and AvoidDetour
+Deleting old partition specification.
+Set FPlanBox to (0 0 1329600 1329600)
+**WARN: (IMPFP-3961):	The techSite 'CoreSiteDouble' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Start create_tracks
+ ... processed partition successfully.
+Reading binary special route file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/et4351.fp.spr.gz (Created by Innovus v21.11-s130_1 on Thu Apr  9 20:26:28 2026, version: 1)
+Convert 0 swires and 0 svias from compressed groups
+913 swires and 14170 svias were compressed
+913 swires and 4985 svias were decompressed from small or sparse groups
+Ending "Read special route file" (total cpu=0:00:00.1, real=0:00:00.0, peak res=1242.6M, current mem=1242.6M)
+There are 106 nets with weight being set
+There are 111 nets with bottomPreferredRoutingLayer being set
+There are 106 nets with avoidDetour being set
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+% End Load floorplan data ... (date=04/09 20:48:57, total cpu=0:00:00.2, real=0:00:02.0, peak res=1244.5M, current mem=1244.5M)
+Reading congestion map file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/et4351.route.congmap.gz ...
+% Begin Load SymbolTable ... (date=04/09 20:48:57, mem=1244.5M)
+Suppress "**WARN ..." messages.
+Un-suppress "**WARN ..." messages.
+% End Load SymbolTable ... (date=04/09 20:48:57, total cpu=0:00:00.3, real=0:00:00.0, peak res=1254.0M, current mem=1254.0M)
+Loading place ...
+% Begin Load placement data ... (date=04/09 20:48:57, mem=1254.0M)
+Reading placement file - /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/et4351.place.gz.
+** Reading stdCellPlacement_binary (Created by Innovus v21.11-s130_1 on Thu Apr  9 20:26:28 2026, version# 2) ...
+Read Views for adaptive view pruning ...
+Read 0 views from Binary DB for adaptive view pruning
+*** Completed restorePlace (cpu=0:00:00.2 real=0:00:00.0 mem=1305.7M) ***
+Total net length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 2.509e+03)
+% End Load placement data ... (date=04/09 20:48:57, total cpu=0:00:00.2, real=0:00:00.0, peak res=1263.9M, current mem=1260.7M)
+Reading PG file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/et4351.pg.gz, version#2, (Created by Innovus v21.11-s130_1 on       Thu Apr  9 20:26:28 2026)
+*** Completed restorePGFile (cpu=0:00:00.0 real=0:00:01.0 mem=1302.7M) ***
+% Begin Load routing data ... (date=04/09 20:48:58, mem=1262.0M)
+Reading routing file - /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/et4351.route.gz.
+Reading Innovus routing data (Created by Innovus v21.11-s130_1 on Thu Apr  9 20:26:27 2026 Format: 20.1) ...
+*** Total 45987 nets are successfully restored.
+*** Completed restoreRoute (cpu=0:00:00.6 real=0:00:01.0 mem=1364.7M) ***
+% End Load routing data ... (date=04/09 20:48:59, total cpu=0:00:00.6, real=0:00:01.0, peak res=1324.6M, current mem=1324.1M)
+Loading Drc markers ...
+... 27094 markers are loaded ...
+... 0 geometry drc markers are loaded ...
+... 0 antenna drc markers are loaded ...
+TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+Reading property file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/et4351.prop
+*** Completed restoreProperty (cpu=0:00:00.1 real=0:00:01.0 mem=1367.7M) ***
+Reading dirtyarea snapshot file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/et4351.db.da.gz (Create by Innovus v21.11-s130_1 on Thu Apr  9 20:26:29 2026, version: 4).
+Set Default Input Pin Transition as 0.1 ps.
+Loading preRoute extraction data from directory '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/extraction/' ...
+Extraction setup Started 
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+Generating auto layer map file.
+Loading preRoute extracted patterns from file '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/et4351.techData.gz' ...
+Completed (cpu: 0:00:00.9 real: 0:00:01.0)
+Set Shrink Factor to 1.00000
+Summary of Active RC-Corners : 
+ 
+ Analysis View: analysis_view_setup
+    RC-Corner Name        : rc
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel high)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel high)]
+    RC-Corner Technology file: '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/mmmc/rc/gpdk045.tch'
+ 
+ Analysis View: analysis_view_power
+    RC-Corner Name        : rc
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel high)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel high)]
+    RC-Corner Technology file: '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/mmmc/rc/gpdk045.tch'
+ 
+ Analysis View: analysis_view_hold
+    RC-Corner Name        : rc
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel high)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel high)]
+    RC-Corner Technology file: '/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/mmmc/rc/gpdk045.tch'
+Initializing multi-corner resistance tables ...
+RC corner rc not found in the saved preRoute extraction data.
+Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+Start generating vias ..
+#Skip building auto via since it is not turned on.
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Via generation completed.
+% Begin Load power constraints ... (date=04/09 20:49:03, mem=1394.4M)
+** WARN:  (VOLTUS_POWR-3212): The 'set_power_analysis_mode -leakage_power_view |-dynamic_power_view|-analysis_view' will be obsolete in 18.20 release. Use 'set_analysis_view -leakage <> | -dynamic <>' to set leakage and dynamic power views.
+
+'read_activity_file' finished successfully.
+% End Load power constraints ... (date=04/09 20:49:03, total cpu=0:00:00.0, real=0:00:00.0, peak res=1394.8M, current mem=1394.8M)
+delay_typ delay_min delay_max
+% Begin load AAE data ... (date=04/09 20:49:04, mem=1445.6M)
+AAE DB initialization (MEM=1527.67 CPU=0:00:00.1 REAL=0:00:00.0) 
+% End load AAE data ... (date=04/09 20:49:04, total cpu=0:00:00.6, real=0:00:00.0, peak res=1471.4M, current mem=1471.4M)
+Restoring CCOpt config...
+  Extracting original clock gating for clk...
+    clock_tree clk contains 7229 sinks and 0 clock gates.
+  Extracting original clock gating for clk done.
+  Extracting original clock gating for clk_generator_for_flash_clk<1>...
+    clock_tree clk_generator_for_flash_clk<1> contains 3 sinks and 0 clock gates.
+  Extracting original clock gating for clk_generator_for_flash_clk<1> done.
+  Found 1 generator input for clock tree clk_generator_for_flash_clk<1>.
+  Extracting original clock gating for clk_generator_for_flash_clk<2>...
+    clock_tree clk_generator_for_flash_clk<2> contains 14 sinks and 0 clock gates.
+  Extracting original clock gating for clk_generator_for_flash_clk<2> done.
+  Found 1 generator input for clock tree clk_generator_for_flash_clk<2>.
+  Extracting original clock gating for clk_generator_for_flash_clk<3>...
+    clock_tree clk_generator_for_flash_clk<3> contains 10 sinks and 0 clock gates.
+  Extracting original clock gating for clk_generator_for_flash_clk<3> done.
+  Found 1 generator input for clock tree clk_generator_for_flash_clk<3>.
+  The skew group _clock_gen_clk_config_clk_reg/constraint_mode was created. It contains 34 sinks and 1 sources.
+  The skew group _clock_gen_clk_config_en_reg/constraint_mode was created. It contains 34 sinks and 1 sources.
+  The skew group _clock_gen_clk_flash_clk_reg/constraint_mode was created. It contains 15 sinks and 1 sources.
+  The skew group clk/constraint_mode was created. It contains 7249 sinks and 1 sources.
+**WARN: (IMPCCOPT-2332):	The property locked_originally is deprecated. It still works, but it may be removed in a future release.
+**WARN: (IMPCCOPT-2332):	The property locked_originally is deprecated. It still works, but it may be removed in a future release.
+**WARN: (IMPCCOPT-2332):	The property locked_originally is deprecated. It still works, but it may be removed in a future release.
+**WARN: (IMPCCOPT-2332):	The property locked_originally is deprecated. It still works, but it may be removed in a future release.
+Restoring CCOpt config done.
+Total number of combinational cells: 318
+Total number of sequential cells: 152
+Total number of tristate cells: 10
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFX2LVT BUFX12LVT BUFX16LVT BUFX20LVT CLKBUFX2LVT BUFX3LVT BUFX4LVT BUFX6LVT BUFX8LVT CLKBUFX12LVT CLKBUFX16LVT CLKBUFX20LVT CLKBUFX3LVT CLKBUFX4LVT CLKBUFX6LVT CLKBUFX8LVT
+Total number of usable buffers: 16
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CLKINVX1LVT CLKINVX2LVT CLKINVX12LVT CLKINVX16LVT CLKINVX20LVT CLKINVX4LVT CLKINVX3LVT CLKINVX6LVT CLKINVX8LVT INVX1LVT INVX2LVT INVX12LVT INVX16LVT INVX20LVT INVXLLVT INVX3LVT INVX4LVT INVX6LVT INVX8LVT
+Total number of usable inverters: 19
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY1X1LVT DLY1X4LVT DLY2X1LVT DLY2X4LVT DLY3X1LVT DLY3X4LVT DLY4X1LVT DLY4X4LVT
+Total number of identified usable delay cells: 8
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+#% End load design ... (date=04/09 20:49:04, total cpu=0:00:13.7, real=0:00:14.0, peak res=1480.1M, current mem=1476.3M)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-200            2  Pin '%s' in macro '%s' has no ANTENNAGAT...
+WARNING   IMPFP-3961           6  The techSite '%s' has no related standar...
+WARNING   IMPTS-17             8  Inconsistency detected in the capacitanc...
+WARNING   IMPOPT-3602          1  The specified path group name %s is not ...
+WARNING   IMPCCOPT-2332        4  The property %s is deprecated. It still ...
+WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+WARNING   TECHLIB-302          2  No function defined for cell '%s'. The c...
+WARNING   TECHLIB-1161         9  The library level attribute %s on line %...
+*** Message Summary: 33 warning(s), 0 error(s)
+
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/iomem_conf_rdata_reg_9_/D
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+**WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+Type 'man IMPTS-17' for more detail.
+AAE_INFO: opIsDesignInPostRouteState() is 1
+AAE_INFO: resetNetProps viewIdx 0 
+AAE_INFO: resetNetProps viewIdx 1 
+Starting SI iteration 1 using Infinite Timing Windows
+Multithreaded Timing Analysis is initialized with 4 threads
+
+**WARN: (EMS-27):	Message (IMPTS-17) has exceeded the current message display limit of 1.
+To increase the message display limit, refer to the product command reference manual.
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Extraction called for design 'et4351' of instances=43078 and nets=46493 using extraction engine 'postRoute' at effort level 'high' .
+Integrated QRC (IQuantus) Extraction in Multi-Corner mode called for design 'et4351'. Number of corners is 1.
+No IQuantus parasitic data in Innovus. Going for full-chip extraction.
+ Min pitch recieved = 1520 
+IQuantus Extraction invoked in multi (4) processes mode on local host.
+
+IQuantus Extraction engine initialization using 1 tech files:
+	/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/mmmc/rc/gpdk045.tch at temperature 25C . 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+INFO (EXTIQUANTUS-101) : 
+  Integrated Quantus - 64-bit Parasitic Extractor - Version 20.1.2-s578
+-------------------------------------------------------------------------
+               Copyright 2021 Cadence Design Systems, Inc.
+
+
+INFO (EXTIQUANTUS-103) : Starting at 2026-Apr-09 20:50:27 (2026-Apr-09 18:50:27 GMT).
+
+INFO (EXTIQUANTUS-104) : Starting extraction session...
+
+INFO (EXTIQUANTUS-159) : Loading technology data from file:
+ 
+/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/mmmc/rc/gpdk045.tch
+
+INFO (EXTIQUANTUS-289) : Loading RCgen extraction models from file:
+ 
+/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/mmmc/rc/gpdk045.tch
+
+INFO (EXTIQUANTUS-345) : Checking Command/Tech/License Files. 
+
+INFO (EXTIQUANTUS-105) : Starting design extraction....
+No layermap file specified. Automatically mapping tech and lef layers. Log file is 'extLogDir/IQuantus_09-Apr-2026_20:50:25_333822_caiwAU/extr.et4351.layermap.log'.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+IQuantus Extraction engine initialized successfully.
+
+Dumping IQuantus extraction options in file 'extLogDir/IQuantus_09-Apr-2026_20:50:25_333822_caiwAU/extr.et4351.extraction_options.log'.
+Initialization for IQuantus Fullchip Extraction DONE (CPU Time: 0:00:03.5  Real Time: 0:00:04.0  MEM: 2416.469M)
+
+Geometry processing of Gray and Metal fill STARTED.................... DONE (CPU Time: 0:00:02.4  Real Time: 0:00:02.0  MEM: 2424.539M)
+Geometry processing of nets STARTED.................... DONE (NETS: 45871  Geometries: 945788  CPU Time: 0:00:05.5  Real Time: 0:00:07.0  MEM: 2517.547M)
+
+Extraction of Geometries STARTED.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+INFO (EXTIQUANTUS-282) : Checking Command/Tech Files. 
+
+INFO (EXTIQUANTUS-277) : Manufacturing Data Information :- 
+  DEF/GDS file 
+    does NOT contain MetalFill data. 
+  Techfile  
+    does NOT contain WEE data.     
+    does NOT contain Erosion data t=f( density ) 
+    does NOT contain R(w) data.    
+    does NOT contain R(w, s) data.  
+    does NOT contain TC(w) data.    
+    does NOT contain T/B enlargement data. 
+    does     contain Floating Metal Fill models. 
+
+INFO (EXTIQUANTUS-287) : Capacitance Models Information :- 
+ ICECAPS models are not available. 
+ RCgen   models are     available. 
+ This IQuantus session uses RCgen models.
+
+INFO (EXTIQUANTUS-286) : RCs effects computed for this session include :- 
+ MetalFill        : OFF 
+ WEE Effects      : n/a 
+ Erosion Effects  : n/a t=f( density ) 
+ T/B Enlargements : n/a 
+ R(w) Effects     : n/a 
+ R(w,s) Effects   : n/a 
+ TC(w) Effects     : n/a 
+Some effects indicate n/a because of non-availability of relevantinput data
+(or) requested to be off (and/or) usage of older Icecaps models.
+Creating 4 parallel subjobs for IQuantus extraction...
+EDP: start server on et4351.ewi.tudelft.nl:43311
+EDP: start server on et4351.ewi.tudelft.nl:57425
+Connected to et4351.ewi.tudelft.nl 44441 0 ( PID=359254 ). Wait time was 23 seconds
+Connected to et4351.ewi.tudelft.nl 46541 1 ( PID=359280 ). Wait time was 24 seconds
+Connected to et4351.ewi.tudelft.nl 52059 3 ( PID=359332 ). Wait time was 24 seconds
+Connected to et4351.ewi.tudelft.nl 37113 2 ( PID=359304 ). Wait time was 25 seconds
+EDP: Task 2 finished (source /tmp/innovus_temp_333822_et4351.ewi.tudelft.nl_vrameshselvam_8rd1fg/iqrc_tmp_333822_iUPDiA/multi_cpu_job_333822_2.tcl)
+EDP: Task 3 finished (source /tmp/innovus_temp_333822_et4351.ewi.tudelft.nl_vrameshselvam_8rd1fg/iqrc_tmp_333822_iUPDiA/multi_cpu_job_333822_3.tcl)
+EDP: Task 1 finished (source /tmp/innovus_temp_333822_et4351.ewi.tudelft.nl_vrameshselvam_8rd1fg/iqrc_tmp_333822_iUPDiA/multi_cpu_job_333822_1.tcl)
+EDP: Task 0 finished (source /tmp/innovus_temp_333822_et4351.ewi.tudelft.nl_vrameshselvam_8rd1fg/iqrc_tmp_333822_iUPDiA/multi_cpu_job_333822_0.tcl)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Extraction of Geometries DONE (NETS: 45871  Total CPU Time: 0:02:56  Real Time: 0:01:02  MEM: 2605.250M)
+
+Parasitic Network Creation STARTED
+...................
+Number of Extracted Resistors     : 691804
+Number of Extracted Ground Caps   : 738204
+Number of Extracted Coupling Caps : 41158
+Parasitic Network Creation DONE (Nets: 45871  CPU Time: 0:00:04.6  Real Time: 0:00:04.0  MEM: 2626.250M)
+
+IQuantus Extraction engine is being closed... 
+IQuantus Fullchip Extraction DONE (Total CPU Time: 0:03:15  Processes: 4  Real Time: 0:01:21  MEM: 2618.250M)
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_setup'
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+Start delay calculation (fullDC) (4 T). (MEM=2639.59)
+Total number of fetched objects 45989
+AAE_INFO-618: Total number of nets in the design is 46493,  99.0 percent of the nets selected for SI analysis
+Total number of fetched objects 45989
+AAE_INFO-618: Total number of nets in the design is 46493,  99.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=2900.4 CPU=0:00:26.7 REAL=0:00:06.0)
+End delay calculation (fullDC). (MEM=2900.4 CPU=0:00:30.1 REAL=0:00:09.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 2868.4M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:01.3, REAL = 0:00:00.0, MEM = 2868.4M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (4 T). (MEM=2825.63)
+Glitch Analysis: View analysis_view_setup -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View analysis_view_setup -- Total Number of Nets Analyzed = 0. 
+Total number of fetched objects 45989
+AAE_INFO-618: Total number of nets in the design is 46493,  0.4 percent of the nets selected for SI analysis
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Skipped = 242. 
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Analyzed = 45989. 
+Total number of fetched objects 45989
+AAE_INFO-618: Total number of nets in the design is 46493,  0.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3005.37 CPU=0:00:01.6 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=3005.37 CPU=0:00:01.9 REAL=0:00:00.0)
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45765 (100.0% routed)
+ |     total nets:    45765
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/FE_ECOC0_FE_PHN13510_FE_PDN5653_FE_PHN4790_n_267 (BUFX2LVT) to drive load accel/iomem_conf_rdata_reg_9_/D 
+Estimated cell power/ground rail width = 0.160 um
+*** Starting refinePlace (0:05:01 mem=3137.3M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 2 insts, mean move: 2.51 um, max move: 4.22 um 
+	Max move on inst (accel/g6260): (356.60, 353.97) --> (357.40, 357.39)
+	Runtime: CPU: 0:00:02.4 REAL: 0:00:01.0 MEM: 3137.3MB
+Summary Report:
+Instances move: 2 (out of 42993 movable)
+Instances flipped: 0
+Mean displacement: 2.51 um
+Max displacement: 4.22 um (Instance: accel/g6260) (356.6, 353.97) -> (357.4, 357.39)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: NAND2X2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.5 REAL: 0:00:01.0 MEM: 3137.3MB
+*** Finished refinePlace (0:05:04 mem=3137.3M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/fft/u_re_reg_9_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45766 (100.0% routed)
+ |     total nets:    45766
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/fft/FE_ECOC1_n_903 (BUFX2LVT) to drive load accel/fft/u_re_reg_9_/D 
+*** Starting refinePlace (0:05:04 mem=3150.9M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 1 insts, mean move: 2.31 um, max move: 2.31 um 
+	Max move on inst (accel/fft/FE_ECOC1_n_903): (451.00, 405.27) --> (450.40, 403.56)
+	Runtime: CPU: 0:00:02.6 REAL: 0:00:01.0 MEM: 3150.9MB
+Summary Report:
+Instances move: 1 (out of 42994 movable)
+Instances flipped: 0
+Mean displacement: 2.31 um
+Max displacement: 2.31 um (Instance: accel/fft/FE_ECOC1_n_903) (451, 405.27) -> (450.4, 403.56)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.7 REAL: 0:00:01.0 MEM: 3150.9MB
+*** Finished refinePlace (0:05:07 mem=3150.9M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/fft/v_im_reg_15_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45767 (100.0% routed)
+ |     total nets:    45767
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/fft/FE_ECOC2_n_846 (BUFX2LVT) to drive load accel/fft/v_im_reg_15_/D 
+*** Starting refinePlace (0:05:08 mem=3132.4M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 3 insts, mean move: 1.30 um, max move: 2.11 um 
+	Max move on inst (accel/fft/FE_ECOC2_n_846): (429.00, 408.69) --> (428.60, 406.98)
+	Runtime: CPU: 0:00:02.4 REAL: 0:00:01.0 MEM: 3132.4MB
+Summary Report:
+Instances move: 3 (out of 42995 movable)
+Instances flipped: 0
+Mean displacement: 1.30 um
+Max displacement: 2.11 um (Instance: accel/fft/FE_ECOC2_n_846) (429, 408.69) -> (428.6, 406.98)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.6 REAL: 0:00:02.0 MEM: 3132.4MB
+*** Finished refinePlace (0:05:10 mem=3132.4M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/fft/v_re_reg_25_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45768 (100.0% routed)
+ |     total nets:    45768
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/fft/FE_ECOC3_n_784 (BUFX2LVT) to drive load accel/fft/v_re_reg_25_/D 
+*** Starting refinePlace (0:05:11 mem=3156.1M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 5 insts, mean move: 2.03 um, max move: 3.51 um 
+	Max move on inst (accel/fft/g18016__7482): (394.60, 393.30) --> (396.40, 395.01)
+	Runtime: CPU: 0:00:02.4 REAL: 0:00:02.0 MEM: 3156.1MB
+Summary Report:
+Instances move: 5 (out of 42996 movable)
+Instances flipped: 0
+Mean displacement: 2.03 um
+Max displacement: 3.51 um (Instance: accel/fft/g18016__7482) (394.6, 393.3) -> (396.4, 395.01)
+	Length: 3 sites, height: 1 rows, site name: CoreSite, cell type: NOR2X1LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.6 REAL: 0:00:02.0 MEM: 3156.1MB
+*** Finished refinePlace (0:05:13 mem=3156.1M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/fft/v_im_reg_26_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45769 (100.0% routed)
+ |     total nets:    45769
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/fft/FE_ECOC4_n_829 (BUFX2LVT) to drive load accel/fft/v_im_reg_26_/D 
+*** Starting refinePlace (0:05:14 mem=3139.7M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 1 insts, mean move: 0.60 um, max move: 0.60 um 
+	Max move on inst (accel/fft/FE_ECOC4_n_829): (401.80, 412.11) --> (401.20, 412.11)
+	Runtime: CPU: 0:00:02.4 REAL: 0:00:01.0 MEM: 3139.7MB
+Summary Report:
+Instances move: 1 (out of 42997 movable)
+Instances flipped: 0
+Mean displacement: 0.60 um
+Max displacement: 0.60 um (Instance: accel/fft/FE_ECOC4_n_829) (401.8, 412.11) -> (401.2, 412.11)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.6 REAL: 0:00:01.0 MEM: 3139.7MB
+*** Finished refinePlace (0:05:17 mem=3139.7M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/fft/u_im_reg_15_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45770 (100.0% routed)
+ |     total nets:    45770
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/fft/FE_ECOC5_n_942 (BUFX2LVT) to drive load accel/fft/u_im_reg_15_/D 
+*** Starting refinePlace (0:05:17 mem=3141.2M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 1 insts, mean move: 1.00 um, max move: 1.00 um 
+	Max move on inst (accel/fft/g17857__6417): (447.00, 377.91) --> (448.00, 377.91)
+	Runtime: CPU: 0:00:02.4 REAL: 0:00:01.0 MEM: 3141.2MB
+Summary Report:
+Instances move: 1 (out of 42998 movable)
+Instances flipped: 0
+Mean displacement: 1.00 um
+Max displacement: 1.00 um (Instance: accel/fft/g17857__6417) (447, 377.91) -> (448, 377.91)
+	Length: 3 sites, height: 1 rows, site name: CoreSite, cell type: NOR2X1LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.6 REAL: 0:00:01.0 MEM: 3141.2MB
+*** Finished refinePlace (0:05:20 mem=3141.2M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/fft/half_reg_4_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45771 (100.0% routed)
+ |     total nets:    45771
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/fft/FE_ECOC6_FE_PHN4044_n_770 (BUFX2LVT) to drive load accel/fft/half_reg_4_/D 
+*** Starting refinePlace (0:05:20 mem=3142.8M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 1 insts, mean move: 3.42 um, max move: 3.42 um 
+	Max move on inst (accel/fft/FE_ECOC6_FE_PHN4044_n_770): (352.40, 485.64) --> (352.40, 482.22)
+	Runtime: CPU: 0:00:02.5 REAL: 0:00:01.0 MEM: 3142.8MB
+Summary Report:
+Instances move: 1 (out of 42999 movable)
+Instances flipped: 0
+Mean displacement: 3.42 um
+Max displacement: 3.42 um (Instance: accel/fft/FE_ECOC6_FE_PHN4044_n_770) (352.4, 485.64) -> (352.4, 482.22)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.7 REAL: 0:00:01.0 MEM: 3142.8MB
+*** Finished refinePlace (0:05:23 mem=3142.8M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/mem/mem_b1_reg_11__21_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45772 (100.0% routed)
+ |     total nets:    45772
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/mem/FE_ECOC7_FE_PHN3947_mem_wdata_b1_21 (BUFX2LVT) to drive load accel/mem/mem_b1_reg_11__21_/D 
+*** Starting refinePlace (0:05:23 mem=3184.5M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 1 insts, mean move: 0.40 um, max move: 0.40 um 
+	Max move on inst (accel/mem/FE_ECOC7_FE_PHN3947_mem_wdata_b1_21): (478.40, 297.54) --> (478.80, 297.54)
+	Runtime: CPU: 0:00:02.5 REAL: 0:00:01.0 MEM: 3184.5MB
+Summary Report:
+Instances move: 1 (out of 43000 movable)
+Instances flipped: 0
+Mean displacement: 0.40 um
+Max displacement: 0.40 um (Instance: accel/mem/FE_ECOC7_FE_PHN3947_mem_wdata_b1_21) (478.4, 297.54) -> (478.8, 297.54)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.6 REAL: 0:00:02.0 MEM: 3184.5MB
+*** Finished refinePlace (0:05:26 mem=3184.5M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/mem/mem_b1_reg_10__21_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45773 (100.0% routed)
+ |     total nets:    45773
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/mem/FE_ECOC8_FE_PHN3947_mem_wdata_b1_21 (BUFX2LVT) to drive load accel/mem/mem_b1_reg_10__21_/D 
+*** Starting refinePlace (0:05:27 mem=3187.2M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 1 insts, mean move: 1.00 um, max move: 1.00 um 
+	Max move on inst (accel/mem/FE_ECOC8_FE_PHN3947_mem_wdata_b1_21): (478.80, 297.54) --> (479.80, 297.54)
+	Runtime: CPU: 0:00:02.7 REAL: 0:00:02.0 MEM: 3187.2MB
+Summary Report:
+Instances move: 1 (out of 43001 movable)
+Instances flipped: 0
+Mean displacement: 1.00 um
+Max displacement: 1.00 um (Instance: accel/mem/FE_ECOC8_FE_PHN3947_mem_wdata_b1_21) (478.8, 297.54) -> (479.8, 297.54)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.9 REAL: 0:00:02.0 MEM: 3187.2MB
+*** Finished refinePlace (0:05:30 mem=3187.2M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term soc/cpu/cpuregs_reg_27__30_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45774 (100.0% routed)
+ |     total nets:    45774
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst soc/cpu/FE_ECOC9_FE_PHN10894_n_2938 (BUFX2LVT) to drive load soc/cpu/cpuregs_reg_27__30_/D 
+*** Starting refinePlace (0:05:30 mem=3151.8M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 4 insts, mean move: 1.08 um, max move: 2.31 um 
+	Max move on inst (soc/cpu/FE_PHC12026_cpuregs_26__30): (195.40, 155.61) --> (196.00, 157.32)
+	Runtime: CPU: 0:00:02.6 REAL: 0:00:02.0 MEM: 3151.8MB
+Summary Report:
+Instances move: 4 (out of 43002 movable)
+Instances flipped: 0
+Mean displacement: 1.08 um
+Max displacement: 2.31 um (Instance: soc/cpu/FE_PHC12026_cpuregs_26__30) (195.4, 155.61) -> (196, 157.32)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: CLKBUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.314e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.8 REAL: 0:00:02.0 MEM: 3151.8MB
+*** Finished refinePlace (0:05:33 mem=3151.8M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term {soc/memory/sram_0/I[1]}
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45775 (100.0% routed)
+ |     total nets:    45775
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst soc/FE_ECOC10_iomem_wdata_1 (BUFX2LVT) to drive load soc/memory/sram_0/I[1] 
+*** Starting refinePlace (0:05:34 mem=3194.5M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 1 insts, mean move: 2.91 um, max move: 2.91 um 
+	Max move on inst (soc/FE_ECOC10_iomem_wdata_1): (159.40, 374.49) --> (160.60, 376.20)
+	Runtime: CPU: 0:00:02.7 REAL: 0:00:02.0 MEM: 3194.5MB
+Summary Report:
+Instances move: 1 (out of 43003 movable)
+Instances flipped: 0
+Mean displacement: 2.91 um
+Max displacement: 2.91 um (Instance: soc/FE_ECOC10_iomem_wdata_1) (159.4, 374.49) -> (160.6, 376.2)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.9 REAL: 0:00:02.0 MEM: 3194.5MB
+*** Finished refinePlace (0:05:37 mem=3194.5M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term soc/simpleuart/send_pattern_reg_0_/SN
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45776 (100.0% routed)
+ |     total nets:    45776
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst soc/FE_ECOC11_FE_PHN4241_resetn_sync (BUFX2LVT) to drive load soc/simpleuart/send_pattern_reg_0_/SN 
+*** Starting refinePlace (0:05:37 mem=3208.2M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 2 insts, mean move: 4.31 um, max move: 8.22 um 
+	Max move on inst (soc/FE_ECOC11_FE_PHN4241_resetn_sync): (269.20, 357.39) --> (264.40, 360.81)
+	Runtime: CPU: 0:00:02.8 REAL: 0:00:02.0 MEM: 3208.2MB
+Summary Report:
+Instances move: 2 (out of 43004 movable)
+Instances flipped: 0
+Mean displacement: 4.31 um
+Max displacement: 8.22 um (Instance: soc/FE_ECOC11_FE_PHN4241_resetn_sync) (269.2, 357.39) -> (264.4, 360.81)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.9 REAL: 0:00:02.0 MEM: 3208.2MB
+*** Finished refinePlace (0:05:40 mem=3208.2M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term soc/cpu/reg_op2_reg_24_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45777 (100.0% routed)
+ |     total nets:    45777
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst soc/cpu/FE_ECOC12_FE_PHN5353_n_5143 (BUFX2LVT) to drive load soc/cpu/reg_op2_reg_24_/D 
+*** Starting refinePlace (0:05:41 mem=3151.7M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 2 insts, mean move: 5.66 um, max move: 10.71 um 
+	Max move on inst (soc/cpu/FE_ECOC12_FE_PHN5353_n_5143): (308.60, 167.58) --> (299.60, 169.29)
+	Runtime: CPU: 0:00:02.6 REAL: 0:00:01.0 MEM: 3151.7MB
+Summary Report:
+Instances move: 2 (out of 43005 movable)
+Instances flipped: 0
+Mean displacement: 5.66 um
+Max displacement: 10.71 um (Instance: soc/cpu/FE_ECOC12_FE_PHN5353_n_5143) (308.6, 167.58) -> (299.6, 169.29)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.8 REAL: 0:00:01.0 MEM: 3151.7MB
+*** Finished refinePlace (0:05:44 mem=3151.7M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/fft/w_im_reg_4_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45778 (100.0% routed)
+ |     total nets:    45778
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/fft/FE_ECOC13_n_1194 (BUFX2LVT) to drive load accel/fft/w_im_reg_4_/D 
+*** Starting refinePlace (0:05:45 mem=3172.3M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 1 insts, mean move: 0.60 um, max move: 0.60 um 
+	Max move on inst (accel/fft/FE_ECOC13_n_1194): (406.20, 463.41) --> (406.80, 463.41)
+	Runtime: CPU: 0:00:02.6 REAL: 0:00:01.0 MEM: 3172.3MB
+Summary Report:
+Instances move: 1 (out of 43006 movable)
+Instances flipped: 0
+Mean displacement: 0.60 um
+Max displacement: 0.60 um (Instance: accel/fft/FE_ECOC13_n_1194) (406.2, 463.41) -> (406.8, 463.41)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.7 REAL: 0:00:01.0 MEM: 3172.3MB
+*** Finished refinePlace (0:05:48 mem=3172.3M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term {accel/mem/mem_b1_reg_15__21_/D }
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45779 (100.0% routed)
+ |     total nets:    45779
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/mem/FE_ECOC14_FE_PHN3947_mem_wdata_b1_21 (BUFX2LVT) to drive load accel/mem/mem_b1_reg_15__21_/D 
+*** Starting refinePlace (0:05:48 mem=3215.0M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 1 insts, mean move: 0.60 um, max move: 0.60 um 
+	Max move on inst (accel/mem/FE_ECOC14_FE_PHN3947_mem_wdata_b1_21): (485.40, 297.54) --> (486.00, 297.54)
+	Runtime: CPU: 0:00:02.7 REAL: 0:00:01.0 MEM: 3215.0MB
+Summary Report:
+Instances move: 1 (out of 43007 movable)
+Instances flipped: 0
+Mean displacement: 0.60 um
+Max displacement: 0.60 um (Instance: accel/mem/FE_ECOC14_FE_PHN3947_mem_wdata_b1_21) (485.4, 297.54) -> (486, 297.54)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.8 REAL: 0:00:02.0 MEM: 3215.0MB
+*** Finished refinePlace (0:05:51 mem=3215.0M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/mem/mem_b1_reg_14__21_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45779 (100.0% routed)
+ |     total nets:    45780
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/mem/FE_ECOC15_FE_PHN3947_mem_wdata_b1_21 (BUFX2LVT) to drive load accel/mem/mem_b1_reg_14__21_/D 
+*** Starting refinePlace (0:05:52 mem=3221.7M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 0 insts, mean move: 0.00 um, max move: 0.00 um 
+	Runtime: CPU: 0:00:02.6 REAL: 0:00:01.0 MEM: 3221.7MB
+Summary Report:
+Instances move: 0 (out of 43008 movable)
+Instances flipped: 0
+Mean displacement: 0.00 um
+Max displacement: 0.00 um 
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.8 REAL: 0:00:02.0 MEM: 3221.7MB
+*** Finished refinePlace (0:05:54 mem=3221.7M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term soc/spimemio/rd_addr_reg_21_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45780 (100.0% routed)
+ |     total nets:    45781
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst soc/spimemio/FE_ECOC16_FE_PHN5869_n_175 (BUFX2LVT) to drive load soc/spimemio/rd_addr_reg_21_/D 
+*** Starting refinePlace (0:05:55 mem=3189.2M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 3 insts, mean move: 6.61 um, max move: 13.51 um 
+	Max move on inst (soc/spimemio/FE_ECOC16_FE_PHN5869_n_175): (61.00, 342.00) --> (72.80, 340.29)
+	Runtime: CPU: 0:00:02.7 REAL: 0:00:02.0 MEM: 3189.2MB
+Summary Report:
+Instances move: 3 (out of 43009 movable)
+Instances flipped: 0
+Mean displacement: 6.61 um
+Max displacement: 13.51 um (Instance: soc/spimemio/FE_ECOC16_FE_PHN5869_n_175) (61, 342) -> (72.8, 340.29)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.9 REAL: 0:00:02.0 MEM: 3189.2MB
+*** Finished refinePlace (0:05:58 mem=3189.2M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/mem/mem_b1_reg_1__27_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45781 (100.0% routed)
+ |     total nets:    45782
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/mem/FE_ECOC17_FE_PHN3965_mem_wdata_b1_27 (BUFX2LVT) to drive load accel/mem/mem_b1_reg_1__27_/D 
+*** Starting refinePlace (0:05:59 mem=3229.9M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 1 insts, mean move: 2.11 um, max move: 2.11 um 
+	Max move on inst (accel/mem/FE_ECOC17_FE_PHN3965_mem_wdata_b1_27): (434.20, 312.93) --> (433.80, 314.64)
+	Runtime: CPU: 0:00:02.7 REAL: 0:00:02.0 MEM: 3229.9MB
+Summary Report:
+Instances move: 1 (out of 43010 movable)
+Instances flipped: 0
+Mean displacement: 2.11 um
+Max displacement: 2.11 um (Instance: accel/mem/FE_ECOC17_FE_PHN3965_mem_wdata_b1_27) (434.2, 312.93) -> (433.8, 314.64)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.9 REAL: 0:00:02.0 MEM: 3229.9MB
+*** Finished refinePlace (0:06:02 mem=3229.9M) ***
+<CMD> ecoAddRepeater -cell BUFX2LVT -term accel/mem/mem_b1_reg_0__27_/D
+   _____________________________________________________________
+  /  Design State
+ +--------------------------------------------------------------
+ | unconnected nets:      620
+ | signal nets: 
+ |    routed nets:    45781 (100.0% routed)
+ |     total nets:    45783
+ | clock nets: 
+ |    routed nets:      106 (100.0% routed)
+ |     total nets:      106
+ +--------------------------------------------------------------
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Add inst accel/mem/FE_ECOC18_FE_PHN3965_mem_wdata_b1_27 (BUFX2LVT) to drive load accel/mem/mem_b1_reg_0__27_/D 
+*** Starting refinePlace (0:06:02 mem=3232.6M) ***
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Move report: Detail placement moves 1 insts, mean move: 2.40 um, max move: 2.40 um 
+	Max move on inst (accel/mem/FE_ECOC18_FE_PHN3965_mem_wdata_b1_27): (433.80, 311.22) --> (436.20, 311.22)
+	Runtime: CPU: 0:00:02.8 REAL: 0:00:02.0 MEM: 3232.6MB
+Summary Report:
+Instances move: 1 (out of 43011 movable)
+Instances flipped: 0
+Mean displacement: 2.40 um
+Max displacement: 2.40 um (Instance: accel/mem/FE_ECOC18_FE_PHN3965_mem_wdata_b1_27) (433.8, 311.22) -> (436.2, 311.22)
+	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: BUFX2LVT
+Total net bbox length = 1.463e+06 (8.314e+05 6.315e+05) (ext = 1.894e+03)
+Runtime: CPU: 0:00:02.9 REAL: 0:00:02.0 MEM: 3232.6MB
+*** Finished refinePlace (0:06:05 mem=3232.6M) ***
+<CMD> ecoRoute
+**INFO: User settings:
+setNanoRouteMode -drouteEndIteration                            30
+setNanoRouteMode -drouteFixAntenna                              true
+setNanoRouteMode -drouteStartIteration                          0
+setNanoRouteMode -drouteUseLefPinTaperRule                      true
+setNanoRouteMode -extractRcModelFile                            /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/misc/rc_model.bin
+setNanoRouteMode -extractThirdPartyCompatible                   false
+setNanoRouteMode -grouteExpTdStdDelay                           24.5
+setNanoRouteMode -grouteExpTdUseTifTimingEngineForImportDesign  false
+setNanoRouteMode -routeAntennaCellName                          ANTENNA
+setNanoRouteMode -routeFillerInstPrefix                         FILLER_
+setNanoRouteMode -routeFixTopLayerAntenna                       false
+setNanoRouteMode -routeInsertAntennaDiode                       true
+setNanoRouteMode -routeSiEffort                                 high
+setNanoRouteMode -routeTdrEffort                                5
+setNanoRouteMode -routeWithSiDriven                             true
+setNanoRouteMode -routeWithSiPostRouteFix                       false
+setNanoRouteMode -routeWithTimingDriven                         true
+setNanoRouteMode -timingEngine                                  .et4351_333822.slk.gz
+setDesignMode -process                                          45
+setDesignMode -topRoutingLayer                                  10
+
+#% Begin globalDetailRoute (date=04/09 20:52:38, mem=2350.6M)
+
+globalDetailRoute
+
+#Start globalDetailRoute on Thu Apr  9 20:52:38 2026
+#
+#WARNING (NRIF-78) The option routeWithEco combined with routeWithTimingDriven is not recommended due to possible high memory usage, increased run-time, and increased routing pattern pertubations. Please use with caution.
+#WARNING (NRIF-78) The option routeWithEco combined with routeWithTimingDriven is not recommended due to possible high memory usage, increased run-time, and increased routing pattern pertubations. Please use with caution.
+**WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+Type 'man IMPTS-17' for more detail.
+#create default rule from bind_ndr_rule rule=0x7f4ebd48c1c0 0x7f4e86cee568
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x39,abstract LAYER Metal3 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x39,abstract LAYER Metal3 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x39,abstract LAYER Metal4 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x39,abstract LAYER Metal4 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x39,abstract LAYER Metal5 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x39,abstract LAYER Metal5 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x39,abstract LAYER Metal5 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x39,abstract LAYER Metal5 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x39,abstract LAYER Metal1 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x39,abstract LAYER Metal1 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x39,abstract LAYER Metal2 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x39,abstract LAYER Metal2 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x32,abstract LAYER Metal3 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x32,abstract LAYER Metal3 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x32,abstract LAYER Metal3 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x32,abstract LAYER Metal3 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x32,abstract LAYER Metal4 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x32,abstract LAYER Metal4 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x32,abstract LAYER Metal4 has an illegal 0 width or height rectangle.
+#WARNING (NRDB-2054) CELL_VIEW SRAM2RW32x32,abstract LAYER Metal4 has an illegal 0 width or height rectangle.
+#WARNING (EMS-27) Message (NRDB-2054) has exceeded the current message display limit of 20.
+#To increase the message display limit, refer to the product command reference manual.
+Initializing multi-corner resistance tables ...
+#Invoke dbWirePreImport deleteTR=1 convert_unrouted=0 selected_only=0 (nr_selected_net=0)
+#num needed restored net=0
+#need_extraction net=0 (total=46512)
+#NanoRoute Version 21.11-s130_1 NR210811-1832/21_11-UB
+#Skip comparing routing design signature in db-snapshot flow
+#Total number of trivial nets (e.g. < 2 pins) = 622 (skipped).
+#Total number of routable nets = 45890.
+#Total number of nets in the design = 46512.
+#67 routable nets do not have any wires.
+#45823 routable nets have routed wires.
+#67 nets will be global routed.
+#2 global routed or unrouted (routable) nets have been constrained (e.g. have preferred extra spacing, require shielding etc.)
+#112 detail routed (routable) nets have been constrained (e.g. have preferred extra spacing, require shielding etc.)
+#Using multithreading with 4 threads.
+#Start routing data preparation on Thu Apr  9 20:52:41 2026
+#
+#Minimum voltage of a net in the design = 0.000.
+#Maximum voltage of a net in the design = 1.320.
+#Voltage range [0.000 - 1.320] has 46510 nets.
+#Voltage range [0.900 - 1.320] has 1 net.
+#Voltage range [0.000 - 0.000] has 1 net.
+#Restoring pin access data from file /home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/et4351.apa ...
+#Done restoring pin access data
+#Initial pin access analysis.
+#Detail pin access analysis.
+# Metal1       H   Track-Pitch = 0.19000    Line-2-Via Pitch = 0.13000
+# Metal2       V   Track-Pitch = 0.20000    Line-2-Via Pitch = 0.15000
+# Metal3       H   Track-Pitch = 0.19000    Line-2-Via Pitch = 0.15000
+# Metal4       V   Track-Pitch = 0.20000    Line-2-Via Pitch = 0.15000
+# Metal5       H   Track-Pitch = 0.19000    Line-2-Via Pitch = 0.15000
+# Metal6       V   Track-Pitch = 0.20000    Line-2-Via Pitch = 0.15000
+# Metal7       H   Track-Pitch = 0.19000    Line-2-Via Pitch = 0.15000
+# Metal8       V   Track-Pitch = 0.20000    Line-2-Via Pitch = 0.15000
+# Metal9       H   Track-Pitch = 0.19000    Line-2-Via Pitch = 0.15000
+# Metal10      V   Track-Pitch = 0.50000    Line-2-Via Pitch = 0.42000
+# Metal11      H   Track-Pitch = 0.47500    Line-2-Via Pitch = 0.43000
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 2453.41 (MB), peak = 2459.09 (MB)
+#Processed 45/0 dirty instances, 30/0 dirty terms, 0/0 dirty fterms, 0/0 dirty pgterms, 0/0 misc dirty regions(32 insts marked dirty, reset pre-exisiting dirty flag on 34 insts, 0 nets marked need extraction)
+#Regenerating Ggrids automatically.
+#Auto generating G-grids with size=15 tracks, using layer Metal3's pitch = 0.19000.
+#Using automatically generated G-grids.
+#(check_and_prepare_match_target_file) no match_target_file in constraint. quit
+#Done routing data preparation.
+#cpu time = 00:00:03, elapsed time = 00:00:03, memory = 2469.02 (MB), peak = 2469.02 (MB)
+#
+#Finished routing data preparation on Thu Apr  9 20:52:44 2026
+#
+#Cpu time = 00:00:04
+#Elapsed time = 00:00:03
+#Increased memory = 44.01 (MB)
+#Total memory = 2469.64 (MB)
+#Peak memory = 2469.64 (MB)
+#
+#
+#Start global routing on Thu Apr  9 20:52:44 2026
+#
+#
+#Start global routing initialization on Thu Apr  9 20:52:44 2026
+#
+#Number of eco nets is 65
+#
+#Start global routing data preparation on Thu Apr  9 20:52:44 2026
+#
+#Start routing resource analysis on Thu Apr  9 20:52:44 2026
+#
+#Routing resource analysis is done on Thu Apr  9 20:52:45 2026
+#
+#  Resource Analysis:
+#
+#               Routing  #Avail      #Track     #Total     %Gcell
+#  Layer      Direction   Track     Blocked      Gcell    Blocked
+#  --------------------------------------------------------------
+#  Metal1         H         836        2663       54522    62.42%
+#  Metal2         V        1423        1901       54522    24.36%
+#  Metal3         H        1769        1730       54522    15.41%
+#  Metal4         V        1749        1575       54522    24.27%
+#  Metal5         H        2522         977       54522     9.50%
+#  Metal6         V        2514         810       54522    11.73%
+#  Metal7         H        2345        1154       54522    22.00%
+#  Metal8         V        2531         793       54522    18.58%
+#  Metal9         H        3464          35       54522     0.00%
+#  Metal10        V        1328           1       54522     0.00%
+#  --------------------------------------------------------------
+#  Total                  20482      34.03%      545220    18.83%
+#
+#  113 nets (0.24%) with 1 preferred extra spacing.
+#
+#
+#
+#Global routing data preparation is done on Thu Apr  9 20:52:45 2026
+#
+#cpu time = 00:00:03, elapsed time = 00:00:01, memory = 2484.11 (MB), peak = 2493.93 (MB)
+#
+#
+#Global routing initialization is done on Thu Apr  9 20:52:45 2026
+#
+#cpu time = 00:00:03, elapsed time = 00:00:01, memory = 2485.62 (MB), peak = 2493.93 (MB)
+#
+#start global routing iteration 1...
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 2488.09 (MB), peak = 2493.93 (MB)
+#
+#start global routing iteration 2...
+#cpu time = 00:00:01, elapsed time = 00:00:00, memory = 2488.12 (MB), peak = 2493.93 (MB)
+#
+#start global routing iteration 3...
+#cpu time = 00:00:01, elapsed time = 00:00:00, memory = 2493.44 (MB), peak = 2493.93 (MB)
+#
+#
+#Total number of trivial nets (e.g. < 2 pins) = 622 (skipped).
+#Total number of routable nets = 45890.
+#Total number of nets in the design = 46512.
+#
+#45890 routable nets have routed wires.
+#2 global routed or unrouted (routable) nets have been constrained (e.g. have preferred extra spacing, require shielding etc.)
+#112 detail routed (routable) nets have been constrained (e.g. have preferred extra spacing, require shielding etc.)
+#
+#Routed nets constraints summary:
+#------------------------------------------------
+#        Rules   Pref Extra Space   Unconstrained  
+#------------------------------------------------
+#      Default                  2              65  
+#------------------------------------------------
+#        Total                  2              65  
+#------------------------------------------------
+#
+#Routing constraints summary of the whole design:
+#-------------------------------------------------------------------------------
+#        Rules   Pref Extra Space   Pref Layer   Expansion Ratio   Unconstrained  
+#-------------------------------------------------------------------------------
+#      Default                113            1                 1           45776  
+#-------------------------------------------------------------------------------
+#        Total                113            1                 1           45776  
+#-------------------------------------------------------------------------------
+#
+#
+#  Congestion Analysis: (blocked Gcells are excluded)
+#
+#                 OverCon       OverCon          
+#                  #Gcell        #Gcell    %Gcell
+#     Layer           (1)           (2)   OverCon
+#  ----------------------------------------------
+#  Metal1        0(0.00%)      0(0.00%)   (0.00%)
+#  Metal2        2(0.00%)      1(0.00%)   (0.01%)
+#  Metal3        0(0.00%)      0(0.00%)   (0.00%)
+#  Metal4        0(0.00%)      0(0.00%)   (0.00%)
+#  Metal5        0(0.00%)      0(0.00%)   (0.00%)
+#  Metal6        0(0.00%)      0(0.00%)   (0.00%)
+#  Metal7        0(0.00%)      0(0.00%)   (0.00%)
+#  Metal8        0(0.00%)      0(0.00%)   (0.00%)
+#  Metal9        0(0.00%)      0(0.00%)   (0.00%)
+#  Metal10       0(0.00%)      0(0.00%)   (0.00%)
+#  ----------------------------------------------
+#     Total      2(0.00%)      1(0.00%)   (0.00%)
+#
+#  The worst congested Gcell overcon (routing demand over resource in number of tracks) = 2
+#  Overflow after GR: 0.00% H + 0.00% V
+#
+#Complete Global Routing.
+#Total number of nets with non-default rule or having extra spacing = 113
+#Total wire length = 1677706 um.
+#Total half perimeter of net bounding box = 1504332 um.
+#Total wire length on LAYER Metal1 = 16595 um.
+#Total wire length on LAYER Metal2 = 276022 um.
+#Total wire length on LAYER Metal3 = 470576 um.
+#Total wire length on LAYER Metal4 = 270795 um.
+#Total wire length on LAYER Metal5 = 310487 um.
+#Total wire length on LAYER Metal6 = 143716 um.
+#Total wire length on LAYER Metal7 = 121743 um.
+#Total wire length on LAYER Metal8 = 45474 um.
+#Total wire length on LAYER Metal9 = 21750 um.
+#Total wire length on LAYER Metal10 = 548 um.
+#Total wire length on LAYER Metal11 = 0 um.
+#Total number of vias = 386804
+#Up-Via Summary (total 386804):
+#           
+#-----------------------
+# Metal1         150416
+# Metal2         133171
+# Metal3          51972
+# Metal4          27511
+# Metal5          12774
+# Metal6           7343
+# Metal7           2709
+# Metal8            873
+# Metal9             35
+#-----------------------
+#                386804 
+#
+#Max overcon = 2 tracks.
+#Total overcon = 0.00%.
+#Worst layer Gcell overcon rate = 0.00%.
+#
+#Global routing statistics:
+#Cpu time = 00:00:06
+#Elapsed time = 00:00:03
+#Increased memory = 22.90 (MB)
+#Total memory = 2492.55 (MB)
+#Peak memory = 2496.64 (MB)
+#
+#Finished global routing on Thu Apr  9 20:52:47 2026
+#
+#
+#cpu time = 00:00:00, elapsed time = 00:00:00, memory = 2484.42 (MB), peak = 2496.64 (MB)
+#Start Track Assignment.
+#Done with 21 horizontal wires in 8 hboxes and 18 vertical wires in 8 hboxes.
+#Done with 1 horizontal wires in 8 hboxes and 2 vertical wires in 8 hboxes.
+#Complete Track Assignment.
+#Total number of nets with non-default rule or having extra spacing = 113
+#Total wire length = 1677711 um.
+#Total half perimeter of net bounding box = 1504332 um.
+#Total wire length on LAYER Metal1 = 16595 um.
+#Total wire length on LAYER Metal2 = 276026 um.
+#Total wire length on LAYER Metal3 = 470575 um.
+#Total wire length on LAYER Metal4 = 270797 um.
+#Total wire length on LAYER Metal5 = 310487 um.
+#Total wire length on LAYER Metal6 = 143716 um.
+#Total wire length on LAYER Metal7 = 121743 um.
+#Total wire length on LAYER Metal8 = 45474 um.
+#Total wire length on LAYER Metal9 = 21750 um.
+#Total wire length on LAYER Metal10 = 548 um.
+#Total wire length on LAYER Metal11 = 0 um.
+#Total number of vias = 386804
+#Up-Via Summary (total 386804):
+#           
+#-----------------------
+# Metal1         150416
+# Metal2         133171
+# Metal3          51972
+# Metal4          27511
+# Metal5          12774
+# Metal6           7343
+# Metal7           2709
+# Metal8            873
+# Metal9             35
+#-----------------------
+#                386804 
+#
+#cpu time = 00:00:05, elapsed time = 00:00:03, memory = 2485.55 (MB), peak = 2633.36 (MB)
+#
+#number of short segments in preferred routing layers
+#	
+#	
+#
+#Routing data preparation, pin analysis, global routing and track assignment statistics:
+#Cpu time = 00:00:16
+#Elapsed time = 00:00:10
+#Increased memory = 60.95 (MB)
+#Total memory = 2486.58 (MB)
+#Peak memory = 2633.36 (MB)
+#Using superthreading with total 4 threads.
+#
+#Server et4351.ewi.tudelft.nl is up on port 60147 ...
+#
+#
+#Start Detail Routing..
+#start initial detail routing ...
+#    Client 1 from et4351.ewi.tudelft.nl is connected
+#    Sending design data to client 1 on host et4351.
+# ECO: 1.1% of the total area was rechecked for DRC, and 1.5% required routing.
+#   number of violations = 11
+#
+#    By Layer and Type :
+#	          Short     Loop   Totals
+#	Metal1        0        0        0
+#	Metal2       10        1       11
+#	Totals       10        1       11
+#32 out of 43097 instances (0.1%) need to be verified(marked ipoed), dirty area = 0.0%.
+#0.0% of the total area is being checked for drcs
+#0.0% of the total area was checked
+#   number of violations = 11
+#
+#    By Layer and Type :
+#	          Short     Loop   Totals
+#	Metal1        0        0        0
+#	Metal2       10        1       11
+#	Totals       10        1       11
+#    client cpu time = 00:00:00, memory = 185.97 (MB)
+#cpu time = 00:00:08, elapsed time = 00:00:04, memory = 2496.76 (MB), peak = 2651.83 (MB)
+#start 1st optimization iteration ...
+#   number of violations = 0
+#    client cpu time = 00:00:00, memory = 186.65 (MB)
+#cpu time = 00:00:01, elapsed time = 00:00:00, memory = 2501.96 (MB), peak = 2651.83 (MB)
+#Complete Detail Routing.
+#Total number of nets with non-default rule or having extra spacing = 113
+#Total wire length = 1677730 um.
+#Total half perimeter of net bounding box = 1504332 um.
+#Total wire length on LAYER Metal1 = 16595 um.
+#Total wire length on LAYER Metal2 = 276033 um.
+#Total wire length on LAYER Metal3 = 470576 um.
+#Total wire length on LAYER Metal4 = 270803 um.
+#Total wire length on LAYER Metal5 = 310493 um.
+#Total wire length on LAYER Metal6 = 143716 um.
+#Total wire length on LAYER Metal7 = 121743 um.
+#Total wire length on LAYER Metal8 = 45474 um.
+#Total wire length on LAYER Metal9 = 21750 um.
+#Total wire length on LAYER Metal10 = 548 um.
+#Total wire length on LAYER Metal11 = 0 um.
+#Total number of vias = 386881
+#Up-Via Summary (total 386881):
+#           
+#-----------------------
+# Metal1         150438
+# Metal2         133212
+# Metal3          51986
+# Metal4          27511
+# Metal5          12774
+# Metal6           7343
+# Metal7           2709
+# Metal8            873
+# Metal9             35
+#-----------------------
+#                386881 
+#
+#Total number of DRC violations = 0
+#Cpu time = 00:00:17
+#Elapsed time = 00:00:07
+#Increased memory = 15.38 (MB)
+#Total memory = 2501.96 (MB)
+#Peak memory = 2651.83 (MB)
+#
+#start routing for process antenna violation fix ...
+#cpu time = 00:00:01, elapsed time = 00:00:00, memory = 2501.75 (MB), peak = 2651.83 (MB)
+#
+#Total number of nets with non-default rule or having extra spacing = 113
+#Total wire length = 1677730 um.
+#Total half perimeter of net bounding box = 1504332 um.
+#Total wire length on LAYER Metal1 = 16595 um.
+#Total wire length on LAYER Metal2 = 276033 um.
+#Total wire length on LAYER Metal3 = 470576 um.
+#Total wire length on LAYER Metal4 = 270803 um.
+#Total wire length on LAYER Metal5 = 310493 um.
+#Total wire length on LAYER Metal6 = 143716 um.
+#Total wire length on LAYER Metal7 = 121743 um.
+#Total wire length on LAYER Metal8 = 45474 um.
+#Total wire length on LAYER Metal9 = 21750 um.
+#Total wire length on LAYER Metal10 = 548 um.
+#Total wire length on LAYER Metal11 = 0 um.
+#Total number of vias = 386881
+#Up-Via Summary (total 386881):
+#           
+#-----------------------
+# Metal1         150438
+# Metal2         133212
+# Metal3          51986
+# Metal4          27511
+# Metal5          12774
+# Metal6           7343
+# Metal7           2709
+# Metal8            873
+# Metal9             35
+#-----------------------
+#                386881 
+#
+#Total number of DRC violations = 0
+#Total number of process antenna violations = 0
+#Total number of net violated process antenna rule = 0 ant fix stage
+#
+#WARNING (NRDB-104) Cannot find antenna cell. Please set option 'route_antenna_cell_name', or change your LEF file.
+#WARNING (NRDB-104) Cannot find antenna cell. Please set option 'route_antenna_cell_name', or change your LEF file.
+#
+#Total number of nets with non-default rule or having extra spacing = 113
+#Total wire length = 1677730 um.
+#Total half perimeter of net bounding box = 1504332 um.
+#Total wire length on LAYER Metal1 = 16595 um.
+#Total wire length on LAYER Metal2 = 276033 um.
+#Total wire length on LAYER Metal3 = 470576 um.
+#Total wire length on LAYER Metal4 = 270803 um.
+#Total wire length on LAYER Metal5 = 310493 um.
+#Total wire length on LAYER Metal6 = 143716 um.
+#Total wire length on LAYER Metal7 = 121743 um.
+#Total wire length on LAYER Metal8 = 45474 um.
+#Total wire length on LAYER Metal9 = 21750 um.
+#Total wire length on LAYER Metal10 = 548 um.
+#Total wire length on LAYER Metal11 = 0 um.
+#Total number of vias = 386881
+#Up-Via Summary (total 386881):
+#           
+#-----------------------
+# Metal1         150438
+# Metal2         133212
+# Metal3          51986
+# Metal4          27511
+# Metal5          12774
+# Metal6           7343
+# Metal7           2709
+# Metal8            873
+# Metal9             35
+#-----------------------
+#                386881 
+#
+#Total number of DRC violations = 0
+#Total number of process antenna violations = 0
+#Total number of net violated process antenna rule = 0 ant fix stage
+#
+#
+#Start Post Route wire spreading..
+#
+#Start data preparation for wire spreading...
+#
+#Data preparation is done on Thu Apr  9 20:53:01 2026
+#
+#
+#Start Post Route Wire Spread.
+#Done with 31106 horizontal wires in 15 hboxes and 23928 vertical wires in 15 hboxes.
+#Complete Post Route Wire Spread.
+#
+#Total number of nets with non-default rule or having extra spacing = 113
+#Total wire length = 1699093 um.
+#Total half perimeter of net bounding box = 1504332 um.
+#Total wire length on LAYER Metal1 = 16757 um.
+#Total wire length on LAYER Metal2 = 279626 um.
+#Total wire length on LAYER Metal3 = 477470 um.
+#Total wire length on LAYER Metal4 = 275023 um.
+#Total wire length on LAYER Metal5 = 314001 um.
+#Total wire length on LAYER Metal6 = 145410 um.
+#Total wire length on LAYER Metal7 = 122657 um.
+#Total wire length on LAYER Metal8 = 45773 um.
+#Total wire length on LAYER Metal9 = 21827 um.
+#Total wire length on LAYER Metal10 = 550 um.
+#Total wire length on LAYER Metal11 = 0 um.
+#Total number of vias = 386881
+#Up-Via Summary (total 386881):
+#           
+#-----------------------
+# Metal1         150438
+# Metal2         133212
+# Metal3          51986
+# Metal4          27511
+# Metal5          12774
+# Metal6           7343
+# Metal7           2709
+# Metal8            873
+# Metal9             35
+#-----------------------
+#                386881 
+#
+#WARNING (NRDB-104) Cannot find antenna cell. Please set option 'route_antenna_cell_name', or change your LEF file.
+#   number of violations = 0
+#cpu time = 00:00:21, elapsed time = 00:00:07, memory = 2618.58 (MB), peak = 2651.83 (MB)
+#CELL_VIEW et4351,init has no DRC violation.
+#Total number of DRC violations = 0
+#Total number of process antenna violations = 0
+#Total number of net violated process antenna rule = 0 ant fix stage
+#Post Route wire spread is done.
+#Total number of nets with non-default rule or having extra spacing = 113
+#Total wire length = 1699093 um.
+#Total half perimeter of net bounding box = 1504332 um.
+#Total wire length on LAYER Metal1 = 16757 um.
+#Total wire length on LAYER Metal2 = 279626 um.
+#Total wire length on LAYER Metal3 = 477470 um.
+#Total wire length on LAYER Metal4 = 275023 um.
+#Total wire length on LAYER Metal5 = 314001 um.
+#Total wire length on LAYER Metal6 = 145410 um.
+#Total wire length on LAYER Metal7 = 122657 um.
+#Total wire length on LAYER Metal8 = 45773 um.
+#Total wire length on LAYER Metal9 = 21827 um.
+#Total wire length on LAYER Metal10 = 550 um.
+#Total wire length on LAYER Metal11 = 0 um.
+#Total number of vias = 386881
+#Up-Via Summary (total 386881):
+#           
+#-----------------------
+# Metal1         150438
+# Metal2         133212
+# Metal3          51986
+# Metal4          27511
+# Metal5          12774
+# Metal6           7343
+# Metal7           2709
+# Metal8            873
+# Metal9             35
+#-----------------------
+#                386881 
+#
+#detailRoute Statistics:
+#Cpu time = 00:00:49
+#Elapsed time = 00:00:18
+#Increased memory = 132.00 (MB)
+#Total memory = 2618.58 (MB)
+#Peak memory = 2651.83 (MB)
+#Skip updating routing design signature in db-snapshot flow
+#	no debugging net set
+#Client cpu time = 00:00:00
+#Client peak memory = 243.02 (MB)
+#
+#globalDetailRoute statistics:
+#Cpu time = 00:01:12
+#Elapsed time = 00:00:31
+#Increased memory = 37.33 (MB)
+#Total memory = 2387.92 (MB)
+#Peak memory = 2651.83 (MB)
+#Number of warnings = 41
+#Total number of warnings = 58
+#Number of fails = 0
+#Total number of fails = 0
+#Complete globalDetailRoute on Thu Apr  9 20:53:10 2026
+#
+#% End globalDetailRoute (date=04/09 20:53:11, total cpu=0:01:12, real=0:00:33.0, peak res=2651.8M, current mem=2385.0M)
+<CMD> timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -outDir ECO_HOLD/report_timing_hold
+*** timeDesign #1 [begin] : totSession cpu/real = 0:07:17.4/0:07:46.5 (0.9), mem = 3138.3M
+**WARN :: 'setOptMode -fixSISlew true' has been set. 'setSIMode -report_si_slew_max_transition true' is set now
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'et4351' of instances=43097 and nets=46512 using extraction engine 'postRoute' at effort level 'high' .
+Integrated QRC (IQuantus) Extraction in Multi-Corner mode called for design 'et4351'. Number of corners is 1.
+Region changed by change in placement/routing is large. Going for full-chip extraction
+ Min pitch recieved = 1520 
+IQuantus Extraction invoked in multi (4) processes mode on local host.
+
+IQuantus Extraction engine initialization using 1 tech files:
+	/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/mmmc/rc/gpdk045.tch at temperature 25C . 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+INFO (EXTIQUANTUS-101) : 
+  Integrated Quantus - 64-bit Parasitic Extractor - Version 20.1.2-s578
+-------------------------------------------------------------------------
+               Copyright 2021 Cadence Design Systems, Inc.
+
+
+INFO (EXTIQUANTUS-103) : Starting at 2026-Apr-09 20:53:15 (2026-Apr-09 18:53:15 GMT).
+
+INFO (EXTIQUANTUS-104) : Starting extraction session...
+
+INFO (EXTIQUANTUS-159) : Loading technology data from file:
+ 
+/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/mmmc/rc/gpdk045.tch
+
+INFO (EXTIQUANTUS-289) : Loading RCgen extraction models from file:
+ 
+/home/nfs/vrameshselvam/final_iteration/pnr/checkpoints/et4351_route.enc.dat/libs/mmmc/rc/gpdk045.tch
+
+INFO (EXTIQUANTUS-345) : Checking Command/Tech/License Files. 
+
+INFO (EXTIQUANTUS-105) : Starting design extraction....
+No layermap file specified. Automatically mapping tech and lef layers. Log file is 'extLogDir/IQuantus_09-Apr-2026_20:53:12_333822_DZ1saG/extr.et4351.layermap.log'.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+IQuantus Extraction engine initialized successfully.
+
+Dumping IQuantus extraction options in file 'extLogDir/IQuantus_09-Apr-2026_20:53:12_333822_DZ1saG/extr.et4351.extraction_options.log'.
+Initialization for IQuantus Fullchip Extraction DONE (CPU Time: 0:00:05.9  Real Time: 0:00:06.0  MEM: 3157.039M)
+
+Geometry processing of Gray and Metal fill STARTED.................... DONE (CPU Time: 0:00:02.5  Real Time: 0:00:03.0  MEM: 3157.039M)
+Geometry processing of nets STARTED.................... DONE (NETS: 45890  Geometries: 1200929  CPU Time: 0:00:06.5  Real Time: 0:00:07.0  MEM: 3161.039M)
+
+Extraction of Geometries STARTED.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+INFO (EXTIQUANTUS-282) : Checking Command/Tech Files. 
+
+INFO (EXTIQUANTUS-277) : Manufacturing Data Information :- 
+  DEF/GDS file 
+    does NOT contain MetalFill data. 
+  Techfile  
+    does NOT contain WEE data.     
+    does NOT contain Erosion data t=f( density ) 
+    does NOT contain R(w) data.    
+    does NOT contain R(w, s) data.  
+    does NOT contain TC(w) data.    
+    does NOT contain T/B enlargement data. 
+    does     contain Floating Metal Fill models. 
+
+INFO (EXTIQUANTUS-287) : Capacitance Models Information :- 
+ ICECAPS models are not available. 
+ RCgen   models are     available. 
+ This IQuantus session uses RCgen models.
+
+INFO (EXTIQUANTUS-286) : RCs effects computed for this session include :- 
+ MetalFill        : OFF 
+ WEE Effects      : n/a 
+ Erosion Effects  : n/a t=f( density ) 
+ T/B Enlargements : n/a 
+ R(w) Effects     : n/a 
+ R(w,s) Effects   : n/a 
+ TC(w) Effects     : n/a 
+Some effects indicate n/a because of non-availability of relevantinput data
+(or) requested to be off (and/or) usage of older Icecaps models.
+Creating 4 parallel subjobs for IQuantus extraction...
+EDP: start server on et4351.ewi.tudelft.nl:60215
+EDP: start server on et4351.ewi.tudelft.nl:49105
+Connected to et4351.ewi.tudelft.nl 57927 2 ( PID=375395 ). Wait time was 24 seconds
+Connected to et4351.ewi.tudelft.nl 38843 3 ( PID=375422 ). Wait time was 24 seconds
+Connected to et4351.ewi.tudelft.nl 36513 0 ( PID=375353 ). Wait time was 24 seconds
+Connected to et4351.ewi.tudelft.nl 45637 1 ( PID=375368 ). Wait time was 25 seconds
+EDP: Task 2 finished (source /tmp/innovus_temp_333822_et4351.ewi.tudelft.nl_vrameshselvam_8rd1fg/iqrc_tmp_333822_nFDvf8/multi_cpu_job_333822_2.tcl)
+EDP: Task 3 finished (source /tmp/innovus_temp_333822_et4351.ewi.tudelft.nl_vrameshselvam_8rd1fg/iqrc_tmp_333822_nFDvf8/multi_cpu_job_333822_3.tcl)
+EDP: Task 1 finished (source /tmp/innovus_temp_333822_et4351.ewi.tudelft.nl_vrameshselvam_8rd1fg/iqrc_tmp_333822_nFDvf8/multi_cpu_job_333822_1.tcl)
+EDP: Task 0 finished (source /tmp/innovus_temp_333822_et4351.ewi.tudelft.nl_vrameshselvam_8rd1fg/iqrc_tmp_333822_nFDvf8/multi_cpu_job_333822_0.tcl)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Extraction of Geometries DONE (NETS: 45890  Total CPU Time: 0:03:15  Real Time: 0:01:09  MEM: 3183.172M)
+
+Parasitic Network Creation STARTED
+....................
+Number of Extracted Resistors     : 933570
+Number of Extracted Ground Caps   : 979988
+Number of Extracted Coupling Caps : 40654
+Parasitic Network Creation DONE (Nets: 45890  CPU Time: 0:00:05.6  Real Time: 0:00:05.0  MEM: 3211.172M)
+
+IQuantus Extraction engine is being closed... 
+IQuantus Fullchip Extraction DONE (Total CPU Time: 0:03:38  Processes: 4  Real Time: 0:01:32  MEM: 3203.172M)
+Starting delay calculation for Hold views
+**WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+Type 'man IMPTS-17' for more detail.
+AAE_INFO: opIsDesignInPostRouteState() is 1
+AAE_INFO: resetNetProps viewIdx 1 
+AAE_INFO: resetNetProps viewIdx 2 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_hold'
+Start delay calculation (fullDC) (4 T). (MEM=3196.49)
+*** Calculating scaling factor for library_min libraries using the default operating condition of each library.
+AAE_INFO: 4 threads acquired from CTE.
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.2 percent of the nets selected for SI analysis
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3368.07 CPU=0:00:25.9 REAL=0:00:07.0)
+End delay calculation (fullDC). (MEM=3368.07 CPU=0:00:28.5 REAL=0:00:08.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 3368.1M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:01.2, REAL = 0:00:00.0, MEM = 3368.1M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (4 T). (MEM=3274.3)
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Analyzed = 0. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  16.2 percent of the nets selected for SI analysis
+Glitch Analysis: View analysis_view_hold -- Total Number of Nets Skipped = 222. 
+Glitch Analysis: View analysis_view_hold -- Total Number of Nets Analyzed = 46008. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  16.1 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3454.04 CPU=0:00:10.3 REAL=0:00:02.0)
+End delay calculation (fullDC). (MEM=3454.04 CPU=0:00:10.6 REAL=0:00:03.0)
+*** Done Building Timing Graph (cpu=0:00:50.6 real=0:00:15.0 totSessionCpu=0:11:50 mem=3452.0M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Hold views included:
+ analysis_view_hold analysis_view_power 
+
++--------------------+---------+---------+---------+
+|     Hold mode      |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.000  |  0.000  |  0.004  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|  11710  |  11705  |   238   |
++--------------------+---------+---------+---------+
+
+Density: 60.737%
+------------------------------------------------------------------
+Reported timing to dir ECO_HOLD/report_timing_hold
+Total CPU time: 274.33 sec
+Total Real time: 110.0 sec
+Total Memory Usage: 3169.007812 Mbytes
+Reset AAE Options
+*** timeDesign #1 [finish] : cpu/real = 0:04:34.3/0:01:50.3 (2.5), totSession cpu/real = 0:11:51.7/0:09:36.8 (1.2), mem = 3169.0M
+<CMD> timeDesign -postRoute -pathReports -slackReports -numPaths 50 -outDir ECO_HOLD/report_timing
+*** timeDesign #2 [begin] : totSession cpu/real = 0:11:51.7/0:09:36.8 (1.2), mem = 3169.0M
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'et4351' of instances=43097 and nets=46512 using extraction engine 'postRoute' at effort level 'high' .
+Integrated QRC (IQuantus) Extraction in Multi-Corner mode called for design 'et4351'. Number of corners is 1.
+No changed net or region found. No need to perform incremental extraction.
+Starting delay calculation for Setup views
+**WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+Type 'man IMPTS-17' for more detail.
+AAE_INFO: opIsDesignInPostRouteState() is 1
+AAE_INFO: resetNetProps viewIdx 0 
+AAE_INFO: resetNetProps viewIdx 1 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_setup'
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+Start delay calculation (fullDC) (4 T). (MEM=3213.72)
+*** Calculating scaling factor for library_max libraries using the default operating condition of each library.
+AAE_INFO: 4 threads acquired from CTE.
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.0 percent of the nets selected for SI analysis
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3409.3 CPU=0:00:27.0 REAL=0:00:07.0)
+End delay calculation (fullDC). (MEM=3409.3 CPU=0:00:29.8 REAL=0:00:08.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 3409.3M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:01.3, REAL = 0:00:00.0, MEM = 3409.3M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (4 T). (MEM=3321.53)
+Glitch Analysis: View analysis_view_setup -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View analysis_view_setup -- Total Number of Nets Analyzed = 0. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  0.4 percent of the nets selected for SI analysis
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Skipped = 222. 
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Analyzed = 46008. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  0.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3501.27 CPU=0:00:01.6 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=3501.27 CPU=0:00:01.9 REAL=0:00:01.0)
+*** Done Building Timing Graph (cpu=0:00:45.5 real=0:00:14.0 totSessionCpu=0:12:39 mem=3499.3M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ analysis_view_setup analysis_view_power 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.756  |  2.516  |  0.756  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|  11710  |  11705  |   238   |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |     42 (105)     |   -0.497   |     46 (109)     |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 60.737%
+Total number of glitch violations: 0
+------------------------------------------------------------------
+Reported timing to dir ECO_HOLD/report_timing
+Total CPU time: 57.03 sec
+Total Real time: 22.0 sec
+Total Memory Usage: 3368.695312 Mbytes
+Reset AAE Options
+*** timeDesign #2 [finish] : cpu/real = 0:00:57.0/0:00:22.2 (2.6), totSession cpu/real = 0:12:48.7/0:09:59.0 (1.3), mem = 3368.7M
+<CMD> read_activity_file ../sim_phys/vcd/et4351.phys.hold.vcd -reset -format VCD -scope testbench/dut > finalReports/activityReport.rpt
+clk(62.5MHz) flash_clk(31.25MHz) Parsing VCD file ../sim_phys/vcd/et4351.phys.hold.vcd
+
+Starting Reading VCD variables
+2026-Apr-09 20:55:25 (2026-Apr-09 18:55:25 GMT)
+2026-Apr-09 20:55:25 (2026-Apr-09 18:55:25 GMT): 10%
+2026-Apr-09 20:55:25 (2026-Apr-09 18:55:25 GMT): 20%
+2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 30%
+2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 40%
+2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 50%
+2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 60%
+2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 70%
+2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 80%
+2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT): 90%
+
+Finished Reading VCD variables
+2026-Apr-09 20:55:26 (2026-Apr-09 18:55:26 GMT)
+   
+The vcd command required:
+   		1.66 user, 0.22 system, and 1.89 real seconds
+
+   Total number of value changes: 2579935.
+
+   Total simulation time: 0.00695362s.
+
+   With this vcd command,  646993 value changes and 6.512e-06 second
+simulation time were counted for power consumption calculation.
+
+  Filename (activity)                    :
+../sim_phys/vcd/et4351.phys.hold.vcd
+  Names in file that matched to design   : 46104/46108
+  Annotation coverage for this file
+   (Unique nets matched/Total nets)       : 45986/46004 = 99.9609%
+
+  4 nets were found in the VCD file(s) but were not in
+  the design.  These nets are listed in the file
+voltus_power_missing_netnames.rpt.
+
+  Total annotation coverage for all files of type VCD: 45986/46004 =
+99.9609%
+  Percent of VCD annotated nets with zero toggles: 25867/46004 = 56.2277%
+
+'read_activity_file' finished successfully.
+<CMD> saveDesign checkpoints/et4351_route_eco.enc
+The in-memory database contained RC information but was not saved. To save 
+the RC information, use saveDesign's -rc option. Note: Saving RC information can be quite large, 
+so it should only be saved when it is really desired.
+#% Begin save design ... (date=04/09 20:55:28, mem=2659.0M)
+% Begin Save ccopt configuration ... (date=04/09 20:55:28, mem=2659.0M)
+% End Save ccopt configuration ... (date=04/09 20:55:28, total cpu=0:00:00.4, real=0:00:00.0, peak res=2659.7M, current mem=2659.7M)
+% Begin Save netlist data ... (date=04/09 20:55:28, mem=2659.7M)
+Writing Binary DB to checkpoints/et4351_route_eco.enc.dat.tmp/vbin/et4351.v.bin in multi-threaded mode...
+% End Save netlist data ... (date=04/09 20:55:28, total cpu=0:00:00.3, real=0:00:01.0, peak res=2663.9M, current mem=2663.9M)
+Saving symbol-table file in separate thread ...
+Saving congestion map file in separate thread ...
+Saving congestion map file checkpoints/et4351_route_eco.enc.dat.tmp/et4351.route.congmap.gz ...
+% Begin Save AAE data ... (date=04/09 20:55:29, mem=2664.2M)
+Saving AAE Data ...
+% End Save AAE data ... (date=04/09 20:55:29, total cpu=0:00:00.1, real=0:00:00.0, peak res=2664.2M, current mem=2664.2M)
+Saving preference file checkpoints/et4351_route_eco.enc.dat.tmp/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+Saving Drc markers ...
+... 27094 markers are saved ...
+... 0 geometry drc markers are saved ...
+... 0 antenna drc markers are saved ...
+% Begin Save routing data ... (date=04/09 20:55:30, mem=2665.0M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.8 real=0:00:02.0 mem=3392.8M) ***
+% End Save routing data ... (date=04/09 20:55:32, total cpu=0:00:00.9, real=0:00:02.0, peak res=2665.4M, current mem=2665.4M)
+Saving special route data file in separate thread ...
+Saving PG file in separate thread ...
+Saving placement file in separate thread ...
+Convert 0 swires and 0 svias from compressed groups
+** Saving stdCellPlacement_binary (version# 2) ...
+Saving PG file checkpoints/et4351_route_eco.enc.dat.tmp/et4351.pg.gz, version#2, (Created by Innovus v21.11-s130_1 on Thu Apr  9 20:55:32 2026)
+Save Adaptive View Pruning View Names to Binary file
+TAT_INFO: ::saveSpecialRoute REAL = 0 : CPU = 0 : MEM = 0.
+*** Completed savePGFile (cpu=0:00:00.1 real=0:00:01.0 mem=3430.8M) ***
+TAT_INFO: ::savePGFile REAL = 1 : CPU = 0 : MEM = 0.
+TAT_INFO: ::savePlace REAL = 0 : CPU = 0 : MEM = 0.
+Saving property file checkpoints/et4351_route_eco.enc.dat.tmp/et4351.prop
+*** Completed saveProperty (cpu=0:00:00.1 real=0:00:00.0 mem=3410.8M) ***
+#Saving pin access data to file checkpoints/et4351_route_eco.enc.dat.tmp/et4351.apa ...
+#
+Saving preRoute extracted patterns in file 'checkpoints/et4351_route_eco.enc.dat.tmp/et4351.techData.gz' ...
+Saving preRoute extraction data in directory 'checkpoints/et4351_route_eco.enc.dat.tmp/extraction/' ...
+TAT_INFO: ::db::saveSymbolTable REAL = 0 : CPU = 0 : MEM = 0.
+TAT_INFO: ::saveCongMap REAL = 0 : CPU = 0 : MEM = 0.
+% Begin Save power constraints data ... (date=04/09 20:55:35, mem=2667.0M)
+% End Save power constraints data ... (date=04/09 20:55:35, total cpu=0:00:00.1, real=0:00:00.0, peak res=2667.0M, current mem=2667.0M)
+rc
+rc
+rc
+Generated self-contained design et4351_route_eco.enc.dat.tmp
+#% End save design ... (date=04/09 20:55:36, total cpu=0:00:04.3, real=0:00:08.0, peak res=2667.0M, current mem=2666.5M)
+*** Message Summary: 0 warning(s), 0 error(s)
+
+
+
+
+ ##############################################################    
+ ##                                                                
+ ##                        VERIFY                                  
+ ##                                                                
+ ##############################################################    
+
+
+
+<CMD> clearDrc
+<CMD> verifyConnectivity -type all -error 1000 -warning 50 -report verifyReports/verifyConnectivity.rpt
+VERIFY_CONNECTIVITY use new engine.
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Thu Apr  9 20:56:25 2026
+
+Design Name: et4351
+Database Units: 2000
+Design Boundary: (0.0000, 0.0000) (664.8000, 664.8000)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+Use 4 pthreads
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Thu Apr  9 20:56:28 2026
+Time Elapsed: 0:00:03.0
+
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:06.0  MEM: 45.000M)
+
+<CMD> verify_drc -limit 1000 -report verifyReports/verify_drc.rpt
+#-check_same_via_cell true               # bool, default=false, user setting
+#-report verifyReports/verify_drc.rpt    # string, default="", user setting
+ *** Starting Verify DRC (MEM: 3475.1) ***
+
+  VERIFY DRC ...... Starting Verification
+  VERIFY DRC ...... Initializing
+  VERIFY DRC ...... Deleting Existing Violations
+  VERIFY DRC ...... Creating Sub-Areas
+  VERIFY DRC ...... Using new threading
+ VERIFY DRC ...... Thread : 3 finished.
+ VERIFY DRC ...... Thread : 0 finished.
+ VERIFY DRC ...... Thread : 2 finished.
+
+  Verification Complete : 0 Viols.
+
+ *** End Verify DRC (CPU: 0:09:10  ELAPSED TIME: 175.00  MEM: 303.0M) ***
+
+<CMD> verifyProcessAntenna -error 1000 -reportfile verifyReports/verifyProcessAntenna.rpt
+
+******* START VERIFY ANTENNA ********
+Report File: verifyReports/verifyProcessAntenna.rpt
+LEF Macro File: et4351.antenna.lef
+5000 nets processed: 0 violations
+10000 nets processed: 0 violations
+15000 nets processed: 0 violations
+20000 nets processed: 0 violations
+25000 nets processed: 0 violations
+30000 nets processed: 0 violations
+35000 nets processed: 0 violations
+40000 nets processed: 0 violations
+45000 nets processed: 0 violations
+Verification Complete: 0 Violations
+******* DONE VERIFY ANTENNA ********
+(CPU Time: 0:00:03.9  MEM: 0.000M)
+
+
+
+
+ ##############################################################    
+ ##                                                                
+ ##                        REPORT                                  
+ ##                                                                
+ ##############################################################    
+
+
+
+<CMD> setSIMode -enable_glitch_report true
+<CMD> setSIMode -enable_delay_report true
+<CMD> report_power -hierarchy all -outfile finalReports/report_power.rpt
+
+Power Net Detected:
+        Voltage	    Name
+             0V	    VSS
+          1.32V	    VDD
+Using Power View: analysis_view_power.
+AAE_INFO: opIsDesignInPostRouteState() is 1
+AAE_INFO: resetNetProps viewIdx 0 
+AAE_INFO: resetNetProps viewIdx 1 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_setup'
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+Start delay calculation (fullDC) (4 T). (MEM=3707.12)
+ Report initialization with DMWrite ... (0, Worst)
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.0 percent of the nets selected for SI analysis
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3687.93 CPU=0:00:27.8 REAL=0:00:07.0)
+End delay calculation (fullDC). (MEM=3687.93 CPU=0:00:30.5 REAL=0:00:08.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 3687.9M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:01.3, REAL = 0:00:01.0, MEM = 3687.9M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (4 T). (MEM=3472.16)
+ Report initialization with DMUpdate ... (1, Worst)
+Glitch Analysis: View analysis_view_setup -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View analysis_view_setup -- Total Number of Nets Analyzed = 0. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  0.4 percent of the nets selected for SI analysis
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Skipped = 222. 
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Analyzed = 46008. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  0.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3647.88 CPU=0:00:01.7 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=3647.88 CPU=0:00:02.0 REAL=0:00:01.0)
+
+Begin Power Analysis
+
+             0V	    VSS
+          1.32V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2767.84MB/4910.73MB/2993.68MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+clk(62.5MHz) flash_clk(31.25MHz) Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2768.30MB/4910.73MB/2993.68MB)
+
+** WARN:  (VOLTUS_POWR-1784): The SDC clock frequency 31.25MHz is being overwritten with the VCD clock frequency 31.0197MHz for the clock 'flash_clk' associated with the net
+'flash_clk' from the TCF file. If the SDC clock frequency is required for static power calculation, use the command
+'set_switching_activity -clock <clock name> -scale_factor <num>' to scale frequency of this clock.
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2768.30MB/4910.73MB/2993.68MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2026-Apr-09 21:00:34 (2026-Apr-09 19:00:34 GMT)
+2026-Apr-09 21:00:34 (2026-Apr-09 19:00:34 GMT): 10%
+2026-Apr-09 21:00:34 (2026-Apr-09 19:00:34 GMT): 20%
+2026-Apr-09 21:00:34 (2026-Apr-09 19:00:34 GMT): 30%
+2026-Apr-09 21:00:34 (2026-Apr-09 19:00:34 GMT): 40%
+2026-Apr-09 21:00:34 (2026-Apr-09 19:00:34 GMT): 50%
+2026-Apr-09 21:00:34 (2026-Apr-09 19:00:34 GMT): 60%
+2026-Apr-09 21:00:34 (2026-Apr-09 19:00:34 GMT): 70%
+2026-Apr-09 21:00:34 (2026-Apr-09 19:00:34 GMT): 80%
+2026-Apr-09 21:00:34 (2026-Apr-09 19:00:34 GMT): 90%
+
+Finished Levelizing
+2026-Apr-09 21:00:34 (2026-Apr-09 19:00:34 GMT)
+
+Starting Activity Propagation
+2026-Apr-09 21:00:34 (2026-Apr-09 19:00:34 GMT)
+
+Finished Activity Propagation
+2026-Apr-09 21:00:35 (2026-Apr-09 19:00:35 GMT)
+
+Activity annotation summary:
+        Primary Inputs : 11/11 = 100%
+          Flop outputs : 7417/7417 = 100%
+  Memory/Macro outputs : 32/32 = 100%
+      Tristate outputs : 0/0 = 0%
+            Total Nets : 45986/46004 = 99.9609%
+
+Ended Processing Signal Activity: (cpu=0:00:02, real=0:00:02, mem(process/total/peak)=2771.90MB/4910.73MB/2993.68MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 2
+      # of cell(s) missing leakage table: 1
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+CellName                                  Missing Table(s)
+SRAM1RW256x8                              leakge power, 
+TIEHILVT                                  internal power, 
+TIELOLVT                                  internal power, 
+
+
+
+Starting Calculating power
+2026-Apr-09 21:00:35 (2026-Apr-09 19:00:35 GMT)
+2026-Apr-09 21:00:36 (2026-Apr-09 19:00:36 GMT): 10%
+2026-Apr-09 21:00:37 (2026-Apr-09 19:00:37 GMT): 20%
+2026-Apr-09 21:00:37 (2026-Apr-09 19:00:37 GMT): 30%
+2026-Apr-09 21:00:37 (2026-Apr-09 19:00:37 GMT): 40%
+2026-Apr-09 21:00:37 (2026-Apr-09 19:00:37 GMT): 50%
+2026-Apr-09 21:00:37 (2026-Apr-09 19:00:37 GMT): 60%
+2026-Apr-09 21:00:37 (2026-Apr-09 19:00:37 GMT): 70%
+2026-Apr-09 21:00:37 (2026-Apr-09 19:00:37 GMT): 80%
+2026-Apr-09 21:00:37 (2026-Apr-09 19:00:37 GMT): 90%
+
+Finished Calculating power
+2026-Apr-09 21:00:37 (2026-Apr-09 19:00:37 GMT)
+Ended Power Computation: (cpu=0:00:05, real=0:00:02, mem(process/total/peak)=2909.97MB/4981.64MB/2993.68MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2909.97MB/4981.64MB/2993.68MB)
+
+Ended Power Analysis: (cpu=0:00:08, real=0:00:05, mem(process/total/peak)=2909.97MB/4981.64MB/2993.68MB)
+
+Begin Boundary Leakage Calculation
+Ended Boundary Leakage Calculation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=2909.97MB/4981.64MB/2993.68MB)
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        2.84193730 	   71.4158%
+Total Switching Power:       1.02164205 	   25.6731%
+Total Leakage Power:         0.11584611 	    2.9111%
+Total Power:                 3.97942546
+-----------------------------------------------------------------------------------------
+** WARN:  (VOLTUS_POWR-3424): Cell OAI2BB1X2LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell OAI22X1LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell CLKINVX12LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell OA21X1LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell INVX3LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell OAI222X1LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell SRAM1RW256x8 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell NAND4BX1LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell OR4X2LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell AND4X2LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell EDFFTRXLLVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell ADDFX2LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell CLKBUFX2LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell NAND3BX2LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell TBUFX3LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell CLKMX2X6LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell NOR2BX2LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell AO22X1LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell OA22X1LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell DFFTRX2LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (EMS-27): Message (VOLTUS_POWR-3424) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+
+Ended Static Power Report Generation: (cpu=0:00:01, real=0:00:01,
+mem(process/total/peak)=2922.16MB/4981.64MB/2993.68MB)
+
+Begin Creating Binary Database
+Ended Creating Binary Database: (cpu=0:00:03, real=0:00:03,
+mem(process/total/peak)=3441.06MB/5760.06MB/3441.06MB)
+
+Output file is finalReports/report_power.rpt.
+<CMD> report_area -out_file finalReports/report_area.rpt
+<CMD> setExtractRCMode -engine postRoute -effortLevel high
+**WARN: (IMPEXT-3493):	The design extraction status has been reset by set_analysis_view/update_rc_corner or setExtractRCMode  command. The parasitic data can be regenerated either by extracting the design using the extractRC command or by loading the SPEF or RCDB file(s). To prevent resetting of the extraction status, avoid changing extraction modes.
+Type 'man IMPEXT-3493' for more detail.
+<CMD> setDelayCalMode -reset -siMode
+<CMD> timeDesign -postRoute -pathReports -slackReports -numPaths 50 -outDir finalReports/report_timing
+*** timeDesign #3 [begin] : totSession cpu/real = 0:23:33.0/0:15:19.8 (1.5), mem = 4378.9M
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'et4351' of instances=43097 and nets=46512 using extraction engine 'postRoute' at effort level 'high' .
+Integrated QRC (IQuantus) Extraction in Multi-Corner mode called for design 'et4351'. Number of corners is 1.
+No changed net or region found. No need to perform incremental extraction. Changed status to 'Extracted'.
+Starting delay calculation for Setup views
+**WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+Type 'man IMPTS-17' for more detail.
+AAE_INFO: opIsDesignInPostRouteState() is 1
+AAE DB initialization (MEM=3478.2 CPU=0:00:00.1 REAL=0:00:00.0) 
+AAE_INFO: resetNetProps viewIdx 0 
+AAE_INFO: resetNetProps viewIdx 1 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_setup'
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+Start delay calculation (fullDC) (4 T). (MEM=3524.9)
+ Report initialization with DMWrite ... (0, Worst)
+AAE_INFO: 4 threads acquired from CTE.
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.0 percent of the nets selected for SI analysis
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3816.88 CPU=0:00:28.3 REAL=0:00:07.0)
+End delay calculation (fullDC). (MEM=3816.88 CPU=0:00:31.2 REAL=0:00:09.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 3784.9M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:01.3, REAL = 0:00:01.0, MEM = 3784.9M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (4 T). (MEM=3692.11)
+ Report initialization with DMUpdate ... (1, Worst)
+Glitch Analysis: View analysis_view_setup -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View analysis_view_setup -- Total Number of Nets Analyzed = 0. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  0.4 percent of the nets selected for SI analysis
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Skipped = 222. 
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Analyzed = 46008. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  0.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3871.84 CPU=0:00:01.8 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=3871.84 CPU=0:00:02.1 REAL=0:00:01.0)
+*** Done Building Timing Graph (cpu=0:00:48.0 real=0:00:15.0 totSessionCpu=0:24:24 mem=3869.8M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ analysis_view_setup analysis_view_power 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.756  |  2.516  |  0.756  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|  11710  |  11705  |   238   |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |     42 (105)     |   -0.497   |     46 (109)     |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 60.737%
+Total number of glitch violations: 5
+------------------------------------------------------------------
+Reported timing to dir finalReports/report_timing
+Total CPU time: 60.42 sec
+Total Real time: 24.0 sec
+Total Memory Usage: 3745.265625 Mbytes
+Reset AAE Options
+*** timeDesign #3 [finish] : cpu/real = 0:01:00.4/0:00:23.6 (2.6), totSession cpu/real = 0:24:33.5/0:15:43.4 (1.6), mem = 3745.3M
+<CMD> timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -outDir finalReports/report_timing_hold
+*** timeDesign #4 [begin] : totSession cpu/real = 0:24:33.5/0:15:43.4 (1.6), mem = 3745.3M
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'et4351' of instances=43097 and nets=46512 using extraction engine 'postRoute' at effort level 'high' .
+Integrated QRC (IQuantus) Extraction in Multi-Corner mode called for design 'et4351'. Number of corners is 1.
+No changed net or region found. No need to perform incremental extraction.
+Starting delay calculation for Hold views
+**WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+Type 'man IMPTS-17' for more detail.
+AAE_INFO: opIsDesignInPostRouteState() is 1
+AAE_INFO: resetNetProps viewIdx 1 
+AAE_INFO: resetNetProps viewIdx 2 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_hold'
+Start delay calculation (fullDC) (4 T). (MEM=3654.61)
+*** Calculating scaling factor for library_min libraries using the default operating condition of each library.
+ Report initialization with DMWrite ... (0, Best)
+AAE_INFO: 4 threads acquired from CTE.
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.2 percent of the nets selected for SI analysis
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3820.19 CPU=0:00:27.4 REAL=0:00:08.0)
+End delay calculation (fullDC). (MEM=3820.19 CPU=0:00:29.9 REAL=0:00:09.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 3820.2M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:01.2, REAL = 0:00:01.0, MEM = 3820.2M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (4 T). (MEM=3739.42)
+ Report initialization with DMUpdate ... (1, Worst)
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Analyzed = 0. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  16.2 percent of the nets selected for SI analysis
+Glitch Analysis: View analysis_view_hold -- Total Number of Nets Skipped = 222. 
+Glitch Analysis: View analysis_view_hold -- Total Number of Nets Analyzed = 46008. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  16.1 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3916.16 CPU=0:00:10.4 REAL=0:00:03.0)
+End delay calculation (fullDC). (MEM=3916.16 CPU=0:00:10.7 REAL=0:00:03.0)
+*** Done Building Timing Graph (cpu=0:00:52.1 real=0:00:16.0 totSessionCpu=0:25:32 mem=3914.2M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Hold views included:
+ analysis_view_hold analysis_view_power 
+
++--------------------+---------+---------+---------+
+|     Hold mode      |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.000  |  0.000  |  0.004  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|  11710  |  11705  |   238   |
++--------------------+---------+---------+---------+
+
+Density: 60.737%
+------------------------------------------------------------------
+Reported timing to dir finalReports/report_timing_hold
+Total CPU time: 60.5 sec
+Total Real time: 22.0 sec
+Total Memory Usage: 3656.125 Mbytes
+Reset AAE Options
+*** timeDesign #4 [finish] : cpu/real = 0:01:00.5/0:00:22.2 (2.7), totSession cpu/real = 0:25:34.0/0:16:05.7 (1.6), mem = 3656.1M
+<CMD> timeDesign -postRoute -drvReports -numPaths 500 -outDir finalReports/report_DRV
+*** timeDesign #5 [begin] : totSession cpu/real = 0:25:34.0/0:16:05.7 (1.6), mem = 3656.1M
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'et4351' of instances=43097 and nets=46512 using extraction engine 'postRoute' at effort level 'high' .
+Integrated QRC (IQuantus) Extraction in Multi-Corner mode called for design 'et4351'. Number of corners is 1.
+No changed net or region found. No need to perform incremental extraction.
+Starting delay calculation for Setup views
+**WARN: (IMPTS-17):	Inconsistency detected in the capacitance units specified among the timing libraries being used. Default system capacitance unit of 1pF will be used. Use the 'setLibraryUnit' command to set a specific capacitance unit.
+Type 'man IMPTS-17' for more detail.
+AAE_INFO: opIsDesignInPostRouteState() is 1
+AAE_INFO: resetNetProps viewIdx 0 
+AAE_INFO: resetNetProps viewIdx 1 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_setup'
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+Start delay calculation (fullDC) (4 T). (MEM=3688.77)
+*** Calculating scaling factor for library_max libraries using the default operating condition of each library.
+ Report initialization with DMWrite ... (0, Worst)
+AAE_INFO: 4 threads acquired from CTE.
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.0 percent of the nets selected for SI analysis
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3906.43 CPU=0:00:29.5 REAL=0:00:08.0)
+End delay calculation (fullDC). (MEM=3906.43 CPU=0:00:32.0 REAL=0:00:09.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 3906.4M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:01.3, REAL = 0:00:00.0, MEM = 3906.4M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (4 T). (MEM=3817.66)
+ Report initialization with DMUpdate ... (1, Worst)
+Glitch Analysis: View analysis_view_setup -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View analysis_view_setup -- Total Number of Nets Analyzed = 0. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  0.4 percent of the nets selected for SI analysis
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Skipped = 222. 
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Analyzed = 46008. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  0.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=3997.47 CPU=0:00:01.8 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=3997.47 CPU=0:00:02.0 REAL=0:00:01.0)
+*** Done Building Timing Graph (cpu=0:00:48.6 real=0:00:15.0 totSessionCpu=0:26:25 mem=3995.5M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ analysis_view_setup analysis_view_power 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.756  |  2.516  |  0.756  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|  11710  |  11705  |   238   |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |     42 (105)     |   -0.497   |     46 (109)     |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 60.737%
+Total number of glitch violations: 5
+------------------------------------------------------------------
+Reported timing to dir finalReports/report_DRV
+Total CPU time: 61.76 sec
+Total Real time: 27.0 sec
+Total Memory Usage: 3866.976562 Mbytes
+Reset AAE Options
+*** timeDesign #5 [finish] : cpu/real = 0:01:01.7/0:00:27.1 (2.3), totSession cpu/real = 0:26:35.8/0:16:32.9 (1.6), mem = 3867.0M
+<CMD> report_noise -bumpy_waveform -output_file finalReports/bumpyWaves.rpt
+Output report file name prefix is finalReports/bumpyWaves.rpt 
+Info: Processing report for view analysis_view_setup ...
+Info: The output report file is finalReports/bumpyWaves.rpt_analysis_view_setup
+Started CTE non incremental computation...
+Finished CTE non incremental computation...
+Info: Processing report for view analysis_view_power ...
+Info: The output report file is finalReports/bumpyWaves.rpt_analysis_view_power
+Started CTE non incremental computation...
+Finished CTE non incremental computation...
+Info: Processing report for view analysis_view_hold ...
+Info: The output report file is finalReports/bumpyWaves.rpt_analysis_view_hold
+Started CTE non incremental computation...
+Finished CTE non incremental computation...
+
+
+
+ ##############################################################    
+ ##                                                                
+ ##                        EXPORT                                  
+ ##                                                                
+ ##############################################################    
+
+
+
+<CMD> saveNetlist outputs/et4351.phys.v
+Writing Netlist "outputs/et4351.phys.v" ...
+<CMD> write_sdf -min_view analysis_view_hold -max_view analysis_view_setup -typ_view analysis_view_power -delimiter "/" outputs/${DESIGN}.phys.sdf
+**WARN: (SDF-808):	The software is currently operating in a high performance mode which optimizes the handling of multiple timing arcs between input and output pin pairs. With the current settings, the SDF file generated will contain the same delay information for all of these arcs. To have the SDF recalculated with explicit pin pair data, you should use the option '-recompute_delay_calc'. This setting is recommended for generating SDF for functional  simulation applications.
+AAE_INFO: opIsDesignInPostRouteState() is 1
+AAE_INFO: resetNetProps viewIdx 0 
+AAE_INFO: resetNetProps viewIdx 1 
+AAE_INFO: resetNetProps viewIdx 2 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_setup'
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_hold'
+Start delay calculation (fullDC) (4 T). (MEM=3790.98)
+ Report initialization with DMWrite ... (0, Worst)
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.0 percent of the nets selected for SI analysis
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.2 percent of the nets selected for SI analysis
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  99.2 percent of the nets selected for SI analysis
+End delay calculation. (MEM=4013.05 CPU=0:00:39.1 REAL=0:00:10.0)
+End delay calculation (fullDC). (MEM=4013.05 CPU=0:00:42.4 REAL=0:00:12.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 4013.0M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:01.8, REAL = 0:00:01.0, MEM = 4013.0M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (4 T). (MEM=3931.46)
+ Report initialization with DMUpdate ... (1, Worst)
+Glitch Analysis: View analysis_view_setup -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View analysis_view_setup -- Total Number of Nets Analyzed = 0. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  0.4 percent of the nets selected for SI analysis
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View analysis_view_power -- Total Number of Nets Analyzed = 0. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  16.3 percent of the nets selected for SI analysis
+Glitch Analysis: View analysis_view_hold -- Total Number of Nets Skipped = 222. 
+Glitch Analysis: View analysis_view_hold -- Total Number of Nets Analyzed = 46008. 
+Total number of fetched objects 46008
+AAE_INFO-618: Total number of nets in the design is 46512,  16.3 percent of the nets selected for SI analysis
+End delay calculation. (MEM=4114.17 CPU=0:00:13.7 REAL=0:00:04.0)
+End delay calculation (fullDC). (MEM=4114.17 CPU=0:00:13.9 REAL=0:00:04.0)
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_1/I[7] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_0/I[7] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_2/I[7] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_3/I[7] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_1/I[7] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_0/I[6] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_2/I[7] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_3/I[7] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_1/I[6] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_0/I[6] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_2/I[6] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_3/I[6] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_1/I[6] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_0/I[3] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_2/I[6] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_3/I[5] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_1/I[5] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_0/I[3] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_2/I[5] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+**WARN: (SDF-802):	The sum of the Setup and Hold sides of the SETUPHOLD check on pin soc/memory/sram_3/I[5] is negative - which is illegal in SDF V3.0. The negative side of the SETUPHOLD will be postively adjusted so that the resulting sum is zero. This will result in a more conservative analysis of the adjusted check.  Negative SETUPHOLD sums maybe an indication of a characterization problem in your timing libraries. You can set the timing global timing_write_sdf_allow_negative_setuphold_sum to 'true' to loosen this restriction.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Message <SDF-802> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+<CMD> saveDesign checkpoints/et4351_done.enc
+The in-memory database contained RC information but was not saved. To save 
+the RC information, use saveDesign's -rc option. Note: Saving RC information can be quite large, 
+so it should only be saved when it is really desired.
+#% Begin save design ... (date=04/09 21:03:01, mem=2939.7M)
+% Begin Save ccopt configuration ... (date=04/09 21:03:01, mem=2939.7M)
+% End Save ccopt configuration ... (date=04/09 21:03:01, total cpu=0:00:00.4, real=0:00:00.0, peak res=2940.2M, current mem=2940.2M)
+% Begin Save netlist data ... (date=04/09 21:03:01, mem=2940.2M)
+Writing Binary DB to checkpoints/et4351_done.enc.dat.tmp/vbin/et4351.v.bin in multi-threaded mode...
+% End Save netlist data ... (date=04/09 21:03:01, total cpu=0:00:00.3, real=0:00:00.0, peak res=2942.3M, current mem=2942.3M)
+Saving symbol-table file in separate thread ...
+Saving congestion map file in separate thread ...
+Saving congestion map file checkpoints/et4351_done.enc.dat.tmp/et4351.route.congmap.gz ...
+% Begin Save AAE data ... (date=04/09 21:03:01, mem=2943.1M)
+Saving AAE Data ...
+% End Save AAE data ... (date=04/09 21:03:01, total cpu=0:00:00.1, real=0:00:01.0, peak res=2943.1M, current mem=2943.1M)
+Saving preference file checkpoints/et4351_done.enc.dat.tmp/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+% Begin Save routing data ... (date=04/09 21:03:02, mem=2943.3M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.9 real=0:00:01.0 mem=3893.1M) ***
+% End Save routing data ... (date=04/09 21:03:04, total cpu=0:00:01.0, real=0:00:01.0, peak res=2943.5M, current mem=2943.5M)
+Saving special route data file in separate thread ...
+Saving PG file in separate thread ...
+Saving placement file in separate thread ...
+Convert 0 swires and 0 svias from compressed groups
+** Saving stdCellPlacement_binary (version# 2) ...
+Saving PG file checkpoints/et4351_done.enc.dat.tmp/et4351.pg.gz, version#2, (Created by Innovus v21.11-s130_1 on Thu Apr  9 21:03:04 2026)
+Save Adaptive View Pruning View Names to Binary file
+TAT_INFO: ::saveSpecialRoute REAL = 0 : CPU = 0 : MEM = 0.
+*** Completed savePGFile (cpu=0:00:00.2 real=0:00:00.0 mem=3931.1M) ***
+TAT_INFO: ::savePGFile REAL = 0 : CPU = 0 : MEM = 0.
+TAT_INFO: ::savePlace REAL = 0 : CPU = 0 : MEM = 0.
+Saving property file checkpoints/et4351_done.enc.dat.tmp/et4351.prop
+*** Completed saveProperty (cpu=0:00:00.1 real=0:00:00.0 mem=3915.1M) ***
+#Saving pin access data to file checkpoints/et4351_done.enc.dat.tmp/et4351.apa ...
+#
+Saving preRoute extracted patterns in file 'checkpoints/et4351_done.enc.dat.tmp/et4351.techData.gz' ...
+Saving preRoute extraction data in directory 'checkpoints/et4351_done.enc.dat.tmp/extraction/' ...
+TAT_INFO: ::db::saveSymbolTable REAL = 1 : CPU = 0 : MEM = 0.
+TAT_INFO: ::saveCongMap REAL = 1 : CPU = 0 : MEM = 0.
+% Begin Save power constraints data ... (date=04/09 21:03:06, mem=2944.7M)
+% End Save power constraints data ... (date=04/09 21:03:07, total cpu=0:00:00.1, real=0:00:00.0, peak res=2944.7M, current mem=2944.7M)
+rc
+rc
+rc
+Generated self-contained design et4351_done.enc.dat.tmp
+#% End save design ... (date=04/09 21:03:08, total cpu=0:00:04.4, real=0:00:07.0, peak res=2945.0M, current mem=2945.0M)
+*** Message Summary: 0 warning(s), 0 error(s)
+
+<CMD> streamOut outputs/et4351.phys.gds
+Parse flat map file...
+Writing GDSII file ...
+	****** db unit per micron = 2000 ******
+	****** output gds2 file unit per micron = 2000 ******
+	****** unit scaling factor = 1 ******
+Output for instance
+Output for bump
+Output for physical terminals
+Output for logical terminals
+Output for regular nets
+Output for special nets and metal fills
+Output for via structure generation total number 106
+Statistics for GDS generated (version 3)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+    233                             COMP
+    234                          DIEAREA
+    223                          Metal11
+    221                          Metal11
+    220                          Metal11
+    219                          Metal11
+    218                          Metal11
+    217                            Via10
+    216                            Via10
+    212                            Via10
+    202                          Metal10
+    200                          Metal10
+    199                          Metal10
+    198                          Metal10
+    197                          Metal10
+    196                             Via9
+    195                             Via9
+    191                             Via9
+    181                           Metal9
+    179                           Metal9
+    178                           Metal9
+    177                           Metal9
+    176                           Metal9
+    175                             Via8
+    174                             Via8
+    170                             Via8
+    160                           Metal8
+    158                           Metal8
+    157                           Metal8
+    156                           Metal8
+    155                           Metal8
+    154                             Via7
+    153                             Via7
+    149                             Via7
+    139                           Metal7
+    137                           Metal7
+    136                           Metal7
+    135                           Metal7
+    134                           Metal7
+    133                             Via6
+    132                             Via6
+    131                             Via6
+    130                             Via6
+    129                             Via6
+    128                             Via6
+    127                             Via6
+    122                           Metal6
+    121                           Metal6
+    120                           Metal6
+    119                           Metal6
+    118                           Metal6
+    53                            Metal3
+    52                            Metal3
+    185                           Metal9
+    48                              Via2
+    29                            Metal2
+    180                           Metal9
+    47                              Via2
+    182                           Metal9
+    44                              Via2
+    43                              Via2
+    172                             Via8
+    38                            Metal2
+    95                            Metal5
+    36                            Metal2
+    93                            Metal5
+    112                             Via5
+    194                             Via9
+    55                            Metal3
+    113                           Metal6
+    32                            Metal2
+    54                            Metal3
+    31                            Metal2
+    107                             Via5
+    30                            Metal2
+    49                              Via2
+    106                             Via5
+    33                            Metal2
+    109                             Via5
+    10                            Metal1
+    224                          Metal11
+    86                              Via4
+    50                            Metal3
+    206                          Metal10
+    69                              Via3
+    143                           Metal7
+    6                               Cont
+    169                             Via8
+    35                            Metal2
+    8                             Metal1
+    164                           Metal8
+    27                              Via1
+    141                           Metal7
+    3                               Cont
+    51                            Metal3
+    70                              Via3
+    7                               Cont
+    64                              Via3
+    173                             Via8
+    34                            Metal2
+    92                            Metal5
+    111                             Via5
+    11                            Metal1
+    142                           Metal7
+    4                               Cont
+    9                             Metal1
+    28                              Via1
+    85                              Via4
+    138                           Metal7
+    5                               Cont
+    12                            Metal1
+    226                          Metal11
+    88                              Via4
+    183                           Metal9
+    45                              Via2
+    22                              Via1
+    152                             Via7
+    13                            Metal1
+    71                            Metal4
+    227                          Metal11
+    90                              Via4
+    184                           Metal9
+    46                              Via2
+    161                           Metal8
+    23                              Via1
+    171                             Via8
+    37                            Metal2
+    94                            Metal5
+    148                             Via7
+    14                            Metal1
+    15                            Metal1
+    72                            Metal4
+    91                              Via4
+    150                             Via7
+    16                            Metal1
+    73                            Metal4
+    159                           Metal8
+    26                              Via1
+    151                             Via7
+    17                            Metal1
+    74                            Metal4
+    1                               Cont
+    162                           Metal8
+    24                              Via1
+    140                           Metal7
+    2                               Cont
+    163                           Metal8
+    25                              Via1
+    190                             Via9
+    56                            Metal3
+    57                            Metal3
+    114                           Metal6
+    192                             Via9
+    58                            Metal3
+    115                           Metal6
+    193                             Via9
+    59                            Metal3
+    116                           Metal6
+    203                          Metal10
+    65                              Via3
+    204                          Metal10
+    66                              Via3
+    205                          Metal10
+    67                              Via3
+    201                          Metal10
+    68                              Via3
+    75                            Metal4
+    215                            Via10
+    76                            Metal4
+    211                            Via10
+    77                            Metal4
+    78                            Metal4
+    213                            Via10
+    79                            Metal4
+    214                            Via10
+    80                            Metal4
+    225                          Metal11
+    87                              Via4
+    222                          Metal11
+    89                              Via4
+    96                            Metal5
+    97                            Metal5
+    98                            Metal5
+    99                            Metal5
+    100                           Metal5
+    101                           Metal5
+    108                             Via5
+    110                             Via5
+    117                           Metal6
+    231                          Metal11
+    230                          Metal11
+    229                          Metal11
+    228                          Metal11
+    210                          Metal10
+    209                          Metal10
+    208                          Metal10
+    207                          Metal10
+    189                           Metal9
+    188                           Metal9
+    187                           Metal9
+    186                           Metal9
+    168                           Metal8
+    167                           Metal8
+    166                           Metal8
+    165                           Metal8
+    147                           Metal7
+    146                           Metal7
+    145                           Metal7
+    144                           Metal7
+    63                            Metal3
+    62                            Metal3
+    39                            Metal2
+    105                           Metal5
+    103                           Metal5
+    123                           Metal6
+    42                            Metal2
+    41                            Metal2
+    40                            Metal2
+    20                            Metal1
+    60                            Metal3
+    18                            Metal1
+    61                            Metal3
+    102                           Metal5
+    21                            Metal1
+    19                            Metal1
+    81                            Metal4
+    104                           Metal5
+    82                            Metal4
+    83                            Metal4
+    84                            Metal4
+    124                           Metal6
+    125                           Metal6
+    126                           Metal6
+
+
+Stream Out Information Processed for GDS version 3:
+Units: 2000 DBU
+
+Object                             Count
+----------------------------------------
+Instances                          43097
+
+Ports/Pins                            10
+    metal layer Metal3                10
+
+Nets                              733139
+    metal layer Metal1             23834
+    metal layer Metal2            268043
+    metal layer Metal3            221502
+    metal layer Metal4             99314
+    metal layer Metal5             67164
+    metal layer Metal6             30382
+    metal layer Metal7             16325
+    metal layer Metal8              5186
+    metal layer Metal9              1363
+    metal layer Metal10               26
+
+    Via Instances                 386881
+
+Special Nets                        1259
+    metal layer Metal1              1051
+    metal layer Metal2                88
+    metal layer Metal3                 4
+    metal layer Metal4                84
+    metal layer Metal6                 2
+    metal layer Metal7                16
+    metal layer Metal8                14
+
+    Via Instances                  16463
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Metal FillDRCs                         0
+
+    Via Instances                      0
+
+Text                               45902
+    metal layer Metal1              2866
+    metal layer Metal2             26639
+    metal layer Metal3             12007
+    metal layer Metal4              2520
+    metal layer Metal5               942
+    metal layer Metal6               563
+    metal layer Metal7               216
+    metal layer Metal8               131
+    metal layer Metal9                17
+    metal layer Metal10                1
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+Trim Metal                             0
+
+######Streamout is finished!
+
+*** Memory Usage v#1 (Current mem = 3881.102M, initial mem = 318.535M) ***
+*** Message Summary: 155 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:29:56, real=0:37:26, mem=3881.1M) ---
