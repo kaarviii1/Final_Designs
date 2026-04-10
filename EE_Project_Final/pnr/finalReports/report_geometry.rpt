@@ -1,0 +1,206 @@
+ *** Starting Verify Geometry (MEM: 2216.5) ***
+
+**WARN: (IMPVFG-257):	setVerifyGeometryMode/verifyGeometry command is obsolete and should not be used any more. It still works in this release but will be removed in future release. You should change to use set_verify_drc_mode/verify_drc which is the replacement tool for verifyGeometry.
+  VERIFY GEOMETRY ...... Starting Verification
+  VERIFY GEOMETRY ...... Initializing
+  VERIFY GEOMETRY ...... Deleting Existing Violations
+  VERIFY GEOMETRY ...... Creating Sub-Areas
+                  ...... bin size: 1920
+Multi-CPU acceleration using 4 CPU(s).
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+  VERIFY GEOMETRY ...... SubArea : 1 of 36  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 2 of 36  Thread : 1
+  VERIFY GEOMETRY ...... SubArea : 3 of 36  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 4 of 36  Thread : 3
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 7 of 36  Thread : 2
+  VERIFY GEOMETRY ...... SubArea : 8 of 36  Thread : 3
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 6 of 36  Thread : 1
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 5 of 36  Thread : 0
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 12 of 36  Thread : 3
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 11 of 36  Thread : 2
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 9 of 36  Thread : 0
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 15 of 36  Thread : 2
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 10 of 36  Thread : 1
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  10 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 13 of 36  Thread : 0
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 16 of 36  Thread : 3
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 14 of 36  Thread : 1
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 20 of 36  Thread : 3
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  8 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 19 of 36  Thread : 2
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  2 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 17 of 36  Thread : 0
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  2 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 18 of 36  Thread : 1
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  5 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 24 of 36  Thread : 3
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  2 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 23 of 36  Thread : 2
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 21 of 36  Thread : 0
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 27 of 36  Thread : 2
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 22 of 36  Thread : 1
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  6 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 25 of 36  Thread : 0
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 28 of 36  Thread : 3
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 31 of 36  Thread : 2
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 26 of 36  Thread : 1
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 32 of 36  Thread : 3
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 29 of 36  Thread : 0
+  VERIFY GEOMETRY ...... SubArea : 30 of 36  Thread : 1
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 33 of 36  Thread : 0
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 35 of 36  Thread : 2
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 34 of 36  Thread : 1
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... SubArea : 36 of 36  Thread : 3
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+  VERIFY GEOMETRY ...... Cells          :  0 Viols.
+  VERIFY GEOMETRY ...... SameNet        :  0 Viols.
+  VERIFY GEOMETRY ...... Wiring         :  0 Viols.
+  VERIFY GEOMETRY ...... Antenna        :  0 Viols.
+VG: elapsed time: 29.00
+Begin Summary ...
+  Cells       : 0
+  SameNet     : 0
+  Wiring      : 35
+  Antenna     : 0
+  Short       : 0
+  Overlap     : 0
+End Summary
+
+  Verification Complete : 35 Viols.  0 Wrngs.
+
+**********End: VERIFY GEOMETRY**********
+ *** verify geometry (CPU: 0:01:42  MEM: 4061.6M)
+

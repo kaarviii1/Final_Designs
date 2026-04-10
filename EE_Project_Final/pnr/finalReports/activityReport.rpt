@@ -1,0 +1,47 @@
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: et4351
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_setup'
+Using master clock 'clk' for generated clock 'flash_clk' in view 'analysis_view_power'
+             0V	    VSS
+          1.32V	    VDD
+clk(12.0005MHz) CK: assigning clock clk to net clk
+flash_clk(6.00024MHz) CK: assigning clock flash_clk to net flash_clk
+Parsing VCD file ../sim_phys/vcd/et4351.phys.hold.vcd
+
+Starting Reading VCD variables
+2026-Apr-10 17:40:41 (2026-Apr-10 15:40:41 GMT)
+2026-Apr-10 17:40:41 (2026-Apr-10 15:40:41 GMT): 10%
+2026-Apr-10 17:40:41 (2026-Apr-10 15:40:41 GMT): 20%
+2026-Apr-10 17:40:41 (2026-Apr-10 15:40:41 GMT): 30%
+2026-Apr-10 17:40:41 (2026-Apr-10 15:40:41 GMT): 40%
+2026-Apr-10 17:40:41 (2026-Apr-10 15:40:41 GMT): 50%
+2026-Apr-10 17:40:41 (2026-Apr-10 15:40:41 GMT): 60%
+2026-Apr-10 17:40:41 (2026-Apr-10 15:40:41 GMT): 70%
+2026-Apr-10 17:40:41 (2026-Apr-10 15:40:41 GMT): 80%
+2026-Apr-10 17:40:41 (2026-Apr-10 15:40:41 GMT): 90%
+
+Finished Reading VCD variables
+2026-Apr-10 17:40:42 (2026-Apr-10 15:40:42 GMT)
+   With this vcd command,  46997 value changes and 1.0832e-05 second
+simulation time were counted for power consumption calculation.
+
+  Filename (activity)                    :
+../sim_phys/vcd/et4351.phys.hold.vcd
+  Names in file that matched to design   : 150419/221953
+  Annotation coverage for this file
+   (Unique nets matched/Total nets)       : 35933/35933 = 100%
+
+  71534 nets were found in the VCD file(s) but were not in
+  the design.  These nets are listed in the file
+voltus_power_missing_netnames.rpt.
+
+  Total annotation coverage for all files of type VCD: 35933/35933 = 100%
+  Percent of VCD annotated nets with zero toggles: 32288/35933 = 89.8561%
+
+'read_activity_file' finished successfully.
